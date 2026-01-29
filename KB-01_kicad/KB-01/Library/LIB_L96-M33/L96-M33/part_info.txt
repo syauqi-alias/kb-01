@@ -1,0 +1,9 @@
+Manufacturer=Quectel
+PartNumber=L96-M33
+PartCategory=Integrated Circuit
+PackageCategory=Other
+PinCount=31
+Version=2.1
+Released=2019-01-23 12:57:59
+Downloaded=2026-01-16 16:29:41
+3D=Y

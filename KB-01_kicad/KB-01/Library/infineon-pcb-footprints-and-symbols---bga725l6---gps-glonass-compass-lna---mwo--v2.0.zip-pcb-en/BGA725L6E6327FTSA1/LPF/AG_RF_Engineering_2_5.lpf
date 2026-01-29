@@ -1,0 +1,850 @@
+!--- Process Definition File Exported from NI AWR Design Environment (7015)
+!--- Name: AG_RF_Engineering_2_5.lpf
+!--- Project: C:\Users\olehi_000\Desktop\Untitled Project.emp
+!--- Wed Dec 10 10:40:55 2014
+
+$PROCESS_SETUP_BEGIN
+
+	$DEFAULT_UNITS_BEGIN
+		LEN  m
+		FREQ G
+		CAP  p
+		IND  n
+		RES  none
+		COND none
+		TEMP DegC
+		ANG  Deg
+		TIME n
+		VOLT none
+		CUR  m
+		PWR  m
+	$DEFAULT_UNITS_END
+
+	$DBASE_UNIT_BEGIN
+		DRAW_RESOLUTION	1e-006	m
+		GRID_SPACING	0.05	m
+	$DBASE_UNIT_END
+
+	$LINE_TYPE_BEGIN	"Top Copper"
+		! -> Layer 		offset 		minWidth 		flags
+		"Copper"		0		5e-005		0
+	$LINE_TYPE_END
+
+	$LINE_TYPE_BEGIN	"Top Copper 400um"
+		! -> Layer 		offset 		minWidth 		flags
+		"CopperTop"		0		5e-005		0
+		"CopperTop-"		0.0004		5e-005		0
+	$LINE_TYPE_END
+
+	$LINE_TYPE_BEGIN	"Top Copper 500um"
+		! -> Layer 		offset 		minWidth 		flags
+		"CopperTop"		0		5e-005		0
+		"CopperTop-"		0.0005		5e-005		0
+	$LINE_TYPE_END
+
+	$LINE_TYPE_BEGIN	"Top Copper 650um"
+		! -> Layer 		offset 		minWidth 		flags
+		"CopperTop"		0		5e-005		0
+		"CopperTop-"		0.00065		5e-005		0
+	$LINE_TYPE_END
+
+	$LINE_TYPE_BEGIN	"Top Copper 700um"
+		! -> Layer 		offset 		minWidth 		flags
+		"CopperTop"		0		5e-005		0
+		"CopperTop-"		0.0007		5e-005		0
+	$LINE_TYPE_END
+
+	$LINE_TYPE_BEGIN	"Top Copper 900um"
+		! -> Layer 		offset 		minWidth 		flags
+		"CopperTop"		0		5e-005		0
+		"CopperTop-"		0.0009		5e-005		0
+	$LINE_TYPE_END
+
+	$LINE_TYPE_BEGIN	"SMA Pin Top"
+		! -> Layer 		offset 		minWidth 		flags
+		"sma_signal"		0		5e-005		0
+	$LINE_TYPE_END
+
+	$LINE_TYPE_BEGIN	"Middle Copper"
+		! -> Layer 		offset 		minWidth 		flags
+		"CopperMid"		0		5e-005		0
+	$LINE_TYPE_END
+
+	$LINE_TYPE_BEGIN	"Middle Copper 650um gap"
+		! -> Layer 		offset 		minWidth 		flags
+		"CopperMid"		0		5e-005		0
+		"CopperMid-"		0.00065		5e-005		0
+	$LINE_TYPE_END
+
+	$LINE_TYPE_BEGIN	"Bottom Copper"
+		! -> Layer 		offset 		minWidth 		flags
+		"CopperBottom"		0		5e-005		0
+	$LINE_TYPE_END
+
+	$LINE_TYPE_BEGIN	"Bottom Copper 650um gap"
+		! -> Layer 		offset 		minWidth 		flags
+		"CopperBottom"		0		5e-005		0
+		"CopperBottom-"		0.00065		5e-005		0
+	$LINE_TYPE_END
+
+	$LINE_TYPE_BEGIN	"Board 2.5mm offset"
+		! -> Layer 		offset 		minWidth 		flags
+		"CopperTop+"		0		5e-005		0
+		"CopperMid+"		0		5e-005		0
+		"CopperBottom+"		0		5e-005		0
+		"PCB Border"		0.0025		5e-005		0
+	$LINE_TYPE_END
+
+	$LINE_TYPE_BEGIN	"Top Copper SM 300um"
+		! -> Layer 		offset 		minWidth 		flags
+		"CopperTop"		0		5e-005		0
+		"SolderMaskTop"		0.0003		5e-005		0
+	$LINE_TYPE_END
+
+	$LINE_TYPE_BEGIN	"Top Copper gap 400um, SM 325um"
+		! -> Layer 		offset 		minWidth 		flags
+		"CopperTop"		0		5e-005		0
+		"CopperTop-"		0.0004		5e-005		0
+		"SolderMaskTop"		0.000325		5e-005		0
+	$LINE_TYPE_END
+
+	$LINE_TYPE_BEGIN	"Top Copper gap 400um, SM 325um"
+		! -> Layer 		offset 		minWidth 		flags
+		"CopperTop"		0		5e-005		0
+		"CopperTop-"		0.0004		5e-005		0
+		"SolderMaskTop"		0.000325		5e-005		0
+	$LINE_TYPE_END
+
+	$LINE_TYPE_BEGIN	"Top Copper gap 500um, SM 425um"
+		! -> Layer 		offset 		minWidth 		flags
+		"CopperTop"		0		5e-005		0
+		"CopperTop-"		0.0005		5e-005		0
+		"SolderMaskTop"		0.000425		5e-005		0
+	$LINE_TYPE_END
+
+	$VIA_DEFINE_BEGIN
+		! -> Layer 		offset 		mitre 		flags
+		"CopperTop"		0		5e-005		0
+		"CopperMid"		0		5e-005		0
+		"CopperBottom"		0		5e-005		0
+		"DrillHoles"		-0.0003		5e-005		0
+	$VIA_DEFINE_END
+
+	!--- Register drawing utility function used for drawing airbridges ------
+	$BRIDGE_DRAW_BEGIN AWR_MMIC $BRIDGE_DRAW_END
+
+	!--- Register cell to be used by default for route vias  ------
+	$ROUTE_VIA_CELL_BEGIN DEFROUTEVIA $ROUTE_VIA_CELL_END
+
+	!--- DRC Rule deck (path relative to lpf file) ------
+	$DRC_RULES_FILE_BEGIN "$MWO\drc_rules.txt" $DRC_RULES_FILE_END
+
+	!--- DRC engine: AWR, CALIBRE, ASSURA, CIRANOVA, or POLYTEDA ------
+	$DRC_ENGINE_BEGIN "AWR" $DRC_ENGINE_END
+
+	!--- Used by Connectivity tracer ------
+	$CONNECT_RULES_BEGIN 
+	$CONNECT_RULES_END 
+
+	!--- Default font used for layout ------
+	$DEFAULT_FONT_BEGIN "Arial" 	2000000	0	0 	$DEFAULT_FONT_END
+
+	$DEFAULT_VALUES_BEGIN
+		W		1		m
+		L		10		m
+		H		1		m
+		T		0.05		m
+		Er		3.38
+		Rho		1
+		Tand		0
+		C		1		p
+		Li		1		n
+		Rad		2		m
+		M		0.6
+		Cs		0.001		m
+		Extn		0.1		m
+	$DEFAULT_VALUES_END
+
+
+$PROCESS_SETUP_END
+
+
+!-------------- Drawing Layer Setup Defined Below ------------------------------
+$LAYER_SETUP_BEGIN
+
+$DRAW_LAYERS_BEGIN
+
+!--Layer Entry Descriptions------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+! Layer_Name              Line_Color    Fill_Color    Line_Style    Hatch_Style    Visible    Hatch_Visible    Frozen    3D_Thickness    3D_Z_Pos       Texture    Trans_Fill    Translucent    Texture_Scale    File_Layer    Options    Cloak    
+!--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+"DimensionLines"          2105376       2105376       0             0              1          1                0         0               0              ""         0             0              0                "Obsolete"    0          0        
+"EMSymbols"               0             0             0             1              1          1                0         0               0              ""         0             0              0                "Obsolete"    0          0        
+"DrillHoles"              2105376       2105376       0             0              1          1                0         1e+006          -1e+006        ""         0             0              0                "Obsolete"    0          0        
+"Error"                   255           255           0             16             1          1                0         0               0              ""         0             0              1                "Obsolete"    0          0        
+"PackageTop"              0             0             0             16             1          1                0         900000          135000         ""         1             0.5            0                "Obsolete"    0          0        
+"LeadsTop"                0             14737632      0             1              1          1                0         150000          35000          ""         0             0.5            0                "Obsolete"    0          0        
+"PasteMaskTop"            0             16776960      0             6              1          1                0         35000           50000          ""         0             0.3            0                "Obsolete"    0          0        
+"DocuTop"                 0             11575516      0             7              1          1                0         10000           65000          ""         0             0.5            0                "Obsolete"    0          0        
+"SilkScreenTop"           0             65535         0             1              1          1                0         15000           50000          ""         0             0              0                "Obsolete"    0          0        
+"SolderMaskTop"           0             65280         0             25             1          1                0         15000           35000          ""         1             0.3            1                "Obsolete"    0          0        
+"KeepOutTop"              0             255           0             1              1          1                0         35000           0              ""         0             0.5            0                "Obsolete"    0          0        
+"Board"                   0             65280         0             1              0          0                0         1e+006          -1e+006        ""         1             0.5            0                "Obsolete"    0          0        
+"CopperTop"               0             2390156       0             3              1          1                0         35000           0              ""         0             0              1                "Obsolete"    0          0        
+"CopperTop-"              16777215      15793151      0             1              1          1                0         35000           0              ""         1             0.5            0                "Obsolete"    0          0        
+"CopperTop+"              0             2390156       0             3              1          1                0         35000           0              ""         1             0.9            1                "Obsolete"    0          0        
+"CopperMid"               255           16776960      0             1              1          1                0         35000           -200000        ""         0             0              1                "Obsolete"    0          0        
+"CopperMid-"              0             15793151      2             1              1          1                0         35000           -200000        ""         1             0.5            0                "Obsolete"    0          0        
+"CopperMid+"              0             16776960      0             3              1          1                0         35000           -200000        ""         1             1              1                "Obsolete"    0          0        
+"CopperBottom"            16776960      33023         0             8              1          1                0         35000           -1e+006        ""         0             0              0                "Obsolete"    0          0        
+"CopperBottom-"           0             15793151      2             1              1          1                0         35000           -1e+006        ""         1             0.5            1                "Obsolete"    0          0        
+"CopperBottom+"           0             33023         0             8              1          1                0         35000           -1e+006        ""         1             0.9            1                "Obsolete"    0          0        
+"KeepOutBottom"           0             255           0             1              1          1                0         -35000          -965000        ""         0             0.5            0                "Obsolete"    0          0        
+"SolderMaskBottom"        0             65280         0             25             1          1                0         -15000          -1e+006        ""         0             0              0                "Obsolete"    0          0        
+"SilkScreenBottom"        0             65535         0             1              1          1                0         -15000          -1.015e+006    ""         0             0.5            0                "Obsolete"    0          0        
+"DocuBottom"              0             11575516      0             7              1          1                0         -10000          -1.03e+006     ""         0             0.5            0                "Obsolete"    0          0        
+"PasteMaskBottom"         0             16776960      0             6              1          1                0         -35000          -1.03e+006     ""         0             0.3            0                "Obsolete"    0          0        
+"LeadsBottom"             0             14737632      0             1              1          1                0         -150000         -1e+006        ""         0             0.5            0                "Obsolete"    0          0        
+"PackageBottom"           0             3145728       0             16             1          1                0         -900000         -1.1e+006      ""         1             0.5            0                "Obsolete"    0          0        
+"Annotation"              16776960      16776960      2             8              1          1                0         0               0              ""         0             0              0                "Obsolete"    0          0        
+"SubcircuitAnnotation"    4259648       4259648       2             8              1          1                0         0               0              ""         0             0              0                "Obsolete"    0          1        
+"RatsNest"                4210943       4210943       2             0              1          1                0         0               0              ""         0             0              0                "Obsolete"    0          1        
+"Default"                 0             0             0             0              1          1                0         0               0              ""         0             0              0                "Obsolete"    0          0        
+"Highlight"               65535         65535         0             5              1          1                0         0               0              ""         0             0              0                "Obsolete"    0          0        
+"ErrorHighlight"          1113872       1113872       0             5              1          1                0         0               0              ""         0             0              0                "Obsolete"    0          0        
+"Selection"               65535         65535         0             5              1          1                0         0               0              ""         0             0              0                "Obsolete"    0          0        
+"PCB Offset"              0             255           0             0              1          1                0         -100000         -1e+006        ""         1             0.1            0                "Obsolete"    0          0        
+"Leads"                   0             8421504       0             1              1          1                0         250000          0              ""         0             0              0                "Obsolete"    0          0        
+"PasteMask"               1598569       6862009       0             2              1          1                0         0               0              ""         0             0              0                "Obsolete"    0          0        
+"SubSelection"            4210943       4210943       0             1              1          1                0         0               0              ""         0             0              0                "Obsolete"    0          0        
+"SilkScreen"              2390156       7653596       0             3              1          1                0         0               0              ""         0             0              0                "Obsolete"    0          0        
+"SolderMask"              806982        6070422       0             1              1          1                0         0               0              ""         0             0              0                "Obsolete"    0          0        
+"KeepOut"                 255           255           0             1              1          1                0         100000          0              ""         0             0.5            0                "Obsolete"    0          0        
+"DynamicHighlight"        65535         65535         2             0              1          1                0         0               0              ""         0             0              0                "Obsolete"    0          0        
+"#Unknown"                0             0             0             0              1          0                0         0               0              ""         0             0              0                "Obsolete"    0          0        
+"99_1"                    6301766       11565206      0             1              1          1                0         0               0              ""         0             0              0                "Obsolete"    0          0        
+"24_0"                    806982        6070422       0             1              1          1                0         0               0              ""         0             0              0                "Obsolete"    0          0        
+"7_0"                     1598569       6862009       0             2              1          1                0         0               0              ""         0             0              0                "Obsolete"    0          0        
+"13_0"                    806982        6070422       0             1              1          1                0         0               0              ""         0             0              0                "Obsolete"    0          0        
+"12_0"                    1598569       6862009       0             2              1          1                0         0               0              ""         0             0              0                "Obsolete"    0          0        
+"10_0"                    2390156       7653596       0             3              1          1                0         0               0              ""         0             0              0                "Obsolete"    0          0        
+"14_0"                    3145728       8409168       0             4              1          1                0         0               0              ""         0             0              0                "Obsolete"    0          0        
+"11_0"                    6301766       11565206      0             1              1          1                0         0               0              ""         0             0              0                "Obsolete"    0          0        
+"130_0"                   3937315       9200755       0             5              1          1                0         0               0              ""         0             0              0                "Obsolete"    0          0        
+"15_0"                    4728902       9992342       0             6              1          1                0         0               0              ""         0             0              0                "Obsolete"    0          0        
+"16_0"                    5520489       10783929      0             7              1          1                0         0               0              ""         0             0              0                "Obsolete"    0          0        
+"2_0"                     6312076       11575516      0             0              1          1                0         0               0              ""         0             0              0                "Obsolete"    0          0        
+"17_0"                    7103488       12366928      0             1              1          1                0         0               0              ""         0             0              0                "Obsolete"    0          0        
+"0_0"                     6301766       11565206      0             1              1          1                0         0               0              ""         0             0              0                "Obsolete"    0          0        
+"0"                       806982        6070422       0             1              1          1                0         0               0              ""         0             0              0                "Obsolete"    0          0        
+"SolderPaste"             806982        6070422       0             1              1          1                0         0               0              ""         0             0              0                "Obsolete"    0          0        
+"Drill"                   1598569       6862009       0             2              1          1                0         0               0              ""         0             0              0                "Obsolete"    0          0        
+"L99D0_1_0"               2390156       7653596       0             3              1          1                0         0               0              ""         0             0              0                "Obsolete"    0          0        
+"L98D0_1"                 3145728       8409168       0             4              1          1                0         0               0              ""         0             0              0                "Obsolete"    0          0        
+"128_0"                   806982        6070422       0             1              1          1                0         0               0              ""         0             0              0                "Obsolete"    0          0        
+$DRAW_LAYERS_END
+
+$LAYERS_CONFIG_BEGIN
+
+$CONFIG_NAME	"Default"
+! Layer_Name              Line_Color    Fill_Color    Line_Style    Hatch_Style    Visible    Hatch_Visible    Frozen    Trans_Fill    Translucent    Cloak    3D_Thickness    3D_Z_Pos       
+"#Unknown"                0             0             0             0              1          0                0         0             0              0        0               0              
+"0"                       806982        6070422       0             1              1          1                0         0             0              0        0               0              
+"0_0"                     6301766       11565206      0             1              1          1                0         0             0              0        0               0              
+"10_0"                    2390156       7653596       0             3              1          1                0         0             0              0        0               0              
+"11_0"                    6301766       11565206      0             1              1          1                0         0             0              0        0               0              
+"128_0"                   806982        6070422       0             1              1          1                0         0             0              0        0               0              
+"12_0"                    1598569       6862009       0             2              1          1                0         0             0              0        0               0              
+"130_0"                   3937315       9200755       0             5              1          1                0         0             0              0        0               0              
+"13_0"                    806982        6070422       0             1              1          1                0         0             0              0        0               0              
+"14_0"                    3145728       8409168       0             4              1          1                0         0             0              0        0               0              
+"15_0"                    4728902       9992342       0             6              1          1                0         0             0              0        0               0              
+"16_0"                    5520489       10783929      0             7              1          1                0         0             0              0        0               0              
+"17_0"                    7103488       12366928      0             1              1          1                0         0             0              0        0               0              
+"24_0"                    806982        6070422       0             1              1          1                0         0             0              0        0               0              
+"2_0"                     6312076       11575516      0             0              1          1                0         0             0              0        0               0              
+"7_0"                     1598569       6862009       0             2              1          1                0         0             0              0        0               0              
+"99_1"                    6301766       11565206      0             1              1          1                0         0             0              0        0               0              
+"Annotation"              16776960      16776960      2             8              1          1                0         0             0              0        0               0              
+"Board"                   0             65280         0             1              0          0                0         1             0.5            0        1e+006          -1e+006        
+"CopperBottom"            16776960      33023         0             8              1          1                0         0             0              0        35000           -1e+006        
+"CopperBottom+"           0             33023         0             8              1          1                0         1             0.9            0        35000           -1e+006        
+"CopperBottom-"           0             15793151      2             1              1          1                0         1             0.5            0        35000           -1e+006        
+"CopperMid"               255           16776960      0             1              1          1                0         0             0              0        35000           -200000        
+"CopperMid+"              0             16776960      0             3              1          1                0         1             1              0        35000           -200000        
+"CopperMid-"              0             15793151      2             1              1          1                0         1             0.5            0        35000           -200000        
+"CopperTop"               0             2390156       0             3              1          1                0         0             0              0        35000           0              
+"CopperTop+"              0             2390156       0             3              1          1                0         1             0.9            0        35000           0              
+"CopperTop-"              16777215      15793151      0             1              1          1                0         1             0.5            0        35000           0              
+"Default"                 0             0             0             0              1          1                0         0             0              0        0               0              
+"DimensionLines"          2105376       2105376       0             0              1          1                0         0             0              0        0               0              
+"DocuBottom"              0             11575516      0             7              1          1                0         0             0.5            0        -10000          -1.03e+006     
+"DocuTop"                 0             11575516      0             7              1          1                0         0             0.5            0        10000           65000          
+"Drill"                   1598569       6862009       0             2              1          1                0         0             0              0        0               0              
+"DrillHoles"              2105376       2105376       0             0              1          1                0         0             0              0        1e+006          -1e+006        
+"DynamicHighlight"        65535         65535         2             0              1          1                0         0             0              0        0               0              
+"EMSymbols"               0             0             0             1              1          1                0         0             0              0        0               0              
+"Error"                   255           255           0             16             1          1                0         0             0              0        0               0              
+"ErrorHighlight"          1113872       1113872       0             5              1          1                0         0             0              0        0               0              
+"Highlight"               65535         65535         0             5              1          1                0         0             0              0        0               0              
+"KeepOut"                 255           255           0             1              1          1                0         0             0.5            0        100000          0              
+"KeepOutBottom"           0             255           0             1              1          1                0         0             0.5            0        -35000          -965000        
+"KeepOutTop"              0             255           0             1              1          1                0         0             0.5            0        35000           0              
+"L98D0_1"                 3145728       8409168       0             4              1          1                0         0             0              0        0               0              
+"L99D0_1_0"               2390156       7653596       0             3              1          1                0         0             0              0        0               0              
+"Leads"                   0             8421504       0             1              1          1                0         0             0              0        250000          0              
+"LeadsBottom"             0             14737632      0             1              1          1                0         0             0.5            0        -150000         -1e+006        
+"LeadsTop"                0             14737632      0             1              1          1                0         0             0.5            0        150000          35000          
+"PCB Offset"              0             255           0             0              1          1                0         1             0.1            0        -100000         -1e+006        
+"PackageBottom"           0             3145728       0             16             1          1                0         1             0.5            0        -900000         -1.1e+006      
+"PackageTop"              0             0             0             16             1          1                0         1             0.5            0        900000          135000         
+"PasteMask"               1598569       6862009       0             2              1          1                0         0             0              0        0               0              
+"PasteMaskBottom"         0             16776960      0             6              1          1                0         0             0.3            0        -35000          -1.03e+006     
+"PasteMaskTop"            0             16776960      0             6              1          1                0         0             0.3            0        35000           50000          
+"RatsNest"                4210943       4210943       2             0              1          1                0         0             0              1        0               0              
+"Selection"               65535         65535         0             5              1          1                0         0             0              0        0               0              
+"SilkScreen"              2390156       7653596       0             3              1          1                0         0             0              0        0               0              
+"SilkScreenBottom"        0             65535         0             1              1          1                0         0             0.5            0        -15000          -1.015e+006    
+"SilkScreenTop"           0             65535         0             1              1          1                0         0             0              0        15000           50000          
+"SolderMask"              806982        6070422       0             1              1          1                0         0             0              0        0               0              
+"SolderMaskBottom"        0             65280         0             25             1          1                0         0             0              0        -15000          -1e+006        
+"SolderMaskTop"           0             65280         0             25             1          1                0         1             0.3            0        15000           35000          
+"SolderPaste"             806982        6070422       0             1              1          1                0         0             0              0        0               0              
+"SubSelection"            4210943       4210943       0             1              1          1                0         0             0              0        0               0              
+"SubcircuitAnnotation"    4259648       4259648       2             8              1          1                0         0             0              1        0               0              
+
+$CONFIG_NAME	"TM_layer"
+! Layer_Name              Line_Color    Fill_Color    Line_Style    Hatch_Style    Visible    Hatch_Visible    Frozen    Trans_Fill    Translucent    Cloak    3D_Thickness    3D_Z_Pos       
+"15_0"                    1598569       6862009       0             2              0          1                0         0             0              1        0               0              
+"17_0"                    2390156       7653596       0             3              0          1                0         0             0              1        0               0              
+"18_0"                    3145728       8409168       0             4              0          1                0         0             0              1        0               0              
+"24_0"                    3937315       9200755       0             5              0          1                0         0             0              1        0               0              
+"33_0"                    4728902       9992342       0             6              0          1                0         0             0              1        0               0              
+"34_0"                    5520489       10783929      0             7              0          1                0         0             0              1        0               0              
+"7"                       806982        6070422       0             1              0          1                0         0             0              1        0               0              
+"7_0"                     806982        6070422       0             1              0          1                0         0             0              1        0               0              
+"99_1"                    6301766       11565206      0             1              0          1                0         0             0              1        0               0              
+"99_2"                    6301766       11565206      0             1              0          1                0         0             0              1        0               0              
+"99_3"                    6301766       11565206      0             1              0          1                0         0             0              1        0               0              
+"99_4"                    7098473       12361913      0             3              0          1                0         0             0              1        0               0              
+"Annotation"              16776960      16776960      2             8              0          1                0         0             0              1        0               0              
+"Board"                   0             33023         0             2              0          1                0         0             0.5            0        -1e+006         -1000          
+"CopperBottom"            16776960      16776960      0             8              0          1                0         0             0              0        0               0              
+"CopperMid"               255           12632256      0             9              0          1                0         0             0              0        -1e+006         1000           
+"CopperTop"               0             32896         0             3              0          1                0         0             0              0        35000           0              
+"Default"                 0             0             0             0              0          1                0         0             0              1        0               0              
+"DimensionLines"          2105376       2105376       0             0              0          1                0         0             0              1        0               0              
+"DrillHoles"              2105376       2105376       0             0              0          1                0         0             0              0        0               0              
+"EMSymbols"               0             0             0             1              0          1                0         0             0              1        0               0              
+"Error"                   255           255           0             16             0          1                0         0             0              1        35000           0              
+"ErrorHighlight"          1113872       1113872       0             5              1          1                0         0             0              1        0               0              
+"Highlight"               65535         65535         0             5              1          1                0         0             0              1        0               0              
+"Leads"                   0             8421504       0             1              0          1                0         0             0              1        25000           36000          
+"Package"                 0             65280         0             5              0          1                0         0             0              1        250000          321000         
+"PasteMask"               0             65280         0             2              0          1                0         0             0              1        250000          71000          
+"RatsNest"                4210943       4210943       2             0              0          1                0         0             0              1        0               0              
+"Selection"               65535         65535         0             5              1          1                0         0             0              1        0               0              
+"SilkScreenTop"           806982        6070422       0             1              0          1                0         0             0              0        0               0              
+"SolderMaskBottom"        0             16711680      0             3              0          1                0         0             0              0        10000           1000           
+"SolderMaskTop"           0             65535         0             1              0          1                0         0             0              0        10000           1000           
+"SubcircuitAnnotation"    4259648       255           2             1              0          1                0         0             0              1        0               0              
+"xxxx"                    255           32896         0             9              0          1                0         0             0              1        -1e+006         1000           
+
+$CONFIG_NAME	"TM_layout"
+! Layer_Name              Line_Color    Fill_Color    Line_Style    Hatch_Style    Visible    Hatch_Visible    Frozen    Trans_Fill    Translucent    Cloak    3D_Thickness    3D_Z_Pos       
+"7"                       806982        6070422       0             1              1          1                0         0             0              0        0               0              
+"99_1"                    6301766       11565206      0             1              1          1                0         0             0              0        0               0              
+"Annotation"              16776960      16776960      2             8              1          1                0         0             0              1        0               0              
+"Board"                   0             33023         0             1              0          0                0         1             0.5            0        -1e+006         -1000          
+"CopperBottom"            16776960      16776960      0             8              1          1                0         0             0              0        0               0              
+"CopperMid"               255           12632256      0             9              1          1                0         0             0              0        -1e+006         1000           
+"CopperTop"               0             32896         0             3              1          1                0         0             0              0        35000           0              
+"Default"                 0             0             0             0              1          1                0         0             0              1        0               0              
+"DimensionLines"          2105376       2105376       0             0              1          1                0         0             0              1        0               0              
+"DrillHoles"              2105376       2105376       0             0              1          1                0         0             0              1        0               0              
+"EMSymbols"               0             0             0             1              1          1                0         0             0              1        0               0              
+"Error"                   255           255           0             16             1          1                0         0             0              0        35000           0              
+"ErrorHighlight"          1113872       1113872       0             5              1          1                0         0             0              1        0               0              
+"Highlight"               65535         65535         0             5              1          1                0         0             0              1        0               0              
+"Leads"                   0             8421504       0             1              1          1                0         0             0              0        25000           36000          
+"Mech2"                   806982        6070422       0             1              1          1                0         0             0              0        0               0              
+"Package"                 0             65280         0             5              1          1                0         0             0              0        250000          321000         
+"PasteMask"               0             65280         0             2              1          1                0         0             0              0        250000          71000          
+"Plugging"                255           32896         0             9              1          1                0         0             0              0        -1e+006         1000           
+"RatsNest"                4210943       4210943       2             0              1          1                0         0             0              1        0               0              
+"Selection"               65535         65535         0             5              1          1                0         0             0              1        0               0              
+"SolderMask"              0             65535         0             1              1          1                0         0             0              0        10000           1000           
+"SolderMaskBottom"        0             16711680      0             3              1          1                0         0             0              0        10000           1000           
+"SubcircuitAnnotation"    4259648       4259648       2             8              1          1                0         0             0              1        0               0              
+
+$CONFIG_NAME	"Lay off"
+! Layer_Name              Line_Color    Fill_Color    Line_Style    Hatch_Style    Visible    Hatch_Visible    Frozen    Trans_Fill    Translucent    Cloak    3D_Thickness    3D_Z_Pos       
+"#Unknown"                0             0             0             0              1          0                0         0             0              0        0               0              
+"0"                       806982        6070422       0             1              1          1                0         0             0              0        0               0              
+"0_0"                     6301766       11565206      0             1              1          1                0         0             0              0        0               0              
+"10_0"                    2390156       7653596       0             3              1          1                0         0             0              0        0               0              
+"11_0"                    6301766       11565206      0             1              1          1                0         0             0              0        0               0              
+"12_0"                    1598569       6862009       0             2              1          1                0         0             0              0        0               0              
+"130_0"                   3937315       9200755       0             5              1          1                0         0             0              0        0               0              
+"13_0"                    806982        6070422       0             1              1          1                0         0             0              0        0               0              
+"14_0"                    3145728       8409168       0             4              1          1                0         0             0              0        0               0              
+"15_0"                    4728902       9992342       0             6              1          1                0         0             0              0        0               0              
+"16_0"                    5520489       10783929      0             7              1          1                0         0             0              0        0               0              
+"17_0"                    7103488       12366928      0             1              1          1                0         0             0              0        0               0              
+"24_0"                    806982        6070422       0             1              1          1                0         0             0              0        0               0              
+"2_0"                     6312076       11575516      0             0              1          1                0         0             0              0        0               0              
+"7_0"                     1598569       6862009       0             2              1          1                0         0             0              0        0               0              
+"99_1"                    6301766       11565206      0             1              1          1                0         0             0              0        0               0              
+"Annotation"              16776960      16776960      2             8              1          1                0         0             0              0        0               0              
+"Board"                   0             65280         0             1              0          0                0         1             0.5            0        1e+006          -1e+006        
+"CopperBottom"            16776960      33023         0             8              1          1                0         0             0              0        35000           -1e+006        
+"CopperBottom+"           0             33023         0             8              1          1                0         1             0.9            0        35000           -1e+006        
+"CopperBottom-"           0             15793151      2             1              1          1                0         1             0.5            0        35000           -1e+006        
+"CopperMid"               255           16776960      0             1              1          1                0         0             0              0        35000           -200000        
+"CopperMid+"              0             16776960      0             3              1          1                0         1             1              0        35000           -200000        
+"CopperMid-"              0             15793151      2             1              1          1                0         1             0.5            0        35000           -200000        
+"CopperTop"               0             2390156       0             3              1          1                0         0             0              0        35000           0              
+"CopperTop+"              0             2390156       0             3              1          1                0         1             0.9            0        35000           0              
+"CopperTop-"              16777215      15793151      0             1              1          1                0         1             0.5            0        35000           0              
+"Default"                 0             0             0             0              1          1                0         0             0              0        0               0              
+"DimensionLines"          2105376       2105376       0             0              1          1                0         0             0              0        0               0              
+"DocuBottom"              0             11575516      0             7              1          1                0         0             0.5            0        -10000          -1.03e+006     
+"DocuTop"                 0             11575516      0             7              1          1                0         0             0.5            0        10000           65000          
+"DrillHoles"              2105376       2105376       0             0              1          1                0         0             0              0        1e+006          -1e+006        
+"DynamicHighlight"        65535         65535         2             0              1          1                0         0             0              0        0               0              
+"EMSymbols"               0             0             0             1              1          1                0         0             0              0        0               0              
+"Error"                   255           255           0             16             1          1                0         0             0              0        0               0              
+"ErrorHighlight"          1113872       1113872       0             5              1          1                0         0             0              0        0               0              
+"Highlight"               65535         65535         0             5              1          1                0         0             0              0        0               0              
+"KeepOut"                 255           255           0             1              1          1                0         0             0.5            0        100000          0              
+"KeepOutBottom"           0             255           0             1              1          1                0         0             0.5            0        -35000          -965000        
+"KeepOutTop"              0             255           0             1              1          1                0         0             0.5            0        35000           0              
+"Leads"                   0             8421504       0             1              1          1                0         0             0              0        250000          0              
+"LeadsBottom"             0             14737632      0             1              1          1                0         0             0.5            0        -150000         -1e+006        
+"LeadsTop"                0             14737632      0             1              1          1                0         0             0.5            0        150000          35000          
+"PCB Offset"              0             255           0             0              1          1                0         1             0.1            0        -100000         -1e+006        
+"PackageBottom"           0             3145728       0             16             1          1                0         1             0.5            0        -900000         -1.1e+006      
+"PackageTop"              0             0             0             16             1          1                0         1             0.5            0        900000          135000         
+"PasteMask"               1598569       6862009       0             2              1          1                0         0             0              0        0               0              
+"PasteMaskBottom"         0             16776960      0             6              1          1                0         0             0.3            0        -35000          -1.03e+006     
+"PasteMaskTop"            0             16776960      0             6              1          1                0         0             0.3            0        35000           50000          
+"RatsNest"                4210943       4210943       2             0              1          1                0         0             0              1        0               0              
+"Selection"               65535         65535         0             5              1          1                0         0             0              0        0               0              
+"SilkScreen"              2390156       7653596       0             3              1          1                0         0             0              0        0               0              
+"SilkScreenBottom"        0             65535         0             1              1          1                0         0             0.5            0        -15000          -1.015e+006    
+"SilkScreenTop"           0             65535         0             1              1          1                0         0             0              0        15000           50000          
+"SolderMask"              806982        6070422       0             1              1          1                0         0             0              0        0               0              
+"SolderMaskBottom"        0             65280         0             25             1          1                0         0             0              0        -15000          -1e+006        
+"SolderMaskTop"           0             65280         0             25             1          1                0         1             0.3            0        15000           35000          
+"SubSelection"            4210943       4210943       0             1              1          1                0         0             0              0        0               0              
+"SubcircuitAnnotation"    4259648       4259648       2             8              1          1                0         0             0              1        0               0              
+
+$LAYERS_CONFIG_END
+
+$MODEL_LAYER_BEGIN
+
+$MAP_NAME	"TopSide"
+"DimensionLines"          "DimensionLines"
+"EMSymbols"               "EMSymbols"
+"DrillHoles"              "DrillHoles"
+"Error"                   "Error"
+"PackageTop"              "PackageTop"
+"LeadsTop"                "LeadsTop"
+"PasteMaskTop"            "PasteMaskTop"
+"DocuTop"                 "DocuTop"
+"SilkScreenTop"           "DimensionLines"
+"SolderMaskTop"           "SolderMaskTop"
+"KeepOutTop"              "KeepOutTop"
+"Board"                   "Board"
+"CopperTop"               "CopperTop"
+"CopperTop-"              "CopperTop-"
+"CopperTop+"              "CopperTop+"
+"CopperMid"               "CopperMid"
+"CopperMid-"              "CopperMid-"
+"CopperMid+"              "CopperMid+"
+"CopperBottom"            "CopperBottom"
+"CopperBottom-"           "CopperBottom-"
+"CopperBottom+"           "CopperBottom+"
+"KeepOutBottom"           "KeepOutBottom"
+"SolderMaskBottom"        "SolderMaskBottom"
+"SilkScreenBottom"        "SilkScreenBottom"
+"DocuBottom"              "DocuBottom"
+"PasteMaskBottom"         "PasteMaskBottom"
+"LeadsBottom"             "LeadsBottom"
+"PackageBottom"           "PackageBottom"
+"Annotation"              "Annotation"
+"SubcircuitAnnotation"    "SubcircuitAnnotation"
+"RatsNest"                "RatsNest"
+"Default"                 "Default"
+"Highlight"               "Highlight"
+"ErrorHighlight"          "ErrorHighlight"
+"Selection"               "Selection"
+"PCB Offset"              "PCB Offset"
+"Leads"                   "LeadsTop"
+"PasteMask"               "PasteMaskTop"
+"SubSelection"            "SubSelection"
+"SilkScreen"              "SilkScreenTop"
+"SolderMask"              "SolderMaskTop"
+"KeepOut"                 "KeepOutTop"
+"DynamicHighlight"        "DynamicHighlight"
+"#Unknown"                "#Unknown"
+"99_1"                    "99_1"
+"24_0"                    "24_0"
+"7_0"                     "7_0"
+"13_0"                    "PackageTop"
+"12_0"                    "12_0"
+"10_0"                    "10_0"
+"14_0"                    "14_0"
+"11_0"                    "LeadsTop"
+"130_0"                   "Annotation"
+"15_0"                    "15_0"
+"16_0"                    "16_0"
+"2_0"                     "2_0"
+"17_0"                    "17_0"
+"0_0"                     "0_0"
+"0"                       "0"
+"SolderPaste"             "PasteMaskTop"
+"Drill"                   "Drill"
+"L99D0_1_0"               "L99D0_1_0"
+"L98D0_1"                 "L98D0_1"
+"Docu"                    "DocuTop"
+"Copper"                  "CopperTop"
+"Package"                 "PackageTop"
+"128_0"                   "128_0"
+
+$MAP_NAME	"BottomSide"
+"DimensionLines"          "DimensionLines"
+"EMSymbols"               "EMSymbols"
+"DrillHoles"              "DrillHoles"
+"Error"                   "Error"
+"PackageTop"              "PackageBottom"
+"LeadsTop"                "LeadsBottom"
+"PasteMaskTop"            "PasteMaskTop"
+"DocuTop"                 "DocuTop"
+"SilkScreenTop"           "SilkScreenTop"
+"SolderMaskTop"           "SolderMaskTop"
+"KeepOutTop"              "KeepOutTop"
+"Board"                   "Board"
+"CopperTop"               "CopperTop"
+"CopperTop-"              "CopperTop-"
+"CopperTop+"              "CopperTop+"
+"CopperMid"               "CopperMid"
+"CopperMid-"              "CopperMid-"
+"CopperMid+"              "CopperMid+"
+"CopperBottom"            "CopperBottom"
+"CopperBottom-"           "CopperBottom-"
+"CopperBottom+"           "CopperBottom+"
+"KeepOutBottom"           "KeepOutBottom"
+"SolderMaskBottom"        "SolderMaskBottom"
+"SilkScreenBottom"        "SilkScreenBottom"
+"DocuBottom"              "DocuBottom"
+"PasteMaskBottom"         "PasteMaskBottom"
+"LeadsBottom"             "LeadsBottom"
+"PackageBottom"           "PackageBottom"
+"Annotation"              "Annotation"
+"SubcircuitAnnotation"    "SubcircuitAnnotation"
+"RatsNest"                "RatsNest"
+"Default"                 "Default"
+"Highlight"               "Highlight"
+"ErrorHighlight"          "ErrorHighlight"
+"Selection"               "Selection"
+"PCB Offset"              "PCB Offset"
+"Leads"                   "LeadsBottom"
+"PasteMask"               "PasteMaskBottom"
+"SubSelection"            "SubSelection"
+"SilkScreen"              "SilkScreenBottom"
+"SolderMask"              "SolderMaskBottom"
+"KeepOut"                 "KeepOutBottom"
+"DynamicHighlight"        "DynamicHighlight"
+"#Unknown"                "#Unknown"
+"99_1"                    "99_1"
+"24_0"                    "24_0"
+"7_0"                     "7_0"
+"13_0"                    "PackageBottom"
+"12_0"                    "12_0"
+"10_0"                    "10_0"
+"14_0"                    "14_0"
+"11_0"                    "LeadsBottom"
+"130_0"                   "Annotation"
+"15_0"                    "15_0"
+"16_0"                    "16_0"
+"2_0"                     "2_0"
+"17_0"                    "17_0"
+"0_0"                     "0_0"
+"0"                       "0"
+"SolderPaste"             "PasteMaskBottom"
+"Drill"                   "Drill"
+"L99D0_1_0"               "L99D0_1_0"
+"L98D0_1"                 "L98D0_1"
+"Docu"                    "DocuBottom"
+"Copper"                  "CopperBottom"
+"Package"                 "PackageBottom"
+"128_0"                   "128_0"
+
+$MODEL_LAYER_END
+
+$EM_MAPPING_BEGIN
+$EM_MAP	"Default" !name
+!layer_name em_layer is_via material via_extent
+"DimensionLines"          0	0	""	1
+"EMSymbols"               0	0	""	1
+"DrillHoles"              4	0	"Cu"	1
+"Error"                   0	0	""	1
+"PackageTop"              0	0	""	1
+"LeadsTop"                0	0	""	1
+"PasteMaskTop"            0	0	""	1
+"DocuTop"                 0	0	""	1
+"SilkScreenTop"           0	0	""	1
+"SolderMaskTop"           0	0	""	1
+"KeepOutTop"              0	0	""	1
+"Board"                   0	0	""	1
+"CopperTop"               0	0	"Cu"	1
+"CopperTop-"              0	0	"Cu"	1
+"CopperTop+"              0	0	"Cu"	1
+"CopperMid"               0	0	"Cu"	1
+"CopperMid-"              0	0	"Cu"	1
+"CopperMid+"              0	0	"Cu"	1
+"CopperBottom"            0	0	"Cu"	1
+"CopperBottom-"           0	0	"Cu"	1
+"CopperBottom+"           0	0	"Cu"	1
+"KeepOutBottom"           0	0	""	1
+"SolderMaskBottom"        0	0	""	1
+"SilkScreenBottom"        0	0	""	1
+"DocuBottom"              0	0	""	1
+"PasteMaskBottom"         0	0	""	1
+"LeadsBottom"             0	0	""	1
+"PackageBottom"           0	0	""	1
+"Annotation"              0	0	""	1
+"SubcircuitAnnotation"    0	0	""	1
+"RatsNest"                0	0	""	1
+"Default"                 0	0	""	1
+"Highlight"               0	0	""	1
+"ErrorHighlight"          0	0	""	1
+"Selection"               0	0	""	1
+"PCB Offset"              0	0	""	1
+"Leads"                   0	0	""	1
+"PasteMask"               0	0	""	1
+"SubSelection"            0	0	""	1
+"SilkScreen"              0	0	""	1
+"SolderMask"              0	0	""	1
+"KeepOut"                 0	0	""	1
+"DynamicHighlight"        0	0	""	1
+"#Unknown"                0	0	""	1
+"99_1"                    0	0	""	1
+"24_0"                    0	0	""	1
+"7_0"                     0	0	""	1
+"13_0"                    0	0	""	1
+"12_0"                    0	0	""	1
+"10_0"                    0	0	""	1
+"14_0"                    0	0	""	1
+"11_0"                    0	0	""	1
+"130_0"                   0	0	""	1
+"15_0"                    0	0	""	1
+"16_0"                    0	0	""	1
+"2_0"                     0	0	""	1
+"17_0"                    0	0	""	1
+"0_0"                     0	0	""	1
+"0"                       0	0	""	1
+"SolderPaste"             0	0	""	1
+"Drill"                   0	0	""	1
+"L99D0_1_0"               0	0	""	1
+"L98D0_1"                 0	0	""	1
+"128_0"                   0	0	""	1
+
+$EM_MAPPING_END
+
+
+$FILE_MAPPING_BEGIN
+$FILE_MAP	"drill.drl"	2
+!layer_name file_layer skip
+"DimensionLines"          "N/A"         1
+"EMSymbols"               "N/A"         1
+"DrillHoles"              "N/A"         0
+"Error"                   "N/A"         1
+"PackageTop"              "N/A"         1
+"LeadsTop"                "LeadsTop"    1
+"PasteMaskTop"            "N/A"         1
+"DocuTop"                 "Docu"        1
+"SilkScreenTop"           "N/A"         1
+"SolderMaskTop"           "N/A"         1
+"KeepOutTop"              "KeepOutTop"  1
+"Board"                   "N/A"         1
+"CopperTop"               "N/A"         1
+"CopperTop-"              "N/A"         1
+"CopperTop+"              "N/A"         1
+"CopperMid"               "N/A"         1
+"CopperMid-"              "N/A"         1
+"CopperMid+"              "N/A"         1
+"CopperBottom"            "N/A"         1
+"CopperBottom-"           "N/A"         1
+"CopperBottom+"           "N/A"         1
+"KeepOutBottom"           "KeepOutBottom"1
+"SolderMaskBottom"        "N/A"         1
+"SilkScreenBottom"        "N/A"         1
+"DocuBottom"              "DocuBottom"  1
+"PasteMaskBottom"         "N/A"         1
+"LeadsBottom"             "N/A"         1
+"PackageBottom"           "PackageBottom"1
+"Annotation"              "N/A"         1
+"SubcircuitAnnotation"    "N/A"         1
+"RatsNest"                "N/A"         1
+"Default"                 "N/A"         1
+"Highlight"               "N/A"         1
+"ErrorHighlight"          "N/A"         1
+"Selection"               "N/A"         1
+"PCB Offset"              "N/A"         1
+"Leads"                   "N/A"         1
+"PasteMask"               "N/A"         1
+"SubSelection"            "N/A"         1
+"SilkScreen"              "N/A"         1
+"SolderMask"              "N/A"         1
+"KeepOut"                 "KeepOut"     1
+"DynamicHighlight"        "N/A"         1
+"#Unknown"                "N/A"         1
+"99_1"                    "N/A"         1
+"24_0"                    "N/A"         1
+"7_0"                     "N/A"         1
+"13_0"                    "N/A"         1
+"12_0"                    "N/A"         1
+"10_0"                    "N/A"         1
+"14_0"                    "N/A"         1
+"11_0"                    "N/A"         1
+"130_0"                   "N/A"         1
+"15_0"                    "N/A"         1
+"16_0"                    "N/A"         1
+"2_0"                     "N/A"         1
+"17_0"                    "N/A"         1
+"0_0"                     "N/A"         1
+"0"                       "N/A"         0
+"SolderPaste"             "N/A"         0
+"Drill"                   "N/A"         0
+"L99D0_1_0"               "N/A"         0
+"L98D0_1"                 "N/A"         0
+"128_0"                   "N/A"         0
+
+$FILE_MAP	"FileMap1"	1
+!layer_name file_layer skip
+"DimensionLines"          "DimensionLines"1
+"EMSymbols"               "EMSymbols"   1
+"DrillHoles"              "DrillHoles"  1
+"Error"                   "Error"       1
+"PackageTop"              "PackageTop"  0
+"LeadsTop"                "LeadsTop"    0
+"PasteMaskTop"            "PasteMaskTop"0
+"DocuTop"                 "DocuTop"     0
+"SilkScreenTop"           "SilkScreenTop"0
+"SolderMaskTop"           "SolderMaskTop"0
+"KeepOutTop"              "KeepOutTop"  0
+"Board"                   "Board"       0
+"CopperTop"               "CopperTop"   0
+"CopperTop-"              "CopperTop-"  0
+"CopperTop+"              "CopperTop+"  0
+"CopperMid"               "CopperMid"   0
+"CopperMid-"              "CopperMid-"  0
+"CopperMid+"              "CopperMid+"  0
+"CopperBottom"            "CopperBottom"0
+"CopperBottom-"           "CopperBottom-"0
+"CopperBottom+"           "CopperBottom+"0
+"KeepOutBottom"           "KeepOutBottom"0
+"SolderMaskBottom"        "SolderMaskBottom"0
+"SilkScreenBottom"        "SilkScreenBottom"0
+"DocuBottom"              "DocuBottom"  0
+"PasteMaskBottom"         "PasteMaskBottom"0
+"LeadsBottom"             "LeadsBottom" 0
+"PackageBottom"           "PackageBottom"0
+"Annotation"              "Annotation"  1
+"SubcircuitAnnotation"    "SubcircuitAnnotation"1
+"RatsNest"                "RatsNest"    1
+"Default"                 "Default"     1
+"Highlight"               "Highlight"   1
+"ErrorHighlight"          "ErrorHighlight"1
+"Selection"               "Selection"   1
+"PCB Offset"              "PCB Offset"  1
+"Leads"                   "Leads"       1
+"PasteMask"               "PasteMask"   1
+"SubSelection"            "SubSelection"1
+"SilkScreen"              "SilkScreen"  1
+"SolderMask"              "SolderMask"  1
+"KeepOut"                 "KeepOut"     1
+"DynamicHighlight"        "DynamicHighlight"1
+"#Unknown"                "#Unknown"    1
+"99_1"                    "99_1"        1
+"24_0"                    "24_0"        1
+"7_0"                     "7_0"         1
+"13_0"                    "13_0"        1
+"12_0"                    "12_0"        1
+"10_0"                    "10_0"        1
+"14_0"                    "14_0"        1
+"11_0"                    "11_0"        1
+"130_0"                   "130_0"       1
+"15_0"                    "15_0"        1
+"16_0"                    "16_0"        1
+"2_0"                     "2_0"         1
+"17_0"                    "17_0"        1
+"0_0"                     "0_0"         1
+"0"                       "0"           0
+"SolderPaste"             "SolderPaste" 0
+"Drill"                   "Drill"       0
+"L99D0_1_0"               "L99D0_1_0"   0
+"L98D0_1"                 "L98D0_1"     0
+"128_0"                   "128_0"       0
+
+$FILE_MAPPING_END
+
+
+$DRILL_TABLE_BEGIN
+!drill_name drill_number drill_diameter
+"Default"                 1	2e-005
+"0mm15"                   2	0.00015
+"1mm15"                   3	0.00115
+"0mm3"                    4	0.0003
+"0mm5"                    5	0.0005
+"1mm"                     6	0.001
+
+$DRILL_TABLE_END
+
+$LAYER_SETUP_END
+
+$ROUTER_SETUP_BEGIN
+
+$LAYERS_BEGIN
+!--------------------------------- Layer Entry Descriptions -----------------------------------------------------------
+! layer_name <layer_type> <layer_dir> min_width min_spacing route_grid route_grid_offset
+! <layer_type> = other, nwell, pwell, ndiff, pdiff, nimplant, pimplant, poly, cut, metal, non_contact_metal
+!                diffusion, recognition
+! <layer_dir> = none, horiz, vert
+!----------------------------------------------------------------------------------------------------------------------
+$LAYERS_END
+
+$CONNECT_LAYERS_BEGIN
+!--------------------------------- Connect layer -----------------------------------------------------------
+! <connect_type> <layer>
+! <connect_type> = UNKNOWN CAP_TOP_PLATE CAP_BOTTOM_PLATE SPIRAL_EXIT SPIRAL_TURN RESISTOR RESISTOR_2 RESISTOR_3
+!                 VIA_TOP VIA_BOTTOM DISABLED CAP_TOP_PLATE_2 CAP_BOTTOM_PLATE_2 CAP_TOP_PLATE_3 CAP_BOTTOM_PLATE_3 DEVICE
+!                 DEVICE_2 DEVICE_3
+!-----------------------------------------------------------------------------------------------------------
+$CONNECT_LAYERS_END
+
+$ROUTER_SETUP_END
+
+
+!------------- EM Simulation Setup Defined Below ----------------------------
+
+$EM_SETUP_BEGIN
+	$DEFAULT_EM_ENCLOSURE_BEGIN
+	!-----XDIM-----YDIM-----NX-----NY-----
+	!      (m)      (m)
+		0.0008 0.0008 80 80
+	$DEFAULT_EM_ENCLOSURE_END
+
+	$DEFAULT_EM_LAYERS_BEGIN
+	!	Hatch Patterns ------(0)  |||||(1)  \\\\\(2)  /////(3)  +++++(4)  xxxxx(5)
+	!
+	!-----T-----Er-----Tand-----Sigma-----Scale-----CondHatch-----ViaHatch-----
+	!    (m)                    (S/m)                 (0-5)         (0-5)
+	  0.0005 1 0 0 1 0 1
+	  5e-006 6.8 0.005 0 5 2 3
+	  0.0001 12.9 0.001 0 1 4 5
+	$DEFAULT_EM_LAYERS_END
+
+$EM_SETUP_END
+

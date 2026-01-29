@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "CM5IO")(type "KiCad")(uri "${KIPRJMOD}/Library/CM5IO.pretty")(options "")(descr ""))
   (lib (name "L89_2.0")(type "KiCad")(uri "${KIPRJMOD}/Library/L89_2.0")(options "")(descr ""))
+  (lib (name "M.2 NGFF")(type "KiCad")(uri "${KIPRJMOD}/Library/LIB_1-2199230-4/1-2199230-4/KiCad")(options "")(descr ""))
 )

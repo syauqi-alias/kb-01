@@ -1,0 +1,18 @@
+.L96-M33 :1 ;Navigation BeiDou, Galileo, GLONASS, GPS, GNSS Transceiver Module 1.561GHz, 1.575GHz, 1.602GHz Integrated, Chip Surface Mount
+L96
+*STM IC
+*NGS
+*PLB 1="NC1" 2="3D_FIX" 3="I2C_SDA" 4="GND1" 5="GND2" 6="I2C_SCL" 7="EXTINT0" 8="V_BCKP" 9="VDD" 10="GND3" 11="GND4" 12="GND5" 13="GND6" 14="GND7" 15="GND8" 16="RF_OUT" 17="RF_IN" 18="GND9" 19="GND10" 20="JAM_DET" 21="GND11" 22="GND12" 23="RESET" 24="GEO_FENCE" 25="TXD1" 26="RXD1" 27="GND13" 28="FORCE_ON" 29="TIMEPULSE" 30="ANTON" 31="GND14"
+*MXP 31
+*DFN L96-M33
+~!Manufacturer_Name (Quectel)
+~!Manufacturer_Part_Number (L96-M33)
+~!Mouser Part Number (277-L96-M33)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Quectel/L96-M33?qs=GedFDFLaBXHZlDfU1tecmQ%3D%3D)
+~!Arrow Part Number (L96-M33)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/l96-m33/quectel-wireless-solutions-co-ltd?utm_currency=USD&region=nac)
+~!Link Datasheet (https://www.digikey.com/en/products/detail/quectel/L96-M33/13278244?msockid=3e3afa68a50969ca3057ef1ca4c9684b)
+~!Height (-)
+~!3D_Model (L96-M33)
+L96-M33
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 9.1!U 10.1!U 11.1!U 12.1!U 13.1!U 14.1!U 15.1!U 16.1!U 17.1!U 18.1!U 19.1!U 20.1!U 21.1!U 22.1!U 23.1!U 24.1!U 25.1!U 26.1!U 27.1!U 28.1!U 29.1!U 30.1!U 31.1!U 

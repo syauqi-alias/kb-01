@@ -2,4 +2,8 @@
   (version 7)
   (lib (name "CM5IO")(type "KiCad")(uri "${KIPRJMOD}/Library/CM5IO.kicad_sym")(options "")(descr ""))
   (lib (name "L89_2.0")(type "KiCad")(uri "${KIPRJMOD}/Library/L89_2.0/L89_2.0.kicad_sym")(options "")(descr ""))
+  (lib (name "MAX17048G+T10")(type "KiCad")(uri "${KIPRJMOD}/Library/LIB_MAX17048G+T10/MAX17048G+T10/KiCad/MAX17048G+T10.kicad_sym")(options "")(descr ""))
+  (lib (name "L96-M33")(type "KiCad")(uri "${KIPRJMOD}/Library/LIB_L96-M33/L96-M33/KiCad/L96-M33.kicad_sym")(options "")(descr ""))
+  (lib (name "Teseo-LIV3F")(type "KiCad")(uri "${KIPRJMOD}/Library/ul_TESEO-LIV3F/KiCADv6/2026-01-20_14-33-10.kicad_sym")(options "")(descr ""))
+  (lib (name "MAX2659ELT+T")(type "KiCad")(uri "${KIPRJMOD}/Library/ul_MAX2659ELT-T/KiCADv6/2026-01-23_17-08-10.kicad_sym")(options "")(descr ""))
 )

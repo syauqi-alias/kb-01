@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'L96_M33'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET";
+{========================================================================================}
+ "Quectel", "L96-M33" (!) = "", "L96", "Other", "277-L96-M33", "https://www.mouser.co.uk/ProductDetail/Quectel/L96-M33?qs=GedFDFLaBXHZlDfU1tecmQ%3D%3D", "L96-M33", "https://www.arrow.com/en/products/l96-m33/quectel-wireless-solutions-co-ltd?utm_currency=USD&region=nac", "Navigation BeiDou, Galileo, GLONASS, GPS, GNSS Transceiver Module 1.561GHz, 1.575GHz, 1.602GHz Integrated, Chip Surface Mount", "https://www.digikey.com/en/products/detail/quectel/L96-M33/13278244?msockid=3e3afa68a50969ca3057ef1ca4c9684b"
+END_PART
+
+END.

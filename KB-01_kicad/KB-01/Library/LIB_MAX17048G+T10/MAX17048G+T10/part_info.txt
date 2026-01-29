@@ -1,0 +1,9 @@
+Manufacturer=Analog Devices
+PartNumber=MAX17048G+T10
+PartCategory=Integrated Circuit
+PackageCategory=Small Outline No-lead
+PinCount=9
+Version=3.1
+Released=2018-06-29 16:02:39
+Downloaded=2026-01-14 11:52:40
+3D=Y
