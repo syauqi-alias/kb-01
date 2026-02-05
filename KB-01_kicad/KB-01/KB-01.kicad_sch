@@ -90,6 +90,48 @@
 		)
 	)
 	(sheet
+		(at 95.25 120.015)
+		(size 27.94 21.59)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8f8a2829-aad0-4226-9c36-d614fdf3c6c8")
+		(property "Sheetname" "sensors"
+			(at 95.25 119.3034 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensors.kicad_sch"
+			(at 95.25 142.1896 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "KB-01"
+				(path "/e6144e29-1dc4-45a8-93e7-988a20131b94"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 95.25 69.85)
 		(size 27.94 36.83)
 		(exclude_from_sim no)

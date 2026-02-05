@@ -703,6 +703,10 @@
     [
       "e474c326-f80b-4652-be93-3ce49aa7493e",
       "pcie-nvme"
+    ],
+    [
+      "8f8a2829-aad0-4226-9c36-d614fdf3c6c8",
+      "sensors"
     ]
   ],
   "text_variables": {}

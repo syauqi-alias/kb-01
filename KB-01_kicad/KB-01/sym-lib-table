@@ -7,4 +7,5 @@
   (lib (name "Teseo-LIV3F")(type "KiCad")(uri "${KIPRJMOD}/Library/ul_TESEO-LIV3F/KiCADv6/2026-01-20_14-33-10.kicad_sym")(options "")(descr ""))
   (lib (name "MAX2659ELT+T")(type "KiCad")(uri "${KIPRJMOD}/Library/ul_MAX2659ELT-T/KiCADv6/2026-01-23_17-08-10.kicad_sym")(options "")(descr ""))
   (lib (name "B39162B4327P810")(type "KiCad")(uri "${KIPRJMOD}/Library/B39162B4327P810/B39162B4327P810.kicad_sym")(options "")(descr ""))
+  (lib (name "BMI270")(type "KiCad")(uri "${KIPRJMOD}/Library/BMI270/BMI270.kicad_sym")(options "")(descr ""))
 )

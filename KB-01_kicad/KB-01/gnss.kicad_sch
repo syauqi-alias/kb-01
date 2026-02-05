@@ -1131,6 +1131,168 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Diode:SM15T36CA"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SM15T36CA"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_SMD:ST_D_SMC"
+				(at 0.508 -8.636 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.st.com/resource/en/datasheet/sm15t36a.pdf"
+				(at 0 -6.604 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "1500W (10/1000 μs) Bidirectional TVS Diode, VRM = 30.8V (IRM = 0.2 μA at 25°C), VBR = 34.2 ... 37.8V, 'BEV' marking, SMC"
+				(at 0 -4.572 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "ESD protection transient voltage-suppressor transil thyrector transorb"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*D*SMC*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SM15T36CA_0_1"
+				(polyline
+					(pts
+						(xy -2.54 -1.27) (xy 0 0) (xy -2.54 1.27) (xy -2.54 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 1.27) (xy 0 1.27) (xy 0 -1.27) (xy -0.508 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy 2.54 -1.27) (xy 0 0) (xy 2.54 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SM15T36CA_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "MAX2659ELT+T:MAX2659ELT+T"
 			(pin_names
 				(offset 0.254)
@@ -2594,6 +2756,12 @@
 		(uuid "b2f29051-887f-4c4f-a23f-dd73a2c0bcc3")
 	)
 	(junction
+		(at 66.04 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c9e830d7-e0e2-4ec2-afcb-34083de18007")
+	)
+	(junction
 		(at 111.76 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2610,6 +2778,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "de634ca8-7009-4756-8c22-389715cb3fe2")
+	)
+	(junction
+		(at 69.85 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e7e38f1b-f4b4-4d10-bd39-cc6769a410fd")
 	)
 	(junction
 		(at 215.9 142.24)
@@ -2645,7 +2819,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 137.16) (xy 76.2 137.16)
+			(xy 68.58 137.16) (xy 69.85 137.16)
 		)
 		(stroke
 			(width 0)
@@ -2875,6 +3049,16 @@
 	)
 	(wire
 		(pts
+			(xy 69.85 149.86) (xy 66.04 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48d1c799-dca0-4ef6-9d2a-0129c0670e70")
+	)
+	(wire
+		(pts
 			(xy 107.95 77.47) (xy 113.03 77.47)
 		)
 		(stroke
@@ -3045,7 +3229,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 142.24) (xy 63.5 146.05)
+			(xy 66.04 149.86) (xy 66.04 153.67)
 		)
 		(stroke
 			(width 0)
@@ -3125,6 +3309,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 149.86) (xy 63.5 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8afeb5c4-4451-4339-9084-4da199a2243e")
+	)
+	(wire
+		(pts
 			(xy 215.9 139.7) (xy 215.9 137.16)
 		)
 		(stroke
@@ -3145,6 +3339,16 @@
 	)
 	(wire
 		(pts
+			(xy 69.85 137.16) (xy 69.85 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98f20fa4-a899-481e-a020-2cdf885a8477")
+	)
+	(wire
+		(pts
 			(xy 168.91 72.39) (xy 172.72 72.39)
 		)
 		(stroke
@@ -3162,6 +3366,16 @@
 			(type default)
 		)
 		(uuid "ab391fea-5f8d-4412-a543-b31c0dbf4917")
+	)
+	(wire
+		(pts
+			(xy 69.85 137.16) (xy 76.2 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac927deb-22ae-4fd4-af12-f410d3301b27")
 	)
 	(wire
 		(pts
@@ -3232,6 +3446,16 @@
 			(type default)
 		)
 		(uuid "cd8a3b94-2e28-4c6d-afbb-76345f2888fe")
+	)
+	(wire
+		(pts
+			(xy 63.5 149.86) (xy 63.5 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf4de977-4bfa-4298-a076-c1f9a1d4005c")
 	)
 	(wire
 		(pts
@@ -3312,6 +3536,16 @@
 			(type default)
 		)
 		(uuid "e806a840-5d8d-4905-8074-d40b7bd1c752")
+	)
+	(wire
+		(pts
+			(xy 69.85 147.32) (xy 69.85 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef197f28-ab57-4a71-9249-95cf8a12ad26")
 	)
 	(wire
 		(pts
@@ -5663,6 +5897,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:SM15T36CA")
+		(at 69.85 143.51 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5be83c90-fe5e-4b22-8e8a-521f7f931e85")
+		(property "Reference" "D5"
+			(at 72.39 142.2399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SM15T36CA"
+			(at 72.39 144.7799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 61.214 144.018 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/sm15t36a.pdf"
+			(at 63.246 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1500W (10/1000 μs) Bidirectional TVS Diode, VRM = 30.8V (IRM = 0.2 μA at 25°C), VBR = 34.2 ... 37.8V, 'BEV' marking, SMC"
+			(at 65.278 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "016665f9-5c5d-4209-88cd-2d4cbdcc5b79")
+		)
+		(pin "2"
+			(uuid "e50972f1-cd8c-4673-bc3b-02c491cd3086")
+		)
+		(instances
+			(project ""
+				(path "/e6144e29-1dc4-45a8-93e7-988a20131b94/0be82c74-fb54-4d7f-bce1-28060d710cf9"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 93.98 95.25 0)
 		(unit 1)
@@ -6923,7 +7227,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 63.5 146.05 0)
+		(at 66.04 153.67 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6932,7 +7236,7 @@
 		(fields_autoplaced yes)
 		(uuid "fb630dac-3a9a-4693-bca3-27c22e11572f")
 		(property "Reference" "#PWR036"
-			(at 63.5 152.4 0)
+			(at 66.04 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6941,7 +7245,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 63.5 151.13 0)
+			(at 66.04 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6949,7 +7253,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 63.5 146.05 0)
+			(at 66.04 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6958,7 +7262,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 63.5 146.05 0)
+			(at 66.04 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6967,7 +7271,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 63.5 146.05 0)
+			(at 66.04 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
