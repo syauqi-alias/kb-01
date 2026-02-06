@@ -8,4 +8,7 @@
   (lib (name "MAX2659ELT+T")(type "KiCad")(uri "${KIPRJMOD}/Library/ul_MAX2659ELT-T/KiCADv6/2026-01-23_17-08-10.kicad_sym")(options "")(descr ""))
   (lib (name "B39162B4327P810")(type "KiCad")(uri "${KIPRJMOD}/Library/B39162B4327P810/B39162B4327P810.kicad_sym")(options "")(descr ""))
   (lib (name "BMI270")(type "KiCad")(uri "${KIPRJMOD}/Library/BMI270/BMI270.kicad_sym")(options "")(descr ""))
+  (lib (name "LIS2MDL")(type "KiCad")(uri "${KIPRJMOD}/Library/LIS2MDL/LIS2MDL.kicad_sym")(options "")(descr ""))
+  (lib (name "BMP390L")(type "KiCad")(uri "${KIPRJMOD}/Library/BMP390L/BMP390L.kicad_sym")(options "")(descr ""))
+  (lib (name "SHT40-AD1B-R2")(type "KiCad")(uri "${KIPRJMOD}/Library/SHT40-AD1B-R2/SHT40-AD1B-R2.kicad_sym")(options "")(descr ""))
 )
