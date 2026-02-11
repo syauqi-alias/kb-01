@@ -11,4 +11,6 @@
   (lib (name "LIS2MDL")(type "KiCad")(uri "${KIPRJMOD}/Library/LIS2MDL/LIS2MDL.kicad_sym")(options "")(descr ""))
   (lib (name "BMP390L")(type "KiCad")(uri "${KIPRJMOD}/Library/BMP390L/BMP390L.kicad_sym")(options "")(descr ""))
   (lib (name "SHT40-AD1B-R2")(type "KiCad")(uri "${KIPRJMOD}/Library/SHT40-AD1B-R2/SHT40-AD1B-R2.kicad_sym")(options "")(descr ""))
+  (lib (name "TESEO-LIV4F")(type "KiCad")(uri "${KIPRJMOD}/Library/TESEO-LIV4F/TESEO-LIV4F.kicad_sym")(options "")(descr ""))
+  (lib (name "TLV704")(type "KiCad")(uri "${KIPRJMOD}/Library/ul_TLV70430DBVR/KiCADv6/2026-02-10_15-50-34.kicad_sym")(options "")(descr ""))
 )
