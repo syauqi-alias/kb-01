@@ -1,0 +1,124 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "CMT-0502-03-SMT-TR"
+   (description "CMT-0502-03-SMT-TR - 5 mm, 3 Vo-p, 75 dB, Surface Mount, Magnetic Audio Transducer Buzzer")
+   (family "ANA")
+   (package "CMT050203SMTTR")
+   (attribute "Datasheet Link" "https://www.sameskydevices.com/product/resource/CMT-0502-03-SMT-TR.pdf")
+   (attribute "Geometry.Height" "2.3mm")
+   (attribute "Manufacturer_Name" "Same Sky")
+   (attribute "Manufacturer_Part_Number" "CMT-0502-03-SMT-TR")
+   (attribute "Mouser Part Number" "")
+   (attribute "Mouser Price/Stock" "")
+   (attribute "Arrow Part Number" "CMT-0502-03-SMT-TR")
+   (attribute "Arrow Price/Stock" "https://www.arrow.com/en/products/cmt-0502-03-smt-tr/cui-devices?utm_currency=USD&region=europe")
+   (gate
+    (symbol "CMT-0502-03-SMT-TR")
+    (pin "+" 1 PS)
+    (pin "-" 2 PS)
+    (pin "NC" 3 NC)
+   )
+  )
+  (symbol "CMT-0502-03-SMT-TR"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 700 100) (pt 700 -200) (pt 200 -200) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 900 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "CMT050203SMTTR"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -2.5 2.5)
+      (pt 2.5 2.5)
+      (pt 2.5 -2.5)
+      (pt -2.5 -2.5)
+      (pt -2.5 2.5))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -3.85 3.5)
+      (pt 3.85 3.5)
+      (pt 3.85 -3.5)
+      (pt -3.85 -3.5)
+      (pt -3.85 3.5))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -0.6 -2.5)
+      (pt 0.6 -2.5))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -2.5 1)
+      (pt -2.5 -1))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -0.6 2.5)
+      (pt 2.5 2.5)
+      (pt 2.5 -1))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -3.4 -1.85)
+      (arc (pt -3.400 -1.850) (pt -3.400 -1.900) (pt -3.300 -1.800) (start 180.0) (sweep 180.0))
+      (pt -3.3 -1.85)
+      (arc (pt -3.300 -1.850) (pt -3.400 -1.900) (pt -3.300 -1.800) (start 180.0) (sweep .0))
+      (pt -3.4 -1.85))))
+   (leg 1 (pt -1.850 -1.850) (padstack 0))
+   (leg 2 (pt 1.850 -1.850) (padstack 0))
+   (leg 3 (pt -1.850 1.850) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 1.200 2.000 0 0 0.000))
+   )
+   (model "CMT-0502-03-SMT-TR.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

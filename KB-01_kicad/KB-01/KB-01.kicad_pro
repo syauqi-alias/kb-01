@@ -690,23 +690,27 @@
     ],
     [
       "8a655b9b-8849-4070-bc16-b30b70cfa2c5",
-      "battery_charger"
+      "Battery_charger"
     ],
     [
       "f9d53241-b903-4597-892d-d58932656724",
-      "5v_boost_conv"
+      "5V_boost_conv"
     ],
     [
       "0be82c74-fb54-4d7f-bce1-28060d710cf9",
-      "gnss"
+      "GNSS"
     ],
     [
       "e474c326-f80b-4652-be93-3ce49aa7493e",
-      "pcie-nvme"
+      "PCIe_NVMe"
     ],
     [
       "8f8a2829-aad0-4226-9c36-d614fdf3c6c8",
-      "sensors"
+      "Sensors"
+    ],
+    [
+      "223a1f40-08cb-4cda-b03a-4c087618db35",
+      "UI"
     ]
   ],
   "text_variables": {}

@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "CMT-0502-03-SMT-TR"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2025-12-09-08:05:59)
+    (mountForm default
+        (footprintRef "CMT050203SMTTR")
+        (spec "System")
+    )
+)

@@ -1,0 +1,72 @@
+(Japanese_coding: sjis)
+(function "ECS_20163404"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2025-12-09-08:05:59)
+    (utime 2025-12-26-20:39:17)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+        (port "3" (symbPinId 3) (portType INOUT))
+    )
+    (property "symbolName" "CMT-0502-03-SMT-TR")
+)
+
+
+(pinAssign "ECS_20163404"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2025-12-09-08:05:59)
+    (utime 2025-12-26-20:39:17)
+    (interface
+        (port "1" (symbPinId 1) (portName "+") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "-") (portType INOUT))
+        (port "3" (symbPinId 3) (portName "NC") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_20163404")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+                (port "3" (match "3"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "CMT-0502-03-SMT-TR")
+)
+
+
+(part "CMT-0502-03-SMT-TR"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2025-12-09-08:05:59)
+    (utime 2025-12-26-20:39:17)
+    (packageRef "CMT-0502-03-SMT-TR")
+    (pinAssignRef "ECS_20163404")
+    (interface
+        (port "1" (symbPinId 1) (portName "+") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "-") (portType INOUT))
+        (port "3" (symbPinId 3) (portName "NC") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "YES")
+    (property "refDesPrefix" "LS")
+    (property "description" "CMT-0502-03-SMT-TR - 5 mm, 3 Vo-p, 75 dB, Surface Mount, Magnetic Audio Transducer Buzzer")
+    (property "Manufacturer_Name" "Same Sky")
+    (property "Manufacturer_Part_Number" "CMT-0502-03-SMT-TR")
+    (property "Mouser_Part_Number" "")
+    (property "Mouser_Price/Stock" "")
+    (property "Arrow_Part_Number" "CMT-0502-03-SMT-TR")
+    (property "Arrow_Price/Stock" "https://www.arrow.com/en/products/cmt-0502-03-smt-tr/cui-devices?utm_currency=USD&region=europe")
+    (property "Datasheet_Link" "https://www.sameskydevices.com/product/resource/CMT-0502-03-SMT-TR.pdf")
+    (property "compAreaTopHeight" 2.3)
+)
+
+

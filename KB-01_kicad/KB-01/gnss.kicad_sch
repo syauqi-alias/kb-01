@@ -3074,12 +3074,20 @@
 		(uuid "f919dc97-4706-45a2-a667-4c6654afb5cb")
 	)
 	(no_connect
+		(at 156.21 41.91)
+		(uuid "005be9d3-e9c5-48df-a8cc-9e1e6dde360d")
+	)
+	(no_connect
 		(at 156.21 31.75)
 		(uuid "4216a6b8-60fe-4963-8a7f-5eb131338b94")
 	)
 	(no_connect
 		(at 115.57 36.83)
 		(uuid "4f19efdc-250b-4c86-8e26-cf5f0339f5db")
+	)
+	(no_connect
+		(at 156.21 39.37)
+		(uuid "e52bf7fc-bb77-4e86-a5ce-7072bf4913d4")
 	)
 	(wire
 		(pts
@@ -3440,16 +3448,6 @@
 			(type default)
 		)
 		(uuid "4e2a5259-482a-4dfb-a0f2-d98914ebf582")
-	)
-	(wire
-		(pts
-			(xy 156.21 39.37) (xy 161.29 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4f5bf2d9-2b7a-49ac-9412-07cb65f973d0")
 	)
 	(wire
 		(pts
@@ -4110,16 +4108,6 @@
 			(type default)
 		)
 		(uuid "f7bca284-c6af-4e38-8a40-f24aad6eed4c")
-	)
-	(wire
-		(pts
-			(xy 156.21 41.91) (xy 161.29 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "faee8744-f7a3-47e6-a169-b1951bc67c58")
 	)
 	(image
 		(at -9.525 -71.755)
@@ -5539,28 +5527,6 @@
 			(justify left)
 		)
 		(uuid "d23b7472-8ebf-4b66-8d81-1bd73e689390")
-	)
-	(hierarchical_label "GNSS_SCL"
-		(shape input)
-		(at 161.29 39.37 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e7167962-4ca1-4544-abfa-1e3202db8b39")
-	)
-	(hierarchical_label "GNSS_SDA"
-		(shape input)
-		(at 161.29 41.91 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e739a442-632d-4c1a-8c43-fae9fbfa9abb")
 	)
 	(symbol
 		(lib_id "Device:C")

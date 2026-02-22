@@ -1,0 +1,18 @@
+.CMT-0502-03-SMT-TR :1 ;CMT-0502-03-SMT-TR - 5 mm, 3 Vo-p, 75 dB, Surface Mount, Magnetic Audio Transducer Buzzer
+CMT050203SMTTR
+*STM LS
+*NGS
+*PLB 1="+" 2="-" 3="NC"
+*MXP 3
+*DFN CMT-0502-03-SMT-TR
+~!Manufacturer_Name (Same Sky)
+~!Manufacturer_Part_Number (CMT-0502-03-SMT-TR)
+~!Mouser Part Number (-)
+~!Mouser Price/Stock (-)
+~!Arrow Part Number (CMT-0502-03-SMT-TR)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/cmt-0502-03-smt-tr/cui-devices?utm_currency=USD&region=europe)
+~!Link Datasheet (https://www.sameskydevices.com/product/resource/CMT-0502-03-SMT-TR.pdf)
+~!Height (2.3mm)
+~!3D_Model (CMT-0502-03-SMT-TR)
+CMT-0502-03-SMT-TR
+1.1!U 2.1!U 3.1!U 

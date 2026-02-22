@@ -7267,6 +7267,17 @@
 		)
 		(uuid "30ef1b7b-7f2f-452b-bb3c-381cc2caa6c4")
 	)
+	(hierarchical_label "GPIO19"
+		(shape input)
+		(at 92.71 59.69 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "323931a7-4eb7-4a01-8fdb-d619f517691f")
+	)
 	(hierarchical_label "+5v"
 		(shape input)
 		(at 182.88 125.73 0)
@@ -7311,6 +7322,17 @@
 		)
 		(uuid "5cc9af5a-d724-4a89-8770-243fea633e78")
 	)
+	(hierarchical_label "GPIO18"
+		(shape input)
+		(at 182.88 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5ec48cd7-fd8e-4ecc-9177-9c58612a0054")
+	)
 	(hierarchical_label "ID_SC"
 		(shape output)
 		(at 182.88 72.39 0)
@@ -7321,17 +7343,6 @@
 			(justify left)
 		)
 		(uuid "628efffb-2458-42d4-9599-a55193f2d3b1")
-	)
-	(hierarchical_label "I2C3_SDA"
-		(shape input)
-		(at 92.71 64.77 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "638ddb2e-3a94-41f9-9077-6cd1a3d76dc3")
 	)
 	(hierarchical_label "I2C1_SCL"
 		(shape input)
@@ -7376,6 +7387,17 @@
 			(justify right)
 		)
 		(uuid "817e15e5-241d-4042-b805-0bcf7cc316d6")
+	)
+	(hierarchical_label "GPIO7"
+		(shape output)
+		(at 182.88 74.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "88e8ce95-a114-4b8e-a6c3-0e61e67a7ae8")
 	)
 	(hierarchical_label "I2C2_SDA"
 		(shape input)
@@ -7454,16 +7476,16 @@
 		)
 		(uuid "9d5d1848-7c79-4710-ba82-29e7fb727efb")
 	)
-	(hierarchical_label "I2C3_SCL"
-		(shape input)
-		(at 182.88 74.93 0)
+	(hierarchical_label "Coin_bat"
+		(shape output)
+		(at 52.07 92.71 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "afed15cc-3154-4f3e-80bf-34595853e1ed")
+		(uuid "a87be375-a7e2-4baa-af56-ca4c26606cf1")
 	)
 	(hierarchical_label "CC2"
 		(shape output)
@@ -7542,6 +7564,28 @@
 		)
 		(uuid "d4930fd4-76a1-4580-ad4d-8df13a1e9f60")
 	)
+	(hierarchical_label "GPIO12"
+		(shape input)
+		(at 182.88 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "de74a7c1-b8b2-4039-bf61-397ba5a89b3c")
+	)
+	(hierarchical_label "GPIO13"
+		(shape input)
+		(at 92.71 62.23 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e1c7f52b-0001-4715-b760-295b4b4f524b")
+	)
 	(hierarchical_label "FG_INT"
 		(shape input)
 		(at 92.71 85.09 180)
@@ -7552,6 +7596,17 @@
 			(justify right)
 		)
 		(uuid "edb8cc68-dba2-491e-a4c4-2571dbedb8a9")
+	)
+	(hierarchical_label "GPIO6"
+		(shape input)
+		(at 92.71 64.77 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f69cdbc2-ee94-4600-b8b1-2e73d5d6a834")
 	)
 	(hierarchical_label "GNSS_WAKEUP"
 		(shape input)

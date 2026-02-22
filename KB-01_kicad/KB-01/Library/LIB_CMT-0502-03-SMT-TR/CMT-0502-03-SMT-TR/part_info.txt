@@ -1,0 +1,9 @@
+Manufacturer=Same Sky
+PartNumber=CMT-0502-03-SMT-TR
+PartCategory=Loudspeaker or Buzzer
+PackageCategory=Other
+PinCount=3
+Version=3.2
+Released=2025-12-09 08:05:59
+Downloaded=2026-02-21 12:49:59
+3D=Y
