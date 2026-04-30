@@ -8149,7 +8149,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_CK_KSC6xxJ"
 			(at 120.65 95.25 0)
 			(hide yes)
 			(show_name no)
