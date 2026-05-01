@@ -6226,6 +6226,17 @@
 				)
 			)
 		)
+		(property "mouser" "859-LTST-C190KGKT"
+			(at 189.23 81.28 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "4c931cf1-265a-4a97-bb45-dfe3c35a7eea")
 		)

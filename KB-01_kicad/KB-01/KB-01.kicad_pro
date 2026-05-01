@@ -804,7 +804,7 @@
           "show": false
         }
       ],
-      "filter_string": "sw",
+      "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
       "name": "",

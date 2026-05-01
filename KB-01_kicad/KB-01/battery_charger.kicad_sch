@@ -6761,6 +6761,17 @@
 				)
 			)
 		)
+		(property "mouser" "603-RC0603FR-072K21L"
+			(at 219.71 27.94 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "d04d9aa6-3e08-499e-bfc3-bedbe005db58")
 		)
@@ -7432,7 +7443,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7uF"
+		(property "Value" "4.7uF 16V"
 			(at 255.27 146.0499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7466,6 +7477,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 251.46 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser" "81-GRM188Z71C475KE1D"
 			(at 251.46 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -7773,6 +7795,17 @@
 				)
 			)
 		)
+		(property "mouser" "595-TLV70430DBVR"
+			(at 223.52 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "4f799a81-5016-4c50-bae6-977c0231cdfa")
 		)
@@ -7941,6 +7974,17 @@
 				)
 			)
 		)
+		(property "mouser" "187-CL10B105KA8NNNC"
+			(at 196.85 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "bc0c3c18-3f8a-4375-ab0b-8a2da1ce1667")
 		)
@@ -8012,6 +8056,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 203.2 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser" "81-GRM188Z71C475KE1D"
 			(at 203.2 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -8173,6 +8228,17 @@
 		)
 		(property "Description" "Push button switch, generic, two pins"
 			(at 125.73 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser" "667-EVQP7B01P"
+			(at 125.73 95.25 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8701,6 +8767,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 153.67 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser" "187-CL10B105KA8NNNC"
 			(at 153.67 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -9275,6 +9352,17 @@
 				)
 			)
 		)
+		(property "mouser" "81-GRM188R61E106KA3D"
+			(at 250.19 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "63eb0001-6ad2-4855-8581-868ada963e47")
 		)
@@ -9448,6 +9536,17 @@
 				)
 			)
 		)
+		(property "mouser" "81-GRM188R61E106KA3D"
+			(at 234.95 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "774b5a8e-b978-488d-98b0-1f75acef3392")
 		)
@@ -9520,6 +9619,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 166.37 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser" "708-RMCF0603FT133R"
 			(at 166.37 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -9682,6 +9792,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 209.55 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser" "81-GRM188R61E106KA3D"
 			(at 209.55 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -10007,6 +10128,17 @@
 				)
 			)
 		)
+		(property "mouser" "81-GRM188R61E106KA3D"
+			(at 227.33 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "ac522df5-dc37-4743-a828-c4f28af78dd5")
 		)
@@ -10077,6 +10209,17 @@
 			)
 		)
 		(property "Description" "Dual Schottky diode, common cathode on pin 3"
+			(at 187.96 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser" "726-BAT5405WH6327 "
 			(at 187.96 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -10182,6 +10325,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 210.82 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser" "859-LTST-C190KGKT"
 			(at 210.82 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -10418,6 +10572,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 212.09 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser" "80-C0603C473K3R"
 			(at 212.09 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -12209,7 +12374,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-AM_1x02_P2.50mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-SM4-TB_1x02-1MP_P2.00mm_Vertical"
 			(at 264.16 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -12232,6 +12397,17 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 264.16 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser" "306-B2BPHSM4TBLFSN"
 			(at 264.16 77.47 0)
 			(hide yes)
 			(show_name no)
