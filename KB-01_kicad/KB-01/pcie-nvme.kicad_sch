@@ -2782,6 +2782,12 @@
 		(uuid "e3d20c91-0f38-45e4-82f5-c58fa9c84d0e")
 	)
 	(junction
+		(at 129.54 173.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0097d3f6-e5a6-413b-8654-f98a0a107c75")
+	)
+	(junction
 		(at 97.79 182.88)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2896,12 +2902,6 @@
 		(uuid "622b7146-54a3-4445-a581-6b2299e08d39")
 	)
 	(junction
-		(at 129.54 166.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "67f8dbdb-b069-4435-ac13-e127b782eb96")
-	)
-	(junction
 		(at 213.36 152.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2912,6 +2912,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7d82d924-933d-4f37-a7c1-7ce75e93fb6b")
+	)
+	(junction
+		(at 129.54 166.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8559619e-ca49-4482-a6b4-7f6899aceb47")
 	)
 	(junction
 		(at 88.9 182.88)
@@ -3026,12 +3032,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f120be2a-cf32-4ea8-b5e0-e6b6ee0d9080")
-	)
-	(junction
-		(at 129.54 173.99)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f82954f0-3c63-422b-a4ec-6f946ec5dafd")
 	)
 	(junction
 		(at 162.56 139.7)
@@ -3467,7 +3467,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 166.37) (xy 138.43 166.37)
+			(xy 119.38 166.37) (xy 129.54 166.37)
 		)
 		(stroke
 			(width 0)
@@ -3514,16 +3514,6 @@
 			(type default)
 		)
 		(uuid "5f412279-7c40-41cb-a122-94ff2b25aaad")
-	)
-	(wire
-		(pts
-			(xy 119.38 166.37) (xy 129.54 166.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "63c860f1-0113-4ce6-b456-22a278577dc9")
 	)
 	(wire
 		(pts
@@ -3694,6 +3684,16 @@
 			(type default)
 		)
 		(uuid "9111f16d-42f4-4d6b-80dc-3918d420a7a0")
+	)
+	(wire
+		(pts
+			(xy 129.54 166.37) (xy 138.43 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "944ff485-efa2-48f4-a433-9d4295d0a8a0")
 	)
 	(wire
 		(pts
@@ -4462,7 +4462,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10uF10V"
 			(at 176.53 171.4499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4880,7 +4880,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10uF10V"
 			(at 57.15 171.4499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5121,99 +5121,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 129.54 170.18 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2b86c1ed-2f8b-429d-bdb4-9d61377a14d6")
-		(property "Reference" "R1"
-			(at 132.08 168.9099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TS3USB30ERSWR"
-			(at 132.08 171.4499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_DFN_QFN:UQFN-10_1.4x1.8mm_P0.4mm"
-			(at 127.762 170.18 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/ts3usb30e.pdf"
-			(at 129.54 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "ESD-Protected, High-Speed USB 2.0 (480-Mbps) 1:2 Multiplexer/Demultiplexer Switch With Single Enable, UQFN-10"
-			(at 129.54 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "mouser" "595-TS3USB30ERSWR"
-			(at 129.54 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e50b396a-ef2f-44a6-91e8-4619e08cde03")
-		)
-		(pin "2"
-			(uuid "9142006f-4cd8-40c5-a68e-ba8511ea5e8d")
-		)
-		(instances
-			(project "KB-01"
-				(path "/e6144e29-1dc4-45a8-93e7-988a20131b94/e474c326-f80b-4652-be93-3ce49aa7493e"
-					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 245.11 148.59 0)
 		(unit 1)
@@ -5329,7 +5236,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10uF10V"
 			(at 165.1 171.4499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5422,7 +5329,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10uF10V"
 			(at 45.72 171.4499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5969,6 +5876,153 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 129.54 170.18 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6f41d895-18f4-40bf-9073-e3445b854388")
+		(property "Reference" "R30"
+			(at 131.318 169.0116 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10K 1%"
+			(at 131.318 171.323 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 127.762 170.18 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/mcr-e.pdf"
+			(at 129.54 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 129.54 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field4" "Farnell"
+			(at 129.54 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field5" ""
+			(at 129.54 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field7" "Rohm"
+			(at 129.54 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" "MCR01MZPF1002"
+			(at 129.54 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Description" "Resistor 10K M1005 1% 63mW"
+			(at 129.54 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser" "708-RMCF0603FT10K0"
+			(at 129.54 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "62db096a-4489-416e-9278-c73176659458")
+		)
+		(pin "2"
+			(uuid "4f5b22df-70e9-430f-8e55-6a68471a892e")
+		)
+		(instances
+			(project "KB-01"
+				(path "/e6144e29-1dc4-45a8-93e7-988a20131b94/e474c326-f80b-4652-be93-3ce49aa7493e"
+					(reference "R30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 88.9 185.42 0)
 		(unit 1)
@@ -6069,7 +6123,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10uF10V"
 			(at 142.24 171.4499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6277,7 +6331,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10uF10V"
 			(at 153.67 171.4499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6859,6 +6913,17 @@
 		)
 		(property "Description" "Inductor"
 			(at 109.22 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser" "652-SRP5030CC-2R2M"
+			(at 109.22 166.37 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

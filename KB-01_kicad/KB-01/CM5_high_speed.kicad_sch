@@ -8004,6 +8004,17 @@
 				)
 			)
 		)
+		(property "mouser" "798-FH12-22S-0.5SH55"
+			(at 242.57 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "47b30856-8f4f-494e-bc1a-452e727c11c4")
 		)

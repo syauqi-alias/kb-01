@@ -544,6 +544,32 @@
 		)
 		(uuid "51262e85-16b1-4747-9a73-9664ae13d7ad")
 	)
+	(text "Done"
+		(exclude_from_sim no)
+		(at 218.44 49.276 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 59 255 63 1)
+			)
+		)
+		(uuid "54197576-eb3f-4edb-896e-7607a1dca73b")
+	)
+	(text "Done"
+		(exclude_from_sim no)
+		(at 178.562 49.276 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 59 255 63 1)
+			)
+		)
+		(uuid "6444bb7d-e0f4-469c-9286-f45d766bdd5f")
+	)
 	(text "Has internal \n4.7k pull-up"
 		(exclude_from_sim no)
 		(at 218.186 114.554 0)
@@ -605,6 +631,19 @@
 			)
 		)
 		(uuid "97871bd9-1a76-4a2c-b757-cc01ebdb9bea")
+	)
+	(text "Done"
+		(exclude_from_sim no)
+		(at 128.524 48.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 59 255 63 1)
+			)
+		)
+		(uuid "9eb3d0a9-3da8-4305-841b-1c1a806f0d3c")
 	)
 	(text "Act as a\nperipheral"
 		(exclude_from_sim no)
