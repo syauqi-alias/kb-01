@@ -3165,6 +3165,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Passive antenna"
+		(exclude_from_sim no)
+		(at 160.02 34.036 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "17e505fe-4238-4d47-8e22-733dff17eb8a")
+	)
 	(text "RF Front-end"
 		(exclude_from_sim no)
 		(at 143.764 137.668 0)
@@ -5833,6 +5843,17 @@
 				)
 			)
 		)
+		(property "SNAPEDA_PN" ""
+			(at 88.9 156.21 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "1ffbd3ad-2fc7-400a-b4ba-b2818209a513")
 		)
@@ -5911,6 +5932,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 234.95 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SNAPEDA_PN" ""
 			(at 234.95 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -6032,7 +6064,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "248e8d08-906b-411a-9e28-e8c49f8c49b0")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR023"
 			(at 69.85 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -6098,7 +6130,7 @@
 			)
 			(project "KB-01"
 				(path "/e6144e29-1dc4-45a8-93e7-988a20131b94/0be82c74-fb54-4d7f-bce1-28060d710cf9"
-					(reference "#PWR?")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -6218,6 +6250,17 @@
 				(justify bottom)
 			)
 		)
+		(property "SNAPEDA_PN" ""
+			(at 204.47 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "2cefcfc6-5c5c-4c8f-94e6-0c192ee77b5b")
 		)
@@ -6305,6 +6348,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 256.54 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SNAPEDA_PN" ""
 			(at 256.54 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -6414,6 +6468,17 @@
 				)
 			)
 		)
+		(property "SNAPEDA_PN" ""
+			(at 234.95 82.55 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "7fccd8cc-83bd-4160-af25-1f7858d330d7")
 		)
@@ -6492,6 +6557,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 191.77 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SNAPEDA_PN" ""
 			(at 191.77 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -6767,6 +6843,17 @@
 				)
 			)
 		)
+		(property "SNAPEDA_PN" ""
+			(at 82.55 109.22 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "44d2b576-25ce-4816-9013-21782ec31924")
 		)
@@ -6856,6 +6943,17 @@
 			)
 		)
 		(property "mouser" "511-TESEO-LIV3F"
+			(at 107.95 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SNAPEDA_PN" ""
 			(at 107.95 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -7012,6 +7110,17 @@
 				)
 			)
 		)
+		(property "SNAPEDA_PN" ""
+			(at 246.38 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "5"
 			(uuid "f819644c-b0f1-4275-8bba-9733a050daf1")
 		)
@@ -7100,6 +7209,17 @@
 		)
 		(property "Description" "1500W (10/1000 μs) Bidirectional TVS Diode, VRM = 30.8V (IRM = 0.2 μA at 25°C), VBR = 34.2 ... 37.8V, 'BEV' marking, SMC"
 			(at 74.168 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SNAPEDA_PN" ""
+			(at 78.74 162.56 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7280,6 +7400,17 @@
 				)
 			)
 		)
+		(property "SNAPEDA_PN" ""
+			(at 88.9 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ea9dd676-e734-4a0b-b5fb-ea6127638e9d")
 		)
@@ -7359,6 +7490,28 @@
 		)
 		(property "Description" "1500W (10/1000 μs) Bidirectional TVS Diode, VRM = 30.8V (IRM = 0.2 μA at 25°C), VBR = 34.2 ... 37.8V, 'BEV' marking, SMC"
 			(at 75.438 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SNAPEDA_PN" ""
+			(at 80.01 49.53 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser" "511-SM15T36CAY"
+			(at 80.01 49.53 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7559,6 +7712,17 @@
 				)
 			)
 		)
+		(property "SNAPEDA_PN" ""
+			(at 232.41 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a0eb2735-c02e-4528-99ea-54999ce43d0e")
 		)
@@ -7639,6 +7803,17 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 231.14 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SNAPEDA_PN" ""
+			(at 231.14 151.13 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7820,6 +7995,17 @@
 				)
 			)
 		)
+		(property "SNAPEDA_PN" ""
+			(at 77.47 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b8179708-b9e9-4e02-a056-f60262f30831")
 		)
@@ -7853,7 +8039,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9127e1e0-6590-4304-b12b-a7759aefe610")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR051"
 			(at 158.75 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -7919,7 +8105,7 @@
 			)
 			(project "KB-01"
 				(path "/e6144e29-1dc4-45a8-93e7-988a20131b94/0be82c74-fb54-4d7f-bce1-28060d710cf9"
-					(reference "#PWR?")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -7982,6 +8168,17 @@
 			)
 		)
 		(property "Description" ""
+			(at 113.03 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SNAPEDA_PN" ""
 			(at 113.03 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -8081,6 +8278,17 @@
 		)
 		(property "Description" "Inductor"
 			(at 101.6 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SNAPEDA_PN" ""
+			(at 101.6 156.21 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8262,6 +8470,17 @@
 				)
 			)
 		)
+		(property "SNAPEDA_PN" ""
+			(at 231.14 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ee9bc4ff-bbdd-4d2a-852b-6433016b3242")
 		)
@@ -8350,6 +8569,17 @@
 				)
 			)
 		)
+		(property "SNAPEDA_PN" ""
+			(at 177.8 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "dcd4762b-e08f-4e4d-b0cf-9d51500d4382")
 		)
@@ -8394,7 +8624,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10uF 6.3V"
 			(at 181.61 29.2099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8428,6 +8658,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 177.8 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SNAPEDA_PN" ""
+			(at 177.8 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser" "81-GRM188R60J106ME47"
 			(at 177.8 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -8510,6 +8762,17 @@
 			)
 		)
 		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+			(at 72.39 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SNAPEDA_PN" ""
 			(at 72.39 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -8730,7 +8993,7 @@
 				)
 			)
 		)
-		(property "Value" "56pF"
+		(property "Value" "56pF 50V"
 			(at 93.98 36.83 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8773,6 +9036,28 @@
 				)
 			)
 		)
+		(property "SNAPEDA_PN" ""
+			(at 93.98 41.91 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser" "81-GRM1555C1H560JA1J "
+			(at 93.98 41.91 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "af8a6ba7-f561-46f8-a179-bd9a7cd7baf9")
 		)
@@ -8806,7 +9091,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ef1a6430-83b3-4988-9ac1-b65c151d8971")
-		(property "Reference" "U?"
+		(property "Reference" "U11"
 			(at 135.89 17.78 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8826,7 +9111,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TESEO-LIV4F:XCVR_TESEO-LIV4F"
+		(property "Footprint" "TESEO-LIV4FTR:TESEOLIV4FTR"
 			(at 135.89 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -9004,6 +9289,28 @@
 				(justify bottom)
 			)
 		)
+		(property "SNAPEDA_PN" ""
+			(at 135.89 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser" "511-TESEO-LIV4FTR "
+			(at 135.89 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "11"
 			(uuid "b5e6875d-da3e-4850-8e9e-fac8be5503be")
 		)
@@ -9067,7 +9374,7 @@
 			)
 			(project "KB-01"
 				(path "/e6144e29-1dc4-45a8-93e7-988a20131b94/0be82c74-fb54-4d7f-bce1-28060d710cf9"
-					(reference "U?")
+					(reference "U11")
 					(unit 1)
 				)
 			)
@@ -9095,7 +9402,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100nF 6.3V"
 			(at 168.91 29.2099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9129,6 +9436,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 165.1 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SNAPEDA_PN" ""
+			(at 165.1 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser" "581-KGM15AR70J104KT"
 			(at 165.1 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -9334,7 +9663,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fd2e0d4e-bba8-473c-83fd-135a491e6fa3")
-		(property "Reference" "J?"
+		(property "Reference" "J10"
 			(at 66.04 40.9331 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9389,6 +9718,17 @@
 				)
 			)
 		)
+		(property "SNAPEDA_PN" ""
+			(at 69.85 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "54e9e770-c8ba-49d5-9913-4d3eb0465114")
 		)
@@ -9404,7 +9744,7 @@
 			)
 			(project "KB-01"
 				(path "/e6144e29-1dc4-45a8-93e7-988a20131b94/0be82c74-fb54-4d7f-bce1-28060d710cf9"
-					(reference "J?")
+					(reference "J10")
 					(unit 1)
 				)
 			)

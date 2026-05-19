@@ -8056,6 +8056,17 @@
 				)
 			)
 		)
+		(property "SNAPEDA_PN" ""
+			(at 38.1 43.18 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "32ad7fbe-e026-4d57-9f6b-f4af30c894d9")
 		)
@@ -8211,6 +8222,17 @@
 				)
 			)
 		)
+		(property "SNAPEDA_PN" ""
+			(at 185.42 35.56 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "283aa75f-5d68-4433-9a2c-8c31d9e8d924")
 		)
@@ -8347,6 +8369,17 @@
 				)
 			)
 		)
+		(property "SNAPEDA_PN" ""
+			(at 43.18 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "afb3c71c-5c1b-4a5e-a94b-014fff5120e7")
 		)
@@ -8471,6 +8504,17 @@
 			)
 		)
 		(property "Part Description" "3pin 0.1\" connector"
+			(at 191.77 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SNAPEDA_PN" ""
 			(at 191.77 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -8653,6 +8697,17 @@
 		)
 		(property "Field5" "2x 10164227-1001A1RLF"
 			(at 138.43 24.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SNAPEDA_PN" ""
+			(at 140.97 85.09 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9403,6 +9458,17 @@
 				)
 			)
 		)
+		(property "SNAPEDA_PN" ""
+			(at 43.18 38.1 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "6c57e51b-3e4f-4b4a-a080-cf26957dae2d")
 		)
@@ -9540,6 +9606,17 @@
 			)
 		)
 		(property "Field8" "125049511"
+			(at 185.42 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SNAPEDA_PN" ""
 			(at 185.42 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -9752,6 +9829,17 @@
 				)
 			)
 		)
+		(property "SNAPEDA_PN" ""
+			(at 43.18 71.12 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "9843560a-ccf5-47dd-bf25-d2df0bffae2b")
 		)
@@ -9899,6 +9987,17 @@
 				)
 			)
 		)
+		(property "SNAPEDA_PN" ""
+			(at 43.18 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "7d775546-8fb4-4939-bfc2-bca555ba0ecd")
 		)
@@ -10026,6 +10125,17 @@
 		)
 		(property "Part Description" "Test point"
 			(at 191.77 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SNAPEDA_PN" ""
+			(at 191.77 41.91 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

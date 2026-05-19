@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TESEO-LIV4FTR
+D Tiny dual-band GNSS low power and measurement engine modules
+K
+F https://www.st.com/resource/en/datasheet/teseo-liv4f.pdf
+$ENDCMP
+#
+#End Doc Library

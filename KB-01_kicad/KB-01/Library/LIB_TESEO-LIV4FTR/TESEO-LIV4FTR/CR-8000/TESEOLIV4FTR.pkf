@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "TESEOLIV4FTR"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "TESEOLIV4FTR")
+        (spec "default")
+    )
+)

@@ -8015,6 +8015,17 @@
 				)
 			)
 		)
+		(property "SNAPEDA_PN" ""
+			(at 242.57 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "47b30856-8f4f-494e-bc1a-452e727c11c4")
 		)
@@ -8167,6 +8178,17 @@
 		)
 		(property "Field5" "2x 10164227-1001A1RLF"
 			(at 86.36 27.94 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SNAPEDA_PN" ""
+			(at -53.34 93.98 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

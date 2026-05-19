@@ -1555,6 +1555,17 @@
 				)
 			)
 		)
+		(property "SNAPEDA_PN" ""
+			(at 227.33 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "ed26f70b-1542-4d22-8cf8-77a8635d40d6")
 		)
@@ -1637,6 +1648,17 @@
 			)
 		)
 		(property "mouser" "81-ZRB18AR61C226ME1L"
+			(at 175.26 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SNAPEDA_PN" ""
 			(at 175.26 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -1818,6 +1840,17 @@
 				)
 			)
 		)
+		(property "SNAPEDA_PN" ""
+			(at 161.29 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d1d75231-4018-4a69-a127-1702ea195766")
 		)
@@ -1900,6 +1933,17 @@
 			)
 		)
 		(property "mouser" "581-0603YC104K4T4A"
+			(at 109.22 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SNAPEDA_PN" ""
 			(at 109.22 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -2002,6 +2046,17 @@
 				)
 			)
 		)
+		(property "SNAPEDA_PN" ""
+			(at 189.23 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "ae648ef0-6700-4431-8141-36f776675cac")
 		)
@@ -2083,6 +2138,17 @@
 			)
 		)
 		(property "mouser" "994-XAL7030-102MEC"
+			(at 138.43 82.55 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SNAPEDA_PN" ""
 			(at 138.43 82.55 90)
 			(hide yes)
 			(show_name no)
@@ -2419,6 +2485,17 @@
 				)
 			)
 		)
+		(property "SNAPEDA_PN" ""
+			(at 214.63 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "74418efc-a948-463c-8030-6009526020d3")
 		)
@@ -2501,6 +2578,17 @@
 			)
 		)
 		(property "mouser" "81-ZRB18AR61C226ME1L"
+			(at 201.93 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SNAPEDA_PN" ""
 			(at 201.93 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -2594,6 +2682,17 @@
 			)
 		)
 		(property "mouser" "595-TPS61022RWUT"
+			(at 138.43 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SNAPEDA_PN" ""
 			(at 138.43 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -2712,6 +2811,17 @@
 				)
 			)
 		)
+		(property "SNAPEDA_PN" ""
+			(at 161.29 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "664a4038-9783-47d3-b5ee-1e293718b71c")
 		)
@@ -2804,6 +2914,17 @@
 				)
 			)
 		)
+		(property "SNAPEDA_PN" ""
+			(at 96.52 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "9710361b-b1b3-45aa-8f8c-1af8c3266646")
 		)
@@ -2886,6 +3007,17 @@
 			)
 		)
 		(property "mouser" "81-ZRB18AR61C226ME1L"
+			(at 82.55 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SNAPEDA_PN" ""
 			(at 82.55 86.36 0)
 			(hide yes)
 			(show_name no)

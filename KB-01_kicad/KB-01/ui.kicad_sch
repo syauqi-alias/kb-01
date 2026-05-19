@@ -2613,6 +2613,17 @@
 				)
 			)
 		)
+		(property "SNAPEDA_PN" ""
+			(at 64.77 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "20deb812-ebb0-4dbd-ba8c-f6959308d0ff")
 		)
@@ -2683,6 +2694,17 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 228.6 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SNAPEDA_PN" ""
 			(at 228.6 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -2764,6 +2786,17 @@
 		)
 		(property "Description" "Resistor"
 			(at 144.78 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SNAPEDA_PN" ""
+			(at 144.78 124.46 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2877,6 +2910,17 @@
 				)
 			)
 		)
+		(property "SNAPEDA_PN" ""
+			(at 166.37 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "42270cc5-13e3-43c7-bd10-125ee44b0253")
 		)
@@ -2980,6 +3024,17 @@
 				)
 			)
 		)
+		(property "SNAPEDA_PN" ""
+			(at 73.66 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "24ead028-2f52-491c-8581-5cef021b632e")
 		)
@@ -3062,6 +3117,17 @@
 			)
 		)
 		(property "mouser" "71-CRCW060310K0FKEE"
+			(at 151.13 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SNAPEDA_PN" ""
 			(at 151.13 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -3176,6 +3242,17 @@
 				)
 			)
 		)
+		(property "SNAPEDA_PN" ""
+			(at 102.87 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "3fa663ad-dcc1-4d6b-a081-3c1206e7a0ab")
 		)
@@ -3246,6 +3323,17 @@
 		)
 		(property "Description" "Rotary encoder, dual channel, incremental quadrate outputs, with switch and MP Pin"
 			(at 90.17 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SNAPEDA_PN" ""
+			(at 90.17 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3337,6 +3425,17 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 177.8 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SNAPEDA_PN" ""
 			(at 177.8 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -3441,6 +3540,17 @@
 			)
 		)
 		(property "LCSC" ""
+			(at 217.17 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SNAPEDA_PN" ""
 			(at 217.17 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -3775,6 +3885,17 @@
 				(justify left top)
 			)
 		)
+		(property "SNAPEDA_PN" ""
+			(at 160.02 93.98 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "7efd5a86-d16b-4059-8b9d-5cb3d5e1ee07")
 		)
@@ -3872,6 +3993,17 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 149.86 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SNAPEDA_PN" ""
+			(at 149.86 105.41 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4061,6 +4193,17 @@
 				)
 			)
 		)
+		(property "SNAPEDA_PN" ""
+			(at 73.66 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "6b178dc7-859d-45ae-888a-a84835eee45b")
 		)
@@ -4153,6 +4296,17 @@
 			)
 		)
 		(property "LCSC" ""
+			(at 105.41 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SNAPEDA_PN" ""
 			(at 105.41 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -4265,6 +4419,17 @@
 				)
 			)
 		)
+		(property "SNAPEDA_PN" ""
+			(at 64.77 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b98afe33-0f3e-4390-8012-b379438c501f")
 		)
@@ -4340,6 +4505,17 @@
 			)
 		)
 		(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
+			(at 157.48 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SNAPEDA_PN" ""
 			(at 157.48 124.46 0)
 			(hide yes)
 			(show_name no)

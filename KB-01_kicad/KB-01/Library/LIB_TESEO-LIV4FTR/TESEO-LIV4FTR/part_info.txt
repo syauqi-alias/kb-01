@@ -1,0 +1,9 @@
+Manufacturer=STMicroelectronics
+PartNumber=TESEO-LIV4FTR
+PartCategory=Integrated Circuit
+PackageCategory=Other
+PinCount=18
+Version=3.3
+Released=2023-04-20 08:21:49
+Downloaded=2026-05-19 11:43:13
+3D=Y

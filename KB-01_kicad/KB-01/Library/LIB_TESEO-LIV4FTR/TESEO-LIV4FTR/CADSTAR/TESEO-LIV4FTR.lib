@@ -1,0 +1,18 @@
+.TESEO-LIV4FTR :1 ;Tiny dual-band GNSS low power and measurement engine modules
+TESEOLIV4FTR
+*STM IC
+*NGS
+*PLB 1="GND" 2="UART-TX" 3="UART-RX" 4="PPS" 5="WAKEUP" 6="VBAT" 7="RESERVED_1" 8="VCC" 9="NRESET" 10="GND_RF_1" 11="RF_IN" 12="GND_RF_2" 13="RESERVED_2" 14="VCC_RF" 15="RESERVED_3" 16="I2C_SDA" 17="I2C_SCL" 18="PRG"
+*MXP 18
+*DFN TESEO-LIV4FTR
+~!Manufacturer_Name (STMicroelectronics)
+~!Manufacturer_Part_Number (TESEO-LIV4FTR)
+~!Mouser Part Number (511-TESEO-LIV4FTR)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/STMicroelectronics/TESEO-LIV4FTR?qs=By6Nw2ByBD3%252BjjBvGBu5LQ%3D%3D)
+~!Arrow Part Number (TESEO-LIV4FTR)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/teseo-liv4ftr/stmicroelectronics?utm_currency=USD&region=nac)
+~!Link Datasheet (https://www.st.com/resource/en/datasheet/teseo-liv4f.pdf)
+~!Height (2.3mm)
+~!3D_Model (TESEO-LIV4FTR)
+TESEO-LIV4FTR
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 9.1!U 10.1!U 11.1!U 12.1!U 13.1!U 14.1!U 15.1!U 16.1!U 17.1!U 18.1!U 

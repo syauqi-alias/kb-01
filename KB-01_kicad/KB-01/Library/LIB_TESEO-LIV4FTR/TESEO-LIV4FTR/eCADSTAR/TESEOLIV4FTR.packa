@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "TESEO-LIV4FTR"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2023-04-20-08:21:50)
+    (mountForm default
+        (footprintRef "TESEOLIV4FTR")
+        (spec "System")
+    )
+)

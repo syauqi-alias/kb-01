@@ -493,38 +493,59 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "BMP390L:BMP390L"
-			(pin_names
-				(offset 1.016)
-			)
+		(symbol "BMP581:BMP581"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "U"
-				(at -15.24 15.24 0)
+				(at 26.67 17.78 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
+					(justify left top)
 				)
 			)
-			(property "Value" "BMP390L"
-				(at -15.24 -15.24 0)
+			(property "Value" "BMP581"
+				(at 26.67 15.24 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
+					(justify left top)
 				)
 			)
-			(property "Footprint" "BMP390L:XDCR_BMP390L"
+			(property "Footprint" "BMP581"
+				(at 26.67 -84.76 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Datasheet" "https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bmp581-ds004.pdf"
+				(at 26.67 -184.76 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Description" "Pressure Sensor 4.35PSI ~ 18.13PSI (30kPa ~ 125kPa) Absolute 10-WFLGA"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -533,11 +554,10 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
 				)
 			)
-			(property "Datasheet" ""
-				(at 0 0 0)
+			(property "Height" "0.8"
+				(at 26.67 -384.76 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -545,10 +565,11 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 				)
 			)
-			(property "Description" ""
-				(at 0 0 0)
+			(property "Manufacturer_Name" "BOSCH"
+				(at 26.67 -484.76 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -556,10 +577,11 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 				)
 			)
-			(property "MF" "Bosch Sensortec"
-				(at 0 0 0)
+			(property "Manufacturer_Part_Number" "BMP581"
+				(at 26.67 -584.76 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -567,11 +589,11 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
+					(justify left top)
 				)
 			)
-			(property "MAXIMUM_PACKAGE_HEIGHT" "0.8 mm"
-				(at 0 0 0)
+			(property "Mouser Part Number" "262-BMP581"
+				(at 26.67 -684.76 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -579,11 +601,11 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
+					(justify left top)
 				)
 			)
-			(property "Package" "None"
-				(at 0 0 0)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bosch-Sensortec/BMP581?qs=Li%252BoUPsLEntPL9tlFmcgXg%3D%3D"
+				(at 26.67 -784.76 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -591,11 +613,11 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
+					(justify left top)
 				)
 			)
-			(property "Price" "None"
-				(at 0 0 0)
+			(property "Arrow Part Number" "BMP581"
+				(at 26.67 -884.76 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -603,11 +625,11 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
+					(justify left top)
 				)
 			)
-			(property "Check_prices" "https://www.snapeda.com/parts/BMP390L/Bosch/view-part/?ref=eda"
-				(at 0 0 0)
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/bmp581/bosch-sensortec?utm_currency=USD&region=nac"
+				(at 26.67 -984.76 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -615,121 +637,13 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
+					(justify left top)
 				)
 			)
-			(property "STANDARD" "Manufacturer Recommendation"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "PARTREV" "1.7"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/BMP390L/Bosch/view-part/?ref=snap"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "MP" "BMP390L"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=4817101&manufacturer=Bosch Sensortec&part_name=BMP390L&search_term=None"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Description_1" "Pressure Sensor Development Tools Evaluation Shuttle Board for the BMP390L"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "MANUFACTURER" "BOSCH"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Availability" "In Stock"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "SNAPEDA_PN" "BMP390L"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(symbol "BMP390L_0_0"
+			(symbol "BMP581_1_1"
 				(rectangle
-					(start -15.24 -10.16)
-					(end 15.24 12.7)
+					(start 5.08 12.7)
+					(end 25.4 -15.24)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -738,184 +652,182 @@
 						(type background)
 					)
 				)
-				(pin power_in line
-					(at 20.32 7.62 180)
+				(pin passive line
+					(at 0 0 0)
 					(length 5.08)
 					(name "VDDIO"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "1"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
-				(pin input clock
-					(at -20.32 0 0)
+				(pin passive line
+					(at 0 -2.54 0)
 					(length 5.08)
-					(name "SCK/SCL"
+					(name "SCK"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "2"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
-				(pin power_in line
-					(at 20.32 -7.62 180)
+				(pin passive line
+					(at 12.7 -20.32 90)
 					(length 5.08)
-					(name "VSS/GND"
+					(name "VSS_1"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "3"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
-				(pin bidirectional line
-					(at -20.32 -2.54 0)
+				(pin passive line
+					(at 15.24 -20.32 90)
 					(length 5.08)
-					(name "SDI/SDO/SDA"
+					(name "SDI"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "4"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
-				(pin bidirectional line
-					(at -20.32 -5.08 0)
+				(pin passive line
+					(at 17.78 -20.32 90)
 					(length 5.08)
-					(name "SDO/DNC/SA0"
+					(name "SDO"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "5"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
-				(pin input line
-					(at -20.32 5.08 0)
+				(pin passive line
+					(at 30.48 -2.54 180)
 					(length 5.08)
-					(name "~{CS}"
+					(name "CSB"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "6"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
-				(pin output line
-					(at 20.32 0 180)
+				(pin passive line
+					(at 30.48 0 180)
 					(length 5.08)
-					(name "INT/DNC"
+					(name "INT"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "7"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
-				(pin power_in line
-					(at 20.32 -7.62 180)
+				(pin passive line
+					(at 17.78 17.78 270)
 					(length 5.08)
-					(hide yes)
-					(name "VSS/GND"
+					(name "VSS_2"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "8"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
-				(pin power_in line
-					(at 20.32 -7.62 180)
+				(pin passive line
+					(at 15.24 17.78 270)
 					(length 5.08)
-					(hide yes)
-					(name "VSS/GND"
+					(name "VSS_3"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "9"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
-				(pin power_in line
-					(at 20.32 10.16 180)
+				(pin passive line
+					(at 12.7 17.78 270)
 					(length 5.08)
 					(name "VDD"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "10"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
@@ -1112,6 +1024,289 @@
 						)
 					)
 					(number "T"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Connector_Audio:AudioJack3_SwitchTR"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "AudioJack3_SwitchTR"
+				(at 0 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Audio Jack, 3 Poles (Stereo / TRS), Switched TR Poles (Normalling)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "audio jack receptacle stereo headphones phones TRS connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Jack*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "AudioJack3_SwitchTR_0_1"
+				(rectangle
+					(start -5.08 -5.08)
+					(end -6.35 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 -5.08) (xy -1.27 -5.715) (xy -0.635 -5.08) (xy -0.635 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -5.08) (xy 0.635 -5.715) (xy 1.27 -5.08) (xy 2.54 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 -0.254) (xy 0.762 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.778 -5.334) (xy 2.032 -5.842)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.54 3.81)
+					(end -5.08 -10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy -2.54 2.54) (xy -2.54 -5.08) (xy -3.175 -5.715) (xy -3.81 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 0.508 -2.54) (xy 0.508 -0.254) (xy 0.254 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -7.62) (xy 1.778 -7.62) (xy 1.778 -5.334) (xy 1.524 -5.842)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "AudioJack3_SwitchTR_1_1"
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "R"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "RN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -5.08 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "T"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -7.62 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "TN"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2027,7 +2222,7 @@
 	)
 	(text "Barometer, I2C"
 		(exclude_from_sim no)
-		(at 202.184 34.29 0)
+		(at 197.104 22.098 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2047,7 +2242,7 @@
 		)
 		(uuid "1be3346e-b34c-4197-b538-361dfd6d5cee")
 	)
-	(text "IMU, SPI\n"
+	(text "IMU, 4-wire SPI\n"
 		(exclude_from_sim no)
 		(at 63.246 25.4 0)
 		(effects
@@ -2072,7 +2267,7 @@
 	)
 	(text "Temp and humidity, I2C"
 		(exclude_from_sim no)
-		(at 200.66 97.028 0)
+		(at 231.14 104.648 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2095,16 +2290,34 @@
 		(uuid "d387e39a-074e-41b8-90ff-c756b8774efe")
 	)
 	(junction
-		(at 223.52 50.8)
+		(at 195.58 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "2a2f33fd-2908-4eb3-9822-cf0f872ac27f")
+		(uuid "059e9b40-0910-4a20-899d-31bea8e7798a")
+	)
+	(junction
+		(at 200.66 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "42f8c6d1-8c8b-4645-a298-e21d3ef3e59a")
+	)
+	(junction
+		(at 133.35 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "450a7e1d-c1de-4a65-98e7-0b4b56d5b179")
 	)
 	(junction
 		(at 80.01 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "462868ba-fd64-48fa-9ecd-361c1aca7310")
+	)
+	(junction
+		(at 233.68 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4e1d8040-b052-46d9-8a50-0238bcfb4e17")
 	)
 	(junction
 		(at 97.79 40.64)
@@ -2119,22 +2332,10 @@
 		(uuid "659800b7-c818-4c30-a2a7-6c5b01e3a573")
 	)
 	(junction
-		(at 179.07 55.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6814af0e-7d3b-4143-9fb3-5d342e240118")
-	)
-	(junction
 		(at 85.09 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "69a601e4-79b0-430d-9c49-b220a1bded5b")
-	)
-	(junction
-		(at 238.76 58.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6a682d9c-0f9a-49b6-9b2f-af6bf99692c5")
 	)
 	(junction
 		(at 68.58 111.76)
@@ -2161,6 +2362,12 @@
 		(uuid "7a087d18-9d19-4ab3-b396-34fcf989e160")
 	)
 	(junction
+		(at 133.35 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7d2eafbf-ba21-4710-ae55-92e658908363")
+	)
+	(junction
 		(at 153.67 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2173,22 +2380,34 @@
 		(uuid "ac843c86-7d68-42e2-a4a8-ce69e7e69b29")
 	)
 	(junction
+		(at 214.63 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b11fe0a5-ca17-4e2a-b9aa-8ff3967db7f9")
+	)
+	(junction
 		(at 158.75 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c6a653c9-da89-439a-8ae1-ab1a4e66bbb0")
 	)
 	(junction
-		(at 245.11 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d8f5786c-8032-4afe-b8a8-8a197d93d362")
-	)
-	(junction
 		(at 53.34 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "da536aa3-63c1-4d30-ac4c-1459fda3e451")
+	)
+	(junction
+		(at 173.99 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dec3fde3-b856-4e9e-9da1-21a4c9613c72")
+	)
+	(junction
+		(at 233.68 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e3716845-98d6-4626-a338-1d59b3951d01")
 	)
 	(junction
 		(at 46.99 111.76)
@@ -2201,12 +2420,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f8972cfc-e015-4232-928e-6dff4bb0b0f5")
-	)
-	(junction
-		(at 232.41 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fb6a15d9-bd6b-412d-b95d-bbe2db4df0ba")
 	)
 	(no_connect
 		(at 46.99 48.26)
@@ -2226,23 +2439,13 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 60.96) (xy 223.52 60.96)
+			(xy 129.54 109.22) (xy 133.35 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "044b0bb3-00f2-40f3-a4f3-24adf07ce0aa")
-	)
-	(wire
-		(pts
-			(xy 176.53 63.5) (xy 181.61 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "049e6ea0-6539-4b77-b246-6014c68e35c6")
+		(uuid "0209e931-380c-4fd5-b43b-ff0e89087128")
 	)
 	(wire
 		(pts
@@ -2256,6 +2459,16 @@
 	)
 	(wire
 		(pts
+			(xy 242.57 135.89) (xy 233.68 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "066a3cd5-851d-45c7-9544-5ba18bca6170")
+	)
+	(wire
+		(pts
 			(xy 62.23 111.76) (xy 66.04 111.76)
 		)
 		(stroke
@@ -2266,6 +2479,16 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 109.22) (xy 144.78 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ba48a60-4013-490a-8e73-2429a0c89108")
+	)
+	(wire
+		(pts
 			(xy 46.99 111.76) (xy 34.29 111.76)
 		)
 		(stroke
@@ -2273,6 +2496,16 @@
 			(type default)
 		)
 		(uuid "0e52718c-bde3-48f0-b071-c9cdbbdd26c1")
+	)
+	(wire
+		(pts
+			(xy 195.58 29.21) (xy 195.58 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "105bd9ee-8df8-4cb2-97e0-d7d076290b0e")
 	)
 	(wire
 		(pts
@@ -2316,13 +2549,13 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 73.66) (xy 224.79 68.58)
+			(xy 214.63 76.2) (xy 214.63 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1a544808-5961-4f5e-8719-31a3726a6ff9")
+		(uuid "19ffdb4b-e6e7-404b-93cf-4021cd00dd38")
 	)
 	(wire
 		(pts
@@ -2336,6 +2569,16 @@
 	)
 	(wire
 		(pts
+			(xy 133.35 106.68) (xy 133.35 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1dede728-5943-4ef9-a640-78176b79697b")
+	)
+	(wire
+		(pts
 			(xy 77.47 66.04) (xy 81.28 66.04)
 		)
 		(stroke
@@ -2343,6 +2586,16 @@
 			(type default)
 		)
 		(uuid "20dd7816-4205-4d4f-a34c-220c129ff74c")
+	)
+	(wire
+		(pts
+			(xy 233.68 135.89) (xy 233.68 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "217f1e19-2195-4c14-85c7-13afbf799786")
 	)
 	(wire
 		(pts
@@ -2356,7 +2609,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 121.92) (xy 193.04 121.92)
+			(xy 218.44 129.54) (xy 223.52 129.54)
 		)
 		(stroke
 			(width 0)
@@ -2376,6 +2629,16 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 111.76) (xy 133.35 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26f1166f-630c-495d-ba5a-3be4b35376e6")
+	)
+	(wire
+		(pts
 			(xy 80.01 43.18) (xy 80.01 40.64)
 		)
 		(stroke
@@ -2383,16 +2646,6 @@
 			(type default)
 		)
 		(uuid "27210863-5813-4738-8faf-15e5f9fc2142")
-	)
-	(wire
-		(pts
-			(xy 248.92 50.8) (xy 245.11 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "27294f96-3e93-48d2-9e3d-a56eb1d5209c")
 	)
 	(wire
 		(pts
@@ -2406,27 +2659,17 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 50.8) (xy 245.11 50.8)
+			(xy 129.54 106.68) (xy 133.35 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "304269ab-4e10-48d9-b4df-e544020f8cc5")
+		(uuid "2fa3b300-4c52-4cf2-8347-bf22d756e6a7")
 	)
 	(wire
 		(pts
-			(xy 179.07 55.88) (xy 181.61 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "34e35cf9-51d5-4641-a0ba-beec80925110")
-	)
-	(wire
-		(pts
-			(xy 187.96 116.84) (xy 193.04 116.84)
+			(xy 218.44 124.46) (xy 223.52 124.46)
 		)
 		(stroke
 			(width 0)
@@ -2436,13 +2679,13 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 53.34) (xy 223.52 50.8)
+			(xy 214.63 58.42) (xy 218.44 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "38e33333-7fda-4492-959c-9f75d47ebf43")
+		(uuid "371ea51c-9922-4296-beb0-3764aa704f87")
 	)
 	(wire
 		(pts
@@ -2456,23 +2699,13 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 49.53) (xy 175.26 49.53)
+			(xy 193.04 76.2) (xy 195.58 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "44586700-287b-4268-8dc5-321d90b34ff4")
-	)
-	(wire
-		(pts
-			(xy 238.76 58.42) (xy 245.11 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "469903e9-945d-4f8b-a128-3e06ea72e548")
+		(uuid "46d80634-ac6f-48db-9c8d-ddeff5d7bc75")
 	)
 	(wire
 		(pts
@@ -2486,13 +2719,23 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 53.34) (xy 223.52 53.34)
+			(xy 173.99 67.31) (xy 173.99 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "540ec2d7-3690-410c-a742-bfffa985f457")
+		(uuid "4c64eb7f-7e8b-4e12-8920-056e3cda44f7")
+	)
+	(wire
+		(pts
+			(xy 170.18 58.42) (xy 182.88 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4dc18b29-4a5f-49ce-87d7-f6ae9e8daab7")
 	)
 	(wire
 		(pts
@@ -2503,6 +2746,16 @@
 			(type default)
 		)
 		(uuid "546d43e2-4b10-448a-84b6-274cec4c4499")
+	)
+	(wire
+		(pts
+			(xy 198.12 76.2) (xy 198.12 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5618cbcf-2347-4a0e-83cf-bef224253690")
 	)
 	(wire
 		(pts
@@ -2526,6 +2779,16 @@
 	)
 	(wire
 		(pts
+			(xy 170.18 55.88) (xy 173.99 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f0d8910-2dc3-42a4-a66a-92b45499a711")
+	)
+	(wire
+		(pts
 			(xy 77.47 76.2) (xy 81.28 76.2)
 		)
 		(stroke
@@ -2536,23 +2799,13 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 104.14) (xy 158.75 104.14)
+			(xy 195.58 35.56) (xy 193.04 35.56)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "609b5cc3-48f9-44d9-ad74-e9b9a2aa35dd")
-	)
-	(wire
-		(pts
-			(xy 224.79 68.58) (xy 222.25 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "62c67048-8427-4bfc-9311-2f853aff46e3")
+		(uuid "659f6885-c19e-444e-a140-4ac823466368")
 	)
 	(wire
 		(pts
@@ -2576,7 +2829,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 107.95) (xy 205.74 107.95)
+			(xy 233.68 115.57) (xy 236.22 115.57)
 		)
 		(stroke
 			(width 0)
@@ -2616,7 +2869,27 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 107.95) (xy 203.2 111.76)
+			(xy 182.88 39.37) (xy 182.88 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fe408fe-5c2a-4e9d-b90c-7308082bfd34")
+	)
+	(wire
+		(pts
+			(xy 213.36 58.42) (xy 214.63 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74193df6-f1af-4d06-b68b-787ba6144d3c")
+	)
+	(wire
+		(pts
+			(xy 233.68 115.57) (xy 233.68 119.38)
 		)
 		(stroke
 			(width 0)
@@ -2636,13 +2909,13 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 60.96) (xy 181.61 60.96)
+			(xy 133.35 104.14) (xy 158.75 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "76b8bd18-342d-4e55-9357-ce509a9a944d")
+		(uuid "77a1c864-aa4b-4e8b-ad2c-4277d1d817db")
 	)
 	(wire
 		(pts
@@ -2666,16 +2939,6 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 66.04) (xy 179.07 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7b29508b-b048-45d7-ad9a-81ea6f4b8304")
-	)
-	(wire
-		(pts
 			(xy 144.78 106.68) (xy 153.67 106.68)
 		)
 		(stroke
@@ -2686,23 +2949,13 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 49.53) (xy 175.26 55.88)
+			(xy 242.57 130.81) (xy 242.57 135.89)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "83cb2d31-9fa9-49d5-8466-20d15a47ddac")
-	)
-	(wire
-		(pts
-			(xy 149.86 101.6) (xy 144.78 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "856c69f1-3d88-4395-8ae8-33c1ca11e5d2")
+		(uuid "7f817a9b-4a5f-4c74-9a50-b53749a99640")
 	)
 	(wire
 		(pts
@@ -2726,6 +2979,16 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 104.14) (xy 133.35 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e9bafdc-7ae5-46a8-93e4-ef8cdc8eb3c1")
+	)
+	(wire
+		(pts
 			(xy 85.09 119.38) (xy 85.09 120.65)
 		)
 		(stroke
@@ -2733,6 +2996,16 @@
 			(type default)
 		)
 		(uuid "8ff40394-a552-4cca-8a3c-31bad8ad8b56")
+	)
+	(wire
+		(pts
+			(xy 133.35 109.22) (xy 144.78 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9106f615-ecad-4f68-8be6-40fee08ccac3")
 	)
 	(wire
 		(pts
@@ -2746,33 +3019,13 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 55.88) (xy 179.07 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9df6cecc-c5c2-4abf-ac32-576c8f911cc1")
-	)
-	(wire
-		(pts
-			(xy 203.2 127) (xy 203.2 132.08)
+			(xy 233.68 134.62) (xy 233.68 135.89)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "a008638b-740e-40a3-865a-c797d13a88e9")
-	)
-	(wire
-		(pts
-			(xy 179.07 66.04) (xy 179.07 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a0233cdc-bda9-48c5-b9bf-2b3a5ba0b3e3")
 	)
 	(wire
 		(pts
@@ -2796,13 +3049,13 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 48.26) (xy 248.92 50.8)
+			(xy 196.85 29.21) (xy 195.58 29.21)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a9610886-f3a2-4fc1-b244-3a261ebe8ce5")
+		(uuid "a866b297-a4db-4e64-ae34-1788c52e2d3e")
 	)
 	(wire
 		(pts
@@ -2816,13 +3069,13 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 62.23) (xy 238.76 58.42)
+			(xy 133.35 111.76) (xy 133.35 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ad267dca-1492-45a4-8f2f-6058a28632f2")
+		(uuid "ab9ff7eb-1503-4d89-9f99-0fd2091c8d21")
 	)
 	(wire
 		(pts
@@ -2846,13 +3099,23 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 48.26) (xy 251.46 48.26)
+			(xy 173.99 55.88) (xy 182.88 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b713d7ed-9b14-4075-8ad9-6bcd33fe49c9")
+		(uuid "bb9f9cd3-44d5-42f4-84fe-e5e0f6e2a6ef")
+	)
+	(wire
+		(pts
+			(xy 242.57 123.19) (xy 242.57 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbcc6962-2f05-43ec-8f44-5d54a03b0bcb")
 	)
 	(wire
 		(pts
@@ -2866,6 +3129,36 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 101.6) (xy 149.86 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf7abcda-2181-422d-9166-a5865ebf1afb")
+	)
+	(wire
+		(pts
+			(xy 182.88 35.56) (xy 185.42 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0f26a11-13b5-40c6-b46b-39d00b1de8f9")
+	)
+	(wire
+		(pts
+			(xy 200.66 76.2) (xy 214.63 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1897eb4-5983-4da1-8494-9099af6fd197")
+	)
+	(wire
+		(pts
 			(xy 80.01 40.64) (xy 77.47 40.64)
 		)
 		(stroke
@@ -2873,6 +3166,16 @@
 			(type default)
 		)
 		(uuid "c26e570c-2b37-4e9d-a03d-a0e7385d2fde")
+	)
+	(wire
+		(pts
+			(xy 200.66 38.1) (xy 213.36 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7c50c32-54e3-4fbb-bffd-09de569a2244")
 	)
 	(wire
 		(pts
@@ -2896,26 +3199,6 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 50.8) (xy 232.41 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c97988dd-c9b4-4423-983a-dd09331015bc")
-	)
-	(wire
-		(pts
-			(xy 222.25 50.8) (xy 223.52 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d1121cf2-b009-4cdc-8c3a-cad63c1076c8")
-	)
-	(wire
-		(pts
 			(xy 149.86 91.44) (xy 149.86 92.71)
 		)
 		(stroke
@@ -2926,6 +3209,16 @@
 	)
 	(wire
 		(pts
+			(xy 173.99 59.69) (xy 173.99 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd1d56d3-e3bb-4034-8f30-f5cb5a0b1ec1")
+	)
+	(wire
+		(pts
 			(xy 53.34 111.76) (xy 53.34 127)
 		)
 		(stroke
@@ -2933,6 +3226,16 @@
 			(type default)
 		)
 		(uuid "df39bf91-0d8d-4a47-a389-bd0d2b668016")
+	)
+	(wire
+		(pts
+			(xy 198.12 38.1) (xy 200.66 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0ee6105-5aed-4032-b1a6-fe087b424704")
 	)
 	(wire
 		(pts
@@ -2966,6 +3269,26 @@
 	)
 	(wire
 		(pts
+			(xy 193.04 80.01) (xy 193.04 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6d2e43b-6eb2-420d-8253-add108cbe9c8")
+	)
+	(wire
+		(pts
+			(xy 195.58 38.1) (xy 195.58 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7b87597-b16d-4f65-94c2-df97c0cb1cf4")
+	)
+	(wire
+		(pts
 			(xy 62.23 106.68) (xy 64.77 106.68)
 		)
 		(stroke
@@ -2986,6 +3309,16 @@
 	)
 	(wire
 		(pts
+			(xy 213.36 55.88) (xy 218.44 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0e3b529-29c4-4613-8320-efa7fa85ebdc")
+	)
+	(wire
+		(pts
 			(xy 78.74 127) (xy 82.55 127)
 		)
 		(stroke
@@ -2996,6 +3329,16 @@
 	)
 	(wire
 		(pts
+			(xy 242.57 119.38) (xy 233.68 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6181413-a589-4cf8-9155-f9ba43ef7685")
+	)
+	(wire
+		(pts
 			(xy 153.67 111.76) (xy 158.75 111.76)
 		)
 		(stroke
@@ -3003,16 +3346,6 @@
 			(type default)
 		)
 		(uuid "f9ea62b2-b7da-4007-893c-f0b3a957ed47")
-	)
-	(wire
-		(pts
-			(xy 238.76 58.42) (xy 232.41 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f9f2b005-af7b-47ed-bfc5-1b9db1b7d7f2")
 	)
 	(wire
 		(pts
@@ -3057,46 +3390,9 @@
 		)
 		(uuid "173233e6-3130-4353-8ab0-dd3ef8730ba7")
 	)
-	(hierarchical_label "BMP390_INT"
-		(shape input)
-		(at 223.52 60.96 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left)
-		)
-		(uuid "1aa1c6ad-9ef1-499c-8d1d-16488bd6df88")
-	)
-	(hierarchical_label "BMP390_SCK"
-		(shape input)
-		(at 176.53 60.96 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify right)
-		)
-		(uuid "1e760e3c-d05e-4cb7-a94f-19987cb6a4aa")
-	)
 	(hierarchical_label "+3.3v"
 		(shape output)
-		(at 251.46 48.26 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "22e1d891-254c-4d11-b5e2-2f18e86dd6f5")
-	)
-	(hierarchical_label "+3.3v"
-		(shape output)
-		(at 205.74 107.95 0)
+		(at 236.22 115.57 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3138,9 +3434,20 @@
 		)
 		(uuid "64b4c35b-670a-4b3e-bf3b-cbe43c062872")
 	)
+	(hierarchical_label "BMP390_INT"
+		(shape input)
+		(at 218.44 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "661c5a90-5980-4f16-9a51-1ea3c004ca64")
+	)
 	(hierarchical_label "SHT40_SCK"
 		(shape input)
-		(at 187.96 116.84 180)
+		(at 218.44 124.46 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3150,9 +3457,9 @@
 		)
 		(uuid "68674281-d087-4956-a427-ba421b3993ac")
 	)
-	(hierarchical_label "BMP390_SDA"
+	(hierarchical_label "BMP390_SCK"
 		(shape input)
-		(at 176.53 63.5 180)
+		(at 170.18 58.42 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3161,7 +3468,7 @@
 			)
 			(justify right)
 		)
-		(uuid "7f9462a0-8a65-4e43-b526-45a44001b8fb")
+		(uuid "7895f78e-61fa-4bf4-a397-8cb299865162")
 	)
 	(hierarchical_label "BMI270_CS"
 		(shape input)
@@ -3176,7 +3483,7 @@
 	)
 	(hierarchical_label "SHT40_SDA"
 		(shape input)
-		(at 187.96 121.92 180)
+		(at 218.44 129.54 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3221,6 +3528,17 @@
 	)
 	(hierarchical_label "+3.3v"
 		(shape output)
+		(at 170.18 55.88 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b8b9b0d5-2c57-490e-abe1-c322da59173c")
+	)
+	(hierarchical_label "+3.3v"
+		(shape output)
 		(at 173.99 104.14 0)
 		(effects
 			(font
@@ -3229,6 +3547,41 @@
 			(justify left)
 		)
 		(uuid "bf9edb30-cfb1-453e-acf8-5457f365245b")
+	)
+	(hierarchical_label "BMP390_SDA"
+		(shape input)
+		(at 198.12 80.01 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right)
+		)
+		(uuid "bfedeff2-0429-4284-9732-9ce694e03e45")
+	)
+	(hierarchical_label "+3.3v"
+		(shape output)
+		(at 196.85 29.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c194ba90-b629-40d2-ab14-6fe402a6089f")
+	)
+	(hierarchical_label "+3.3v"
+		(shape output)
+		(at 218.44 58.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "dea9fbda-ffc5-4ad8-82ec-28827186e050")
 	)
 	(hierarchical_label "Wheel_sensor"
 		(shape output)
@@ -3240,17 +3593,6 @@
 			(justify left)
 		)
 		(uuid "e1631e5f-7761-4917-8586-ee89bca1c9b0")
-	)
-	(hierarchical_label "+3.3v"
-		(shape output)
-		(at 171.45 49.53 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ee4ce2c1-ecdf-48c7-bd4d-cba4d12084cd")
 	)
 	(hierarchical_label "BMI270_SCK"
 		(shape input)
@@ -3273,84 +3615,6 @@
 			(justify left)
 		)
 		(uuid "fff3d4ea-c566-4fda-96d9-08bcfb0334e8")
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 224.79 73.66 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0f3cb401-e2e7-40a4-b70d-e30edbf76c12")
-		(property "Reference" "#PWR051"
-			(at 224.79 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 224.79 78.74 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 224.79 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 224.79 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 224.79 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "cf86c4e0-3511-470f-8e8a-f4c3315a352d")
-		)
-		(instances
-			(project "KB-01"
-				(path "/e6144e29-1dc4-45a8-93e7-988a20131b94/8f8a2829-aad0-4226-9c36-d614fdf3c6c8"
-					(reference "#PWR051")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -3530,7 +3794,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "10uF 6.3V"
 			(at 47.244 118.364 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3564,6 +3828,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 46.99 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SNAPEDA_PN" ""
+			(at 46.99 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser" "81-GRM188R60J106ME47"
 			(at 46.99 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -3699,7 +3985,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BMI270:XDCR_BMI270"
+		(property "Footprint" "BMI270:BMI270"
 			(at 62.23 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -3889,6 +4175,28 @@
 				(justify bottom)
 			)
 		)
+		(property "mouser" "262-BMI270"
+			(at 62.23 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SNAPEDA_PN" ""
+			(at 62.23 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "399fdccb-dfc8-4789-af26-f6fb5c17ca0b")
 		)
@@ -3941,8 +4249,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Audio:AudioJack3")
-		(at 139.7 104.14 0)
+		(lib_id "Connector_Audio:AudioJack3_SwitchTR")
+		(at 124.46 104.14 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3951,9 +4259,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "5e7ed44f-ae0d-4e91-9395-95a37b22ea0e")
-		(property "Reference" "J7"
-			(at 137.795 95.25 0)
+		(uuid "3d04dc7a-12ee-4d20-baf5-9fa6b145e0b5")
+		(property "Reference" "J9"
+			(at 122.555 95.25 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3962,8 +4270,8 @@
 				)
 			)
 		)
-		(property "Value" "DRV5023AJ"
-			(at 137.795 97.79 0)
+		(property "Value" "AudioJack3_SwitchTR"
+			(at 122.555 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3972,8 +4280,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Audio:Jack_3.5mm_CUI_SJ-3523-SMT_Horizontal"
-			(at 139.7 104.14 0)
+		(property "Footprint" "Connector_Audio:Jack_3.5mm_CUI_SJ2-3593D-SMT_Horizontal"
+			(at 124.46 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3984,7 +4292,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 139.7 104.14 0)
+			(at 124.46 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3994,8 +4302,8 @@
 				)
 			)
 		)
-		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS)"
-			(at 139.7 104.14 0)
+		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS), Switched TR Poles (Normalling)"
+			(at 124.46 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4005,19 +4313,229 @@
 				)
 			)
 		)
-		(pin "S"
-			(uuid "c9ce3bb6-ec22-497b-9133-1521b4aed247")
+		(property "mouser" "490-SJ2-3593D-SMT-TR "
+			(at 124.46 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SNAPEDA_PN" ""
+			(at 124.46 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "T"
-			(uuid "6b55dd7c-4b21-481b-9a48-7c53759ccd87")
+			(uuid "8486d056-7dd5-4abc-b8c4-a8455e01abce")
 		)
 		(pin "R"
-			(uuid "14ddd9b2-18a9-4a2b-ab30-d05e24d4bc85")
+			(uuid "1e11e947-59fc-408d-9be3-0544ca3e84da")
+		)
+		(pin "TN"
+			(uuid "d58dbfb2-a2bd-4a83-8971-e00e90f81417")
+		)
+		(pin "RN"
+			(uuid "d9a6f355-637c-4bfe-a12f-8532377bd2bc")
+		)
+		(pin "S"
+			(uuid "a4198653-f9e9-488f-a5fb-5baa497edba3")
 		)
 		(instances
 			(project "KB-01"
 				(path "/e6144e29-1dc4-45a8-93e7-988a20131b94/8f8a2829-aad0-4226-9c36-d614fdf3c6c8"
-					(reference "J7")
+					(reference "J9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 173.99 63.5 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "485031b3-2f2f-43ec-a988-2c71e4c9d758")
+		(property "Reference" "C42"
+			(at 177.8 62.2299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF 6.3V"
+			(at 177.8 64.7699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 174.9552 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 173.99 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SNAPEDA_PN" ""
+			(at 173.99 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser" "581-KGM15AR70J104KT"
+			(at 173.99 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "03e1b94f-3360-4f54-a3cc-6453b66447b0")
+		)
+		(pin "2"
+			(uuid "95babce3-9aa5-4bdf-b6b1-68436f383011")
+		)
+		(instances
+			(project "KB-01"
+				(path "/e6144e29-1dc4-45a8-93e7-988a20131b94/8f8a2829-aad0-4226-9c36-d614fdf3c6c8"
+					(reference "C42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 173.99 69.85 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "592cc340-41e4-43e9-9d97-9cdb2ea76f21")
+		(property "Reference" "#PWR070"
+			(at 173.99 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 173.99 74.93 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 173.99 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 173.99 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5aa7ea86-facc-4330-9ebe-c581c6f7615e")
+		)
+		(instances
+			(project "KB-01"
+				(path "/e6144e29-1dc4-45a8-93e7-988a20131b94/8f8a2829-aad0-4226-9c36-d614fdf3c6c8"
+					(reference "#PWR070")
 					(unit 1)
 				)
 			)
@@ -4101,6 +4619,17 @@
 				)
 			)
 		)
+		(property "SNAPEDA_PN" ""
+			(at 158.75 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3dd1fd6c-6371-4bde-9817-a5ea842a4a3f")
 		)
@@ -4139,7 +4668,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100nF 6.3V"
 			(at 88.9 116.8399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4183,6 +4712,28 @@
 				)
 			)
 		)
+		(property "SNAPEDA_PN" ""
+			(at 85.09 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser" "581-KGM15AR70J104KT"
+			(at 85.09 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "8981a98f-e2b4-4adf-87ba-fd76fe7ba27a")
 		)
@@ -4199,8 +4750,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 238.76 62.23 0)
+		(lib_id "BMP581:BMP581")
+		(at 182.88 55.88 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4209,9 +4760,221 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "7abe44e3-3911-4ecd-b4ef-82ebebeb17c2")
-		(property "Reference" "#PWR053"
-			(at 238.76 68.58 0)
+		(uuid "842eb900-36cf-4baf-8d3c-8b189ecfacce")
+		(property "Reference" "U13"
+			(at 213.36 49.4598 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BMP581"
+			(at 213.36 51.9998 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "BMP581:BMP581"
+			(at 209.55 140.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bmp581-ds004.pdf"
+			(at 209.55 240.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "Pressure Sensor 4.35PSI ~ 18.13PSI (30kPa ~ 125kPa) Absolute 10-WFLGA"
+			(at 182.88 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "0.8"
+			(at 209.55 440.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "BOSCH"
+			(at 209.55 540.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "BMP581"
+			(at 209.55 640.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "262-BMP581"
+			(at 209.55 740.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bosch-Sensortec/BMP581?qs=Li%252BoUPsLEntPL9tlFmcgXg%3D%3D"
+			(at 209.55 840.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Part Number" "BMP581"
+			(at 209.55 940.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/bmp581/bosch-sensortec?utm_currency=USD&region=nac"
+			(at 209.55 1040.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "mouser" "262-BMP581"
+			(at 182.88 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SNAPEDA_PN" ""
+			(at 182.88 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "95e1b6be-5ef8-4447-9961-afbe694b2245")
+		)
+		(pin "2"
+			(uuid "82a56a77-9054-49e9-ad30-e9fe1a359dd0")
+		)
+		(pin "3"
+			(uuid "e9aab394-a771-429c-b4f4-725e9c06a977")
+		)
+		(pin "5"
+			(uuid "c22491c9-7984-4494-bcaf-7530a8594296")
+		)
+		(pin "10"
+			(uuid "e1c34fd4-93ab-4fd9-9b9b-e17e20df0215")
+		)
+		(pin "9"
+			(uuid "4ec0c67c-c9a2-46db-90d7-a78430d83f62")
+		)
+		(pin "4"
+			(uuid "90a6c4a4-9606-4240-a10c-fd0523f04b55")
+		)
+		(pin "6"
+			(uuid "a6da6abd-d9e4-4475-8912-7cff3856289f")
+		)
+		(pin "7"
+			(uuid "c349a465-3ccc-4917-a17d-561443154bb0")
+		)
+		(pin "8"
+			(uuid "15c8c3fa-8375-4c00-9081-8c00e3782730")
+		)
+		(instances
+			(project "KB-01"
+				(path "/e6144e29-1dc4-45a8-93e7-988a20131b94/8f8a2829-aad0-4226-9c36-d614fdf3c6c8"
+					(reference "U13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 213.36 38.1 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8d17229f-812f-423b-96e5-8e3b48f0754b")
+		(property "Reference" "#PWR077"
+			(at 213.36 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4222,7 +4985,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 238.76 67.31 0)
+			(at 213.36 43.18 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4232,7 +4995,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 238.76 62.23 0)
+			(at 213.36 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4243,7 +5006,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 238.76 62.23 0)
+			(at 213.36 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4254,7 +5017,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 238.76 62.23 0)
+			(at 213.36 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4265,94 +5028,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "7f78b0e5-e8d3-43fe-a013-fd988540431d")
+			(uuid "9d4ff1cc-7453-4f4c-886e-68d8c6e8f674")
 		)
 		(instances
 			(project "KB-01"
 				(path "/e6144e29-1dc4-45a8-93e7-988a20131b94/8f8a2829-aad0-4226-9c36-d614fdf3c6c8"
-					(reference "#PWR053")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 245.11 54.61 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "854f6141-9387-4558-9e0f-7acb77e5fe2d")
-		(property "Reference" "C42"
-			(at 248.92 53.3399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 248.92 55.8799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 246.0752 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 245.11 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 245.11 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2c459f81-7570-463e-93d9-7e082ca46ea0")
-		)
-		(pin "2"
-			(uuid "f621ae19-4248-42f5-ae5f-a12beef7fcc2")
-		)
-		(instances
-			(project "KB-01"
-				(path "/e6144e29-1dc4-45a8-93e7-988a20131b94/8f8a2829-aad0-4226-9c36-d614fdf3c6c8"
-					(reference "C42")
+					(reference "#PWR077")
 					(unit 1)
 				)
 			)
@@ -4360,7 +5041,7 @@
 	)
 	(symbol
 		(lib_id "Sensor_Humidity:SHT4x")
-		(at 200.66 119.38 0)
+		(at 231.14 127 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4370,7 +5051,7 @@
 		(dnp no)
 		(uuid "8dc6a73c-e64c-4fd5-ae41-8df45a443e8b")
 		(property "Reference" "U12"
-			(at 193.04 108.458 0)
+			(at 223.52 116.078 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4381,7 +5062,7 @@
 			)
 		)
 		(property "Value" "SHT40"
-			(at 193.04 110.998 0)
+			(at 223.52 118.618 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4392,7 +5073,7 @@
 			)
 		)
 		(property "Footprint" "Sensor_Humidity:Sensirion_DFN-4_1.5x1.5mm_P0.8mm_SHT4x_NoCentralPad"
-			(at 204.47 125.73 0)
+			(at 234.95 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4404,7 +5085,7 @@
 			)
 		)
 		(property "Datasheet" "https://sensirion.com/media/documents/33FD6951/624C4357/Datasheet_SHT4x.pdf"
-			(at 204.47 128.27 0)
+			(at 234.95 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4416,7 +5097,29 @@
 			)
 		)
 		(property "Description" "Digital Humidity and Temperature Sensor, ±1%RH, ±0.1°C, I2C, 1.08-3.6V, 16bit, DFN-4"
-			(at 200.66 119.38 0)
+			(at 231.14 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser" "403-SHT40-AD1B-R2"
+			(at 231.14 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SNAPEDA_PN" ""
+			(at 231.14 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4626,7 +5329,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "220nF"
+		(property "Value" "220nF 25V"
 			(at 85.09 140.9699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4660,6 +5363,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 81.28 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SNAPEDA_PN" ""
+			(at 81.28 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser" "187-CL10B224KA8NNNC"
 			(at 81.28 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -4708,7 +5433,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100nF 6.3V"
 			(at 88.9 45.7199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4742,6 +5467,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 85.09 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SNAPEDA_PN" ""
+			(at 85.09 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser" "581-KGM15AR70J104KT"
 			(at 85.09 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -4847,6 +5594,108 @@
 	)
 	(symbol
 		(lib_id "Device:C")
+		(at 189.23 35.56 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c07c110b-a2f1-46f5-ae66-044f75edb895")
+		(property "Reference" "C52"
+			(at 189.23 27.94 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nF 6.3V"
+			(at 189.23 30.48 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 193.04 34.5948 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 189.23 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 189.23 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SNAPEDA_PN" ""
+			(at 189.23 35.56 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser" "581-KGM15AR70J104KT"
+			(at 189.23 35.56 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b6ad00a8-2be7-43a5-954e-fdc97bdec27f")
+		)
+		(pin "2"
+			(uuid "2aabe67a-8316-4528-a753-d213ff5bc3a7")
+		)
+		(instances
+			(project "KB-01"
+				(path "/e6144e29-1dc4-45a8-93e7-988a20131b94/8f8a2829-aad0-4226-9c36-d614fdf3c6c8"
+					(reference "C52")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
 		(at 97.79 44.45 0)
 		(unit 1)
 		(body_style 1)
@@ -4868,7 +5717,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100nF 6.3V"
 			(at 101.6 45.7199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4912,6 +5761,28 @@
 				)
 			)
 		)
+		(property "SNAPEDA_PN" ""
+			(at 97.79 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser" "581-KGM15AR70J104KT"
+			(at 97.79 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b8083962-c2c1-4b33-b189-98a9e327b047")
 		)
@@ -4929,7 +5800,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 203.2 132.08 0)
+		(at 233.68 139.7 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4940,7 +5811,7 @@
 		(fields_autoplaced yes)
 		(uuid "d2ff49da-a059-4647-b1a6-353f13ad46f6")
 		(property "Reference" "#PWR056"
-			(at 203.2 138.43 0)
+			(at 233.68 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4951,7 +5822,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 203.2 137.16 0)
+			(at 233.68 144.78 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4961,7 +5832,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 203.2 132.08 0)
+			(at 233.68 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4972,7 +5843,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 203.2 132.08 0)
+			(at 233.68 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4983,7 +5854,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 203.2 132.08 0)
+			(at 233.68 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5061,6 +5932,39 @@
 			)
 		)
 		(property "Description" "Ultra-low-power, 3-axis digital output magnetometer, LGA-12"
+			(at 66.04 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser" "511-LIS2MDLTR"
+			(at 66.04 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SNAPEDA_PN" ""
+			(at 66.04 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser2" "511-IIS2MDCTR "
 			(at 66.04 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -5150,7 +6054,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 148.082 96.52 90)
 			(hide yes)
 			(show_name no)
@@ -5183,6 +6087,28 @@
 				)
 			)
 		)
+		(property "SNAPEDA_PN" ""
+			(at 149.86 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser" "71-CRCW060310K0FKEE"
+			(at 149.86 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "9f7dfe23-af5b-45a3-9c40-1cfdd3e7533a")
 		)
@@ -5193,6 +6119,189 @@
 			(project "KB-01"
 				(path "/e6144e29-1dc4-45a8-93e7-988a20131b94/8f8a2829-aad0-4226-9c36-d614fdf3c6c8"
 					(reference "R29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:AudioJack3")
+		(at 124.46 127 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "de86fdb0-a1ea-461c-8a04-d31eca66e6ef")
+		(property "Reference" "J7"
+			(at 122.555 118.11 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DRV5023AJ"
+			(at 122.555 120.65 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Audio:Jack_3.5mm_CUI_SJ-3523-SMT_Horizontal"
+			(at 124.46 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS)"
+			(at 124.46 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser" "595-DRV5023AJELPGMQ1"
+			(at 124.46 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SNAPEDA_PN" ""
+			(at 124.46 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "S"
+			(uuid "4d6db6bf-f929-4999-a1ae-d9f8b2ab1503")
+		)
+		(pin "T"
+			(uuid "3a348545-0689-4d85-990a-b7dda73fa747")
+		)
+		(pin "R"
+			(uuid "7f6de97b-4e20-4af9-a209-37352660daba")
+		)
+		(instances
+			(project "KB-01"
+				(path "/e6144e29-1dc4-45a8-93e7-988a20131b94/8f8a2829-aad0-4226-9c36-d614fdf3c6c8"
+					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 193.04 80.01 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e21232d4-069b-4a17-965d-3b4faa4ccf8e")
+		(property "Reference" "#PWR073"
+			(at 193.04 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 193.04 85.09 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 193.04 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 193.04 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 193.04 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "187e5816-2da4-4366-a68d-200675c471ce")
+		)
+		(instances
+			(project "KB-01"
+				(path "/e6144e29-1dc4-45a8-93e7-988a20131b94/8f8a2829-aad0-4226-9c36-d614fdf3c6c8"
+					(reference "#PWR073")
 					(unit 1)
 				)
 			)
@@ -5276,279 +6385,6 @@
 		)
 	)
 	(symbol
-		(lib_id "BMP390L:BMP390L")
-		(at 201.93 60.96 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ee21e13a-e309-43d6-bfd3-c026950c5591")
-		(property "Reference" "U11"
-			(at 201.93 43.18 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "BMP390L"
-			(at 201.93 45.72 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "BMP390L:XDCR_BMP390L"
-			(at 201.93 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Datasheet" ""
-			(at 201.93 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 201.93 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MF" "Bosch Sensortec"
-			(at 201.93 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "0.8 mm"
-			(at 201.93 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Package" "None"
-			(at 201.93 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Price" "None"
-			(at 201.93 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/BMP390L/Bosch/view-part/?ref=eda"
-			(at 201.93 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendation"
-			(at 201.93 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "PARTREV" "1.7"
-			(at 201.93 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/BMP390L/Bosch/view-part/?ref=snap"
-			(at 201.93 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MP" "BMP390L"
-			(at 201.93 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=4817101&manufacturer=Bosch Sensortec&part_name=BMP390L&search_term=None"
-			(at 201.93 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Description_1" "Pressure Sensor Development Tools Evaluation Shuttle Board for the BMP390L"
-			(at 201.93 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MANUFACTURER" "BOSCH"
-			(at 201.93 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 201.93 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "SNAPEDA_PN" "BMP390L"
-			(at 201.93 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(pin "1"
-			(uuid "705a8f41-b40a-41c6-b7fb-64df460a8b24")
-		)
-		(pin "8"
-			(uuid "2038ad0e-2bd0-48d3-87dd-e0142f234a89")
-		)
-		(pin "6"
-			(uuid "70691669-8f70-49a7-a2bd-e7878fc47cd0")
-		)
-		(pin "2"
-			(uuid "dda486e1-d750-4acc-b675-79cf4bcc94df")
-		)
-		(pin "9"
-			(uuid "4939d01d-ceea-41be-ba62-c9c80fe0cf4f")
-		)
-		(pin "3"
-			(uuid "5b990745-ddcb-4216-8787-29d71fdcc7ae")
-		)
-		(pin "7"
-			(uuid "39186ef0-7412-4dc7-9605-5912379c6ec8")
-		)
-		(pin "10"
-			(uuid "6ce8b73e-f040-4543-a97c-eccd3808d0aa")
-		)
-		(pin "4"
-			(uuid "133f7f26-62c4-4fbe-b36d-faa4ce457651")
-		)
-		(pin "5"
-			(uuid "f1a9ea2d-49b7-4fd3-89fb-8e3e74bd4059")
-		)
-		(instances
-			(project "KB-01"
-				(path "/e6144e29-1dc4-45a8-93e7-988a20131b94/8f8a2829-aad0-4226-9c36-d614fdf3c6c8"
-					(reference "U11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 34.29 115.57 0)
 		(unit 1)
@@ -5571,7 +6407,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100nF 6.3V"
 			(at 38.1 116.8399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5615,6 +6451,28 @@
 				)
 			)
 		)
+		(property "SNAPEDA_PN" ""
+			(at 34.29 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser" "581-KGM15AR70J104KT"
+			(at 34.29 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "704bde8c-9634-4133-82f6-9749c48869f1")
 		)
@@ -5632,7 +6490,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 232.41 54.61 0)
+		(at 242.57 127 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5641,9 +6499,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "ff80571e-9899-4347-adc0-d449deb4eea0")
-		(property "Reference" "C41"
-			(at 236.22 53.3399 0)
+		(uuid "fa91c45d-da1f-4cfa-8d76-35d1f523d507")
+		(property "Reference" "C53"
+			(at 246.38 125.7299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5653,8 +6511,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
-			(at 236.22 55.8799 0)
+		(property "Value" "100nF 6.3V"
+			(at 246.38 128.2699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5665,7 +6523,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 233.3752 58.42 0)
+			(at 243.5352 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5676,7 +6534,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 232.41 54.61 0)
+			(at 242.57 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5687,7 +6545,29 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 232.41 54.61 0)
+			(at 242.57 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SNAPEDA_PN" ""
+			(at 242.57 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser" "581-KGM15AR70J104KT"
+			(at 242.57 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5698,15 +6578,93 @@
 			)
 		)
 		(pin "1"
-			(uuid "01a6208c-0fa0-4d75-84cb-a2ca7a60511a")
+			(uuid "8a26a7b8-99ee-448b-b603-0aba670fca51")
 		)
 		(pin "2"
-			(uuid "1bba1be8-6c9f-4466-9995-a6eb1a722312")
+			(uuid "4307c8b2-7e70-412e-9673-bedcd5a60c24")
 		)
 		(instances
 			(project "KB-01"
 				(path "/e6144e29-1dc4-45a8-93e7-988a20131b94/8f8a2829-aad0-4226-9c36-d614fdf3c6c8"
-					(reference "C41")
+					(reference "C53")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 182.88 39.37 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fe72f65d-1546-4ebe-ac3a-33985220c8c7")
+		(property "Reference" "#PWR071"
+			(at 182.88 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 182.88 44.45 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 182.88 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 182.88 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 182.88 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "04e7f837-e7b8-4e32-91f2-48018d02092f")
+		)
+		(instances
+			(project "KB-01"
+				(path "/e6144e29-1dc4-45a8-93e7-988a20131b94/8f8a2829-aad0-4226-9c36-d614fdf3c6c8"
+					(reference "#PWR071")
 					(unit 1)
 				)
 			)

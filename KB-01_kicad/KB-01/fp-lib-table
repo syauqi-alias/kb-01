@@ -6,4 +6,7 @@
 	(lib (name "B39162B4327P810") (type "KiCad") (uri "${KIPRJMOD}/Library/B39162B4327P810") (options "") (descr ""))
 	(lib (name "footprints") (type "KiCad") (uri "${KIPRJMOD}/Library/ul_MAX2659ELT-T/KiCADv6/footprints.pretty") (options "") (descr ""))
 	(lib (name "SFV22R-1STBE1HLF") (type "KiCad") (uri "${KIPRJMOD}/Library/SFV22R-1STBE1HLF") (options "") (descr ""))
+	(lib (name "BMP581") (type "KiCad") (uri "${KIPRJMOD}/Library/LIB_BMP581/BMP581/KiCad") (options "") (descr ""))
+	(lib (name "BMI270") (type "KiCad") (uri "${KIPRJMOD}/Library/LIB_BMI270/BMI270/KiCad") (options "") (descr ""))
+	(lib (name "TESEO-LIV4FTR") (type "KiCad") (uri "${KIPRJMOD}/Library/LIB_TESEO-LIV4FTR/TESEO-LIV4FTR/KiCad") (options "") (descr ""))
 )

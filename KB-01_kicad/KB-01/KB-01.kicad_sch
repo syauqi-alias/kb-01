@@ -602,6 +602,19 @@
 		)
 		(uuid "87846fbc-0d9f-4a87-bd59-67b597686fa0")
 	)
+	(text "Done"
+		(exclude_from_sim no)
+		(at 43.434 125.476 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 59 255 63 1)
+			)
+		)
+		(uuid "891aa895-11e1-4f43-a66f-b2bee20f3831")
+	)
 	(text "Fuel Gauge\n"
 		(exclude_from_sim no)
 		(at 119.38 60.96 90)
@@ -1818,6 +1831,17 @@
 				)
 			)
 		)
+		(property "SNAPEDA_PN" ""
+			(at 88.9 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "acf82430-a697-4b2f-a8e9-e2b3eebb39fc")
 		)
@@ -2201,6 +2225,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 78.74 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SNAPEDA_PN" ""
 			(at 78.74 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -2971,7 +3006,7 @@
 				(justify right)
 			)
 		)
-		(pin "BMP390_SDA" output
+		(pin "BMP390_SDA" input
 			(at 66.04 110.49 0)
 			(uuid "86ec6555-d151-4a3c-8377-1610ca358593")
 			(effects

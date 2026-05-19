@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'TESEO_LIV4FTR'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "STMicroelectronics", "TESEO-LIV4FTR" (!) = "", "TESEOLIV4FTR", "Other", "511-TESEO-LIV4FTR", "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/TESEO-LIV4FTR?qs=By6Nw2ByBD3%252BjjBvGBu5LQ%3D%3D", "TESEO-LIV4FTR", "https://www.arrow.com/en/products/teseo-liv4ftr/stmicroelectronics?utm_currency=USD&region=nac", "Tiny dual-band GNSS low power and measurement engine modules", "https://www.st.com/resource/en/datasheet/teseo-liv4f.pdf", "2.3 mm"
+END_PART
+
+END.
