@@ -658,6 +658,19 @@
 		)
 		(uuid "9eb3d0a9-3da8-4305-841b-1c1a806f0d3c")
 	)
+	(text "Done"
+		(exclude_from_sim no)
+		(at 219.964 101.854 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 59 255 63 1)
+			)
+		)
+		(uuid "a9657043-b76b-44bd-baa3-c890af1f9923")
+	)
 	(text "Act as a\nperipheral"
 		(exclude_from_sim no)
 		(at 164.338 31.496 0)

@@ -6314,7 +6314,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "1uF 16V"
 			(at 260.35 41.9099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6369,6 +6369,17 @@
 				)
 			)
 		)
+		(property "mouser" "187-CL10B105KO8NNNC"
+			(at 256.54 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "7f9d3faf-53f1-4541-9d45-33cda2b945e0")
 		)
@@ -6413,7 +6424,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "LED Red"
 			(at 238.76 85.4074 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6469,6 +6480,17 @@
 			)
 		)
 		(property "SNAPEDA_PN" ""
+			(at 234.95 82.55 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser" "755-SML-D12L8WT86"
 			(at 234.95 82.55 90)
 			(hide yes)
 			(show_name no)
@@ -7723,6 +7745,17 @@
 				)
 			)
 		)
+		(property "mouser" "621-MMBT3904T-F"
+			(at 232.41 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a0eb2735-c02e-4528-99ea-54999ce43d0e")
 		)
@@ -8426,7 +8459,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "1uF 16V"
 			(at 234.95 41.9099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8471,6 +8504,17 @@
 			)
 		)
 		(property "SNAPEDA_PN" ""
+			(at 231.14 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser" "187-CL10B105KO8NNNC"
 			(at 231.14 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -9755,5 +9799,4 @@
 			(page "1")
 		)
 	)
-	(embedded_fonts no)
 )
