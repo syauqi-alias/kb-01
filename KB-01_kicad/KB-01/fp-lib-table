@@ -9,4 +9,5 @@
 	(lib (name "BMP581") (type "KiCad") (uri "${KIPRJMOD}/Library/LIB_BMP581/BMP581/KiCad") (options "") (descr ""))
 	(lib (name "BMI270") (type "KiCad") (uri "${KIPRJMOD}/Library/LIB_BMI270/BMI270/KiCad") (options "") (descr ""))
 	(lib (name "TESEO-LIV4FTR") (type "KiCad") (uri "${KIPRJMOD}/Library/LIB_TESEO-LIV4FTR/TESEO-LIV4FTR/KiCad") (options "") (descr ""))
+	(lib (name "CMT-0502-03SMTTR") (type "KiCad") (uri "${KIPRJMOD}/Library/LIB_CMT-0502-03-SMT-TR/CMT-0502-03-SMT-TR/KiCad") (options "") (descr ""))
 )

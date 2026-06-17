@@ -1745,6 +1745,12 @@
 		(uuid "4180a7fd-354a-461b-91c8-8fe150ef0c8c")
 	)
 	(junction
+		(at 234.95 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "433b9807-ea2e-414c-9c6f-efb156a779ec")
+	)
+	(junction
 		(at 105.41 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1755,12 +1761,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "546d1e8e-d5ca-4ad6-9d1b-068fd1242e25")
-	)
-	(junction
-		(at 166.37 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6b931159-4160-4de4-9a98-4dabb1c903ee")
 	)
 	(junction
 		(at 160.02 116.84)
@@ -1781,6 +1781,12 @@
 		(uuid "966449a1-8463-4b71-9399-449b90485865")
 	)
 	(junction
+		(at 166.37 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9dab687b-710f-4a94-b46b-1379dfbe84c6")
+	)
+	(junction
 		(at 78.74 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1791,12 +1797,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c464c0c9-65c5-46ca-8462-919566575bde")
-	)
-	(junction
-		(at 217.17 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dd1faae8-58d0-4d7a-93cd-16bcf4fec293")
 	)
 	(junction
 		(at 73.66 87.63)
@@ -1812,7 +1812,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 76.2) (xy 236.22 71.12)
+			(xy 254 76.2) (xy 254 71.12)
 		)
 		(stroke
 			(width 0)
@@ -1902,6 +1902,16 @@
 	)
 	(wire
 		(pts
+			(xy 115.57 68.58) (xy 118.11 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "247d93f0-ae01-4678-b7ea-a73080c4be57")
+	)
+	(wire
+		(pts
 			(xy 160.02 116.84) (xy 149.86 116.84)
 		)
 		(stroke
@@ -1952,7 +1962,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 59.69) (xy 217.17 62.23)
+			(xy 234.95 59.69) (xy 234.95 62.23)
 		)
 		(stroke
 			(width 0)
@@ -1982,13 +1992,23 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 71.12) (xy 217.17 71.12)
+			(xy 220.98 71.12) (xy 223.52 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "44723e58-bdca-4184-bf04-3dcaa270b7f2")
+	)
+	(wire
+		(pts
+			(xy 163.83 71.12) (xy 166.37 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45d515a8-39ea-4d20-ba59-685db9d3e774")
 	)
 	(wire
 		(pts
@@ -2062,7 +2082,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 69.85) (xy 217.17 71.12)
+			(xy 234.95 69.85) (xy 234.95 71.12)
 		)
 		(stroke
 			(width 0)
@@ -2192,7 +2212,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 71.12) (xy 236.22 71.12)
+			(xy 251.46 71.12) (xy 254 71.12)
 		)
 		(stroke
 			(width 0)
@@ -2212,7 +2232,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 71.12) (xy 223.52 71.12)
+			(xy 234.95 71.12) (xy 241.3 71.12)
 		)
 		(stroke
 			(width 0)
@@ -2269,16 +2289,6 @@
 			(type default)
 		)
 		(uuid "bb4eb0a2-ab49-4b85-a90a-3a8f988e6e9b")
-	)
-	(wire
-		(pts
-			(xy 158.75 71.12) (xy 166.37 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c34527fc-3b36-4303-8880-2dc78f8b9440")
 	)
 	(wire
 		(pts
@@ -2342,6 +2352,26 @@
 	)
 	(wire
 		(pts
+			(xy 231.14 71.12) (xy 234.95 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e447d3c1-1cd6-4ad4-abb1-95f3fae9d70b")
+	)
+	(wire
+		(pts
+			(xy 153.67 71.12) (xy 156.21 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e63c1bb0-8023-46e1-bf8c-f24b53a8839a")
+	)
+	(wire
+		(pts
 			(xy 182.88 71.12) (xy 185.42 71.12)
 		)
 		(stroke
@@ -2400,6 +2430,18 @@
 		)
 		(uuid "fda0bf75-84dd-4eb4-a03f-cfcbe40f8a8a")
 	)
+	(hierarchical_label "PUSH_BT_ENC"
+		(shape input)
+		(at 118.11 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 0 132 0 1)
+			)
+			(justify left)
+		)
+		(uuid "1abb12b0-8bdd-4eeb-b9b7-4bf9a1a46c41")
+	)
 	(hierarchical_label "+3.3v"
 		(shape input)
 		(at 166.37 59.69 0)
@@ -2435,7 +2477,7 @@
 	)
 	(hierarchical_label "+3.3v"
 		(shape input)
-		(at 217.17 59.69 0)
+		(at 234.95 59.69 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2446,7 +2488,7 @@
 	)
 	(hierarchical_label "Push_button1"
 		(shape input)
-		(at 158.75 71.12 180)
+		(at 153.67 71.12 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2457,7 +2499,7 @@
 	)
 	(hierarchical_label "Push_button2"
 		(shape input)
-		(at 209.55 71.12 180)
+		(at 220.98 71.12 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2488,18 +2530,6 @@
 			(justify right)
 		)
 		(uuid "d0ec9d43-53e1-40af-8188-616ec6e7ee4a")
-	)
-	(hierarchical_label "PUSH_BT_ENC"
-		(shape input)
-		(at 107.95 68.58 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 0 132 0 1)
-			)
-			(justify left)
-		)
-		(uuid "d28a385f-164f-490f-ba1f-10de7b3b57b4")
 	)
 	(hierarchical_label "CHA_A"
 		(shape input)
@@ -2640,8 +2670,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 228.6 71.12 0)
+		(lib_id "power:GND")
+		(at 166.37 78.74 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2650,9 +2680,10 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "143e52b7-c62f-4945-abd0-92c02c0503b8")
-		(property "Reference" "SW5"
-			(at 228.6 63.5 0)
+		(uuid "02a0f2c9-06cf-43d6-b785-934f59438868")
+		(property "Reference" "#PWR079"
+			(at 166.37 85.09 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2661,8 +2692,8 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
-			(at 228.6 66.04 0)
+		(property "Value" "GND"
+			(at 166.37 83.82 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2672,7 +2703,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 228.6 66.04 0)
+			(at 166.37 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2683,7 +2714,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 228.6 66.04 0)
+			(at 166.37 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2693,8 +2724,96 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 228.6 71.12 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 166.37 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fa67b8c7-9b30-4c50-b88e-9bdf85607469")
+		)
+		(instances
+			(project "KB-01"
+				(path "/e6144e29-1dc4-45a8-93e7-988a20131b94/223a1f40-08cb-4cda-b03a-4c087618db35"
+					(reference "#PWR079")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 227.33 71.12 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "076b63e6-eda1-44f7-b051-4f6fdb924281")
+		(property "Reference" "R33"
+			(at 227.33 64.77 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 227.33 67.31 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 227.33 72.898 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 227.33 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 227.33 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser" "594-MCT06030C2201FP5 "
+			(at 227.33 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2705,7 +2824,98 @@
 			)
 		)
 		(property "SNAPEDA_PN" ""
-			(at 228.6 71.12 0)
+			(at 227.33 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "16f48c2b-e902-4a68-95c4-cf14f0f72f30")
+		)
+		(pin "2"
+			(uuid "362afc47-f640-410e-b608-24225b18657f")
+		)
+		(instances
+			(project "KB-01"
+				(path "/e6144e29-1dc4-45a8-93e7-988a20131b94/223a1f40-08cb-4cda-b03a-4c087618db35"
+					(reference "R33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 246.38 71.12 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "143e52b7-c62f-4945-abd0-92c02c0503b8")
+		(property "Reference" "SW5"
+			(at 246.38 63.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 246.38 66.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V2"
+			(at 246.38 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 246.38 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 246.38 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SNAPEDA_PN" ""
+			(at 246.38 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2725,6 +2935,108 @@
 			(project "KB-01"
 				(path "/e6144e29-1dc4-45a8-93e7-988a20131b94/223a1f40-08cb-4cda-b03a-4c087618db35"
 					(reference "SW5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 160.02 71.12 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "151ff5f0-d99c-4291-8756-2357192f49dc")
+		(property "Reference" "R32"
+			(at 160.02 64.77 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 160.02 67.31 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 160.02 72.898 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.02 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 160.02 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser" "594-MCT06030C2201FP5 "
+			(at 160.02 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SNAPEDA_PN" ""
+			(at 160.02 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "693291c7-91a6-47c5-8593-5397c7c4010e")
+		)
+		(pin "2"
+			(uuid "9a6cf010-0125-45ea-abe1-8dfaa30150b9")
+		)
+		(instances
+			(project "KB-01"
+				(path "/e6144e29-1dc4-45a8-93e7-988a20131b94/223a1f40-08cb-4cda-b03a-4c087618db35"
+					(reference "R32")
 					(unit 1)
 				)
 			)
@@ -2796,6 +3108,17 @@
 			)
 		)
 		(property "SNAPEDA_PN" ""
+			(at 144.78 124.46 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser" "279-CRGH0603F180R"
 			(at 144.78 124.46 90)
 			(hide yes)
 			(show_name no)
@@ -3413,7 +3736,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V2"
 			(at 177.8 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -3474,7 +3797,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 217.17 66.04 0)
+		(at 111.76 68.58 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3483,31 +3806,29 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "64f285df-b691-4327-89d5-8a32eedeb347")
-		(property "Reference" "R26"
-			(at 219.71 64.7699 0)
+		(uuid "4bd65c17-ad63-48fa-b14d-e5baba34078f")
+		(property "Reference" "R34"
+			(at 111.76 62.23 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "10k"
-			(at 219.71 67.3099 0)
+		(property "Value" "1k"
+			(at 111.76 64.77 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 215.392 66.04 90)
+			(at 111.76 70.358 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3518,7 +3839,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 217.17 66.04 0)
+			(at 111.76 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3529,7 +3850,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 217.17 66.04 0)
+			(at 111.76 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3539,19 +3860,8 @@
 				)
 			)
 		)
-		(property "mouser" "71-CRCW060310K0FKEE"
-			(at 217.17 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" ""
-			(at 217.17 66.04 0)
+		(property "mouser" "594-MCT06030C2201FP5 "
+			(at 111.76 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3562,7 +3872,122 @@
 			)
 		)
 		(property "SNAPEDA_PN" ""
-			(at 217.17 66.04 0)
+			(at 111.76 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "69bf1ea9-625b-4d33-a69f-6461ef18a9ec")
+		)
+		(pin "2"
+			(uuid "70f5c8f3-b65a-463c-b5f1-805f319e533c")
+		)
+		(instances
+			(project "KB-01"
+				(path "/e6144e29-1dc4-45a8-93e7-988a20131b94/223a1f40-08cb-4cda-b03a-4c087618db35"
+					(reference "R34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 234.95 66.04 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "64f285df-b691-4327-89d5-8a32eedeb347")
+		(property "Reference" "R26"
+			(at 237.49 64.7699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 237.49 67.3099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 233.172 66.04 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 234.95 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 234.95 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser" "71-CRCW060310K0FKEE"
+			(at 234.95 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 234.95 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SNAPEDA_PN" ""
+			(at 234.95 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3582,6 +4007,109 @@
 			(project "KB-01"
 				(path "/e6144e29-1dc4-45a8-93e7-988a20131b94/223a1f40-08cb-4cda-b03a-4c087618db35"
 					(reference "R26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 166.37 74.93 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7481731f-1fd0-4ab4-8596-bab9adb36df5")
+		(property "Reference" "C54"
+			(at 170.18 73.6599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF 6.3V"
+			(at 170.18 76.1999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 167.3352 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 166.37 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 166.37 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SNAPEDA_PN" ""
+			(at 166.37 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser" "581-KGM15AR70J104KT"
+			(at 166.37 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ddcc6e59-0a17-4bae-ade1-010382679986")
+		)
+		(pin "2"
+			(uuid "5e60ea50-c9ff-4e13-a326-c00b48ffed5c")
+		)
+		(instances
+			(project "KB-01"
+				(path "/e6144e29-1dc4-45a8-93e7-988a20131b94/223a1f40-08cb-4cda-b03a-4c087618db35"
+					(reference "C54")
 					(unit 1)
 				)
 			)
@@ -3667,7 +4195,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 236.22 76.2 0)
+		(at 254 76.2 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3678,7 +4206,7 @@
 		(fields_autoplaced yes)
 		(uuid "8ebc512a-79fb-45dc-abde-8c082f17fbe8")
 		(property "Reference" "#PWR074"
-			(at 236.22 82.55 0)
+			(at 254 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3689,7 +4217,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 236.22 81.28 0)
+			(at 254 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3699,7 +4227,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 236.22 76.2 0)
+			(at 254 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3710,7 +4238,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 236.22 76.2 0)
+			(at 254 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3721,7 +4249,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 236.22 76.2 0)
+			(at 254 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3738,6 +4266,84 @@
 			(project "KB-01"
 				(path "/e6144e29-1dc4-45a8-93e7-988a20131b94/223a1f40-08cb-4cda-b03a-4c087618db35"
 					(reference "#PWR074")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 234.95 78.74 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a986ebcd-2f6f-4c65-a2de-42d90a2c6d57")
+		(property "Reference" "#PWR080"
+			(at 234.95 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 234.95 83.82 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 234.95 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 234.95 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 234.95 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d553ce2a-e237-4e46-8eb9-70853e2d264c")
+		)
+		(instances
+			(project "KB-01"
+				(path "/e6144e29-1dc4-45a8-93e7-988a20131b94/223a1f40-08cb-4cda-b03a-4c087618db35"
+					(reference "#PWR080")
 					(unit 1)
 				)
 			)
@@ -3777,7 +4383,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CMT050203SMTTR"
+		(property "Footprint" "CMT-0502-03SMTTR:CMT050203SMTTR"
 			(at 65.1 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -3907,6 +4513,17 @@
 				)
 			)
 		)
+		(property "mouser" "179-CMT-0502-03SMTTR"
+			(at 160.02 93.98 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "7efd5a86-d16b-4059-8b9d-5cb3d5e1ee07")
 		)
@@ -3920,6 +4537,109 @@
 			(project "KB-01"
 				(path "/e6144e29-1dc4-45a8-93e7-988a20131b94/223a1f40-08cb-4cda-b03a-4c087618db35"
 					(reference "LS1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 234.95 74.93 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c8d9e2f7-0df0-49b5-9510-fe3fad66b8c5")
+		(property "Reference" "C55"
+			(at 238.76 73.6599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF 6.3V"
+			(at 238.76 76.1999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 235.9152 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 234.95 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 234.95 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SNAPEDA_PN" ""
+			(at 234.95 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser" "581-KGM15AR70J104KT"
+			(at 234.95 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c338e505-59e1-4eaa-b6dc-57e0ddec0712")
+		)
+		(pin "2"
+			(uuid "d780fb12-46bb-4e21-bf8a-c4218e5841e7")
+		)
+		(instances
+			(project "KB-01"
+				(path "/e6144e29-1dc4-45a8-93e7-988a20131b94/223a1f40-08cb-4cda-b03a-4c087618db35"
+					(reference "C55")
 					(unit 1)
 				)
 			)
@@ -4014,6 +4734,17 @@
 			)
 		)
 		(property "SNAPEDA_PN" ""
+			(at 149.86 105.41 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser" "637-1N4148W"
 			(at 149.86 105.41 90)
 			(hide yes)
 			(show_name no)
@@ -4527,6 +5258,17 @@
 			)
 		)
 		(property "SNAPEDA_PN" ""
+			(at 157.48 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser" "621-2N7002A-7 "
 			(at 157.48 124.46 0)
 			(hide yes)
 			(show_name no)

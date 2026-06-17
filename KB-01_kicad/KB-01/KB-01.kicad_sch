@@ -695,6 +695,19 @@
 		)
 		(uuid "b42f3a2b-2b16-4f35-8134-ae1d8505e4cb")
 	)
+	(text "Done, SW is keyboard sw"
+		(exclude_from_sim no)
+		(at 219.964 142.748 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 59 255 63 1)
+			)
+		)
+		(uuid "c77c7439-cedf-4dfa-85c3-cdf7844eed8b")
+	)
 	(text "IMU"
 		(exclude_from_sim no)
 		(at 43.688 133.604 0)
