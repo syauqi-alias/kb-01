@@ -10025,7 +10025,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 183.642 48.26 90)
 			(hide yes)
 			(show_name no)
@@ -10125,6 +10125,17 @@
 			)
 		)
 		(property "SNAPEDA_PN" ""
+			(at 185.42 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser" "652-CR0603FX-1001ELF "
 			(at 185.42 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -10260,7 +10271,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_Tactile_SPST_Angled_PTS645Vx58-2LFS"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_EVQP7A"
 			(at 48.26 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -10348,6 +10359,17 @@
 				)
 			)
 		)
+		(property "mouser" "667-EVQP7A01P"
+			(at 43.18 71.12 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "9843560a-ccf5-47dd-bf25-d2df0bffae2b")
 		)
@@ -10396,7 +10418,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 41.402 48.26 90)
 			(hide yes)
 			(show_name no)
@@ -10496,6 +10518,17 @@
 			)
 		)
 		(property "SNAPEDA_PN" ""
+			(at 43.18 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser" "652-CR0603FX-1001ELF "
 			(at 43.18 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -10801,7 +10834,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1F"
+		(property "Value" "0.1F 5.5V"
 			(at 36.83 110.8709 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10835,6 +10868,17 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
+			(at 33.02 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser" "80-FC0V104ZFTBR24"
 			(at 33.02 110.49 0)
 			(hide yes)
 			(show_name no)
