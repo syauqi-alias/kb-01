@@ -5127,12 +5127,204 @@
 		(uuid "f5ce3d71-0541-436a-a24e-83a2fd552c66")
 	)
 	(no_connect
+		(at 39.37 157.48)
+		(uuid "03ef735e-3a0d-4906-890e-004f8703301a")
+	)
+	(no_connect
+		(at 38.1 68.58)
+		(uuid "083841d8-b8c9-421e-b229-a3fce6fcc859")
+	)
+	(no_connect
+		(at 133.35 129.54)
+		(uuid "0c37ae6d-ff3d-4c62-87b3-f5c0813d2c75")
+	)
+	(no_connect
+		(at 133.35 137.16)
+		(uuid "13320c1a-e040-4bef-ae9f-82bc408e0d19")
+	)
+	(no_connect
+		(at 39.37 76.2)
+		(uuid "13573cad-4403-40d4-ba41-2d47b9d913ea")
+	)
+	(no_connect
+		(at 39.37 152.4)
+		(uuid "17e4978f-c823-4237-8a91-957e4a4ffbbb")
+	)
+	(no_connect
+		(at 133.35 96.52)
+		(uuid "1a24c869-c456-457e-9d89-2df2d59fa128")
+	)
+	(no_connect
+		(at 39.37 99.06)
+		(uuid "1e2aa7e5-3283-46c5-a389-946b9afcc4cf")
+	)
+	(no_connect
+		(at 39.37 83.82)
+		(uuid "20147de4-d133-4154-a246-c37ef81625c4")
+	)
+	(no_connect
+		(at 39.37 111.76)
+		(uuid "243a5701-228e-43f3-b2cf-a01efaf2a151")
+	)
+	(no_connect
+		(at 133.35 114.3)
+		(uuid "26b69ad9-b638-4b20-8890-eb75f9cc02ad")
+	)
+	(no_connect
+		(at 39.37 134.62)
+		(uuid "2d2110c6-35e0-4d64-b1a0-a685e6a30657")
+	)
+	(no_connect
+		(at 133.35 134.62)
+		(uuid "321cb79c-12b2-4531-9783-97ae8796bd34")
+	)
+	(no_connect
+		(at 133.35 111.76)
+		(uuid "33e23b35-3514-43ce-88f9-b920eba21edf")
+	)
+	(no_connect
+		(at 229.87 106.68)
+		(uuid "3b59f0ee-e1df-4106-ae8e-c0ed64dde1ba")
+	)
+	(no_connect
+		(at 229.87 109.22)
+		(uuid "3ba622a3-dc67-43dd-9e9d-d8c74246209a")
+	)
+	(no_connect
+		(at 133.35 142.24)
+		(uuid "4ce407ed-5f01-4b8d-b713-8431eb67b988")
+	)
+	(no_connect
+		(at 39.37 121.92)
+		(uuid "4d02adeb-a9d0-4078-82c1-4bb6f8838f46")
+	)
+	(no_connect
+		(at 133.35 104.14)
+		(uuid "4ed83980-eddf-450c-a298-180645c9da8d")
+	)
+	(no_connect
+		(at 133.35 119.38)
+		(uuid "4f1d7faf-8377-4e3e-bb54-3cc7ad282a8e")
+	)
+	(no_connect
+		(at 133.35 91.44)
+		(uuid "5a8bb6ab-7f13-46b6-a3c0-81b37b32a2d7")
+	)
+	(no_connect
+		(at 39.37 142.24)
+		(uuid "634ea534-9161-470f-96bc-bc6efdb758e5")
+	)
+	(no_connect
+		(at 39.37 73.66)
+		(uuid "651aade8-71fb-4a76-86d0-b2bebfe1d78b")
+	)
+	(no_connect
+		(at 133.35 121.92)
+		(uuid "75e529ff-49ec-4387-ab54-71908f59e507")
+	)
+	(no_connect
+		(at 133.35 127)
+		(uuid "7fe41edc-5305-4df1-bf7e-9f3aeccae9a0")
+	)
+	(no_connect
+		(at 39.37 129.54)
+		(uuid "8ce62607-fb25-4360-b91a-639d4b28922e")
+	)
+	(no_connect
+		(at 39.37 91.44)
+		(uuid "8f8e7e08-802a-4b74-a0a7-13f7329cbdbb")
+	)
+	(no_connect
+		(at 39.37 104.14)
+		(uuid "96166263-2fc4-4744-81a6-3c8fcad29fd5")
+	)
+	(no_connect
+		(at 39.37 114.3)
+		(uuid "99d8c1a5-2cee-4244-a729-77add9a2753e")
+	)
+	(no_connect
 		(at 237.49 109.22)
 		(uuid "9bb296a8-cf57-4404-9abc-85a8c5329d5f")
 	)
 	(no_connect
+		(at 39.37 144.78)
+		(uuid "a5fbbad0-d15c-4edc-9c85-4d1cf4bb0fa7")
+	)
+	(no_connect
+		(at 133.35 106.68)
+		(uuid "ae30e3a9-6cf4-49c4-a4aa-29eab66b2f89")
+	)
+	(no_connect
+		(at 39.37 106.68)
+		(uuid "ae33a147-3b40-43a3-a42f-38bb7672f684")
+	)
+	(no_connect
+		(at 39.37 137.16)
+		(uuid "b5c8d072-8469-424f-b067-1c2e7405eeca")
+	)
+	(no_connect
+		(at 39.37 81.28)
+		(uuid "b6266f9c-4701-48cb-9dc7-cd67453b6882")
+	)
+	(no_connect
+		(at 39.37 119.38)
+		(uuid "b7510b92-8b5f-4205-a3d6-eb2aacfd81cf")
+	)
+	(no_connect
 		(at 237.49 106.68)
 		(uuid "be6a00e8-74cd-4d85-986c-0bec5188625f")
+	)
+	(no_connect
+		(at 133.35 88.9)
+		(uuid "c459b770-323d-4d4b-9a11-51dec91a22a2")
+	)
+	(no_connect
+		(at 133.35 99.06)
+		(uuid "c594cdb5-04ff-4a55-b34c-8954799be0d8")
+	)
+	(no_connect
+		(at 39.37 149.86)
+		(uuid "cb4ff7ad-2f75-4e3b-9a82-55e3c6541ad9")
+	)
+	(no_connect
+		(at 133.35 149.86)
+		(uuid "cc506fd3-3d24-4a77-9b93-cb99f35ef672")
+	)
+	(no_connect
+		(at 38.1 66.04)
+		(uuid "ce526877-a923-41f0-be19-7bf287ecdca0")
+	)
+	(no_connect
+		(at 133.35 157.48)
+		(uuid "d1277334-b186-400d-8042-e7572b9fada9")
+	)
+	(no_connect
+		(at 133.35 93.98)
+		(uuid "d7927cb5-890d-407b-8c25-cf6c3541bd76")
+	)
+	(no_connect
+		(at 133.35 144.78)
+		(uuid "dbb7ac03-f589-46d3-8a13-c7dc17f7e688")
+	)
+	(no_connect
+		(at 39.37 88.9)
+		(uuid "dc768e7d-340c-4f61-8c43-aa81fbb18d12")
+	)
+	(no_connect
+		(at 133.35 86.36)
+		(uuid "eb1daa14-04c7-40db-863e-780c137cc05e")
+	)
+	(no_connect
+		(at 39.37 127)
+		(uuid "edf9a584-bcb4-4ac6-b904-1eb8ee163fa0")
+	)
+	(no_connect
+		(at 39.37 96.52)
+		(uuid "fc1e811e-8467-4f6d-878e-0ab4340028de")
+	)
+	(no_connect
+		(at 133.35 152.4)
+		(uuid "fcc1361d-b273-43d7-a57a-2dc012646f68")
 	)
 	(wire
 		(pts
@@ -7663,7 +7855,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d18172e")
-		(property "Reference" "#PWR0130"
+		(property "Reference" "#PWR012"
 			(at 119.38 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -7723,7 +7915,7 @@
 		(instances
 			(project "KB-01"
 				(path "/e6144e29-1dc4-45a8-93e7-988a20131b94/c056c83f-0013-49c8-b531-d86fefdb5c46"
-					(reference "#PWR0130")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -7740,7 +7932,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d1874b1")
-		(property "Reference" "#PWR0131"
+		(property "Reference" "#PWR011"
 			(at 53.34 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -7800,7 +7992,7 @@
 		(instances
 			(project "KB-01"
 				(path "/e6144e29-1dc4-45a8-93e7-988a20131b94/c056c83f-0013-49c8-b531-d86fefdb5c46"
-					(reference "#PWR0131")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -7817,7 +8009,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d250ba3")
-		(property "Reference" "#PWR0134"
+		(property "Reference" "#PWR010"
 			(at 234.95 127 0)
 			(hide yes)
 			(show_name no)
@@ -7877,7 +8069,7 @@
 		(instances
 			(project "KB-01"
 				(path "/e6144e29-1dc4-45a8-93e7-988a20131b94/c056c83f-0013-49c8-b531-d86fefdb5c46"
-					(reference "#PWR0134")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -7894,7 +8086,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1e7b25c3-aad7-4835-9a3f-aae2ddd9c7d4")
-		(property "Reference" "J6"
+		(property "Reference" "J1"
 			(at 219.71 62.23 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8095,7 +8287,7 @@
 		(instances
 			(project "KB-01"
 				(path "/e6144e29-1dc4-45a8-93e7-988a20131b94/c056c83f-0013-49c8-b531-d86fefdb5c46"
-					(reference "J6")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -8187,6 +8379,17 @@
 			)
 		)
 		(property "SNAPEDA_PN" ""
+			(at -53.34 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser" "798-DF40C100DS0.4V58 "
 			(at -53.34 93.98 0)
 			(hide yes)
 			(show_name no)

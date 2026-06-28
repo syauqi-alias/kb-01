@@ -500,6 +500,19 @@
 		)
 		(uuid "13b7611e-634f-4211-81c5-37def9282634")
 	)
+	(text "Done"
+		(exclude_from_sim no)
+		(at 152.146 121.158 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 59 255 63 1)
+			)
+		)
+		(uuid "2aacf608-6c66-495e-b21b-65bb852ae189")
+	)
 	(text "Temp & \nHumidity"
 		(exclude_from_sim no)
 		(at 39.37 119.126 0)
@@ -811,16 +824,20 @@
 		(uuid "3610d293-9db7-4a7f-9c41-2f1273e580ec")
 	)
 	(no_connect
-		(at 162.56 27.94)
-		(uuid "97e66b0e-e3d9-41c2-b63a-b47d60b18b43")
-	)
-	(no_connect
 		(at 177.8 83.82)
 		(uuid "98e00431-7628-46bf-8794-036c8db77860")
 	)
 	(no_connect
+		(at 102.87 119.38)
+		(uuid "b53b505b-c547-46cf-846c-172a309f0868")
+	)
+	(no_connect
 		(at 102.87 154.94)
 		(uuid "be74f75a-0f5e-4169-b157-bc370ffbe844")
+	)
+	(no_connect
+		(at 102.87 121.92)
+		(uuid "df1d877e-a621-4441-9699-0cd08c310ece")
 	)
 	(no_connect
 		(at 102.87 152.4)
@@ -1448,6 +1465,16 @@
 	)
 	(wire
 		(pts
+			(xy 162.56 27.94) (xy 158.75 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b850b70c-6727-43e1-b10f-fa2a7d8a3bf0")
+	)
+	(wire
+		(pts
 			(xy 73.66 100.33) (xy 88.9 100.33)
 		)
 		(stroke
@@ -1618,6 +1645,16 @@
 	)
 	(wire
 		(pts
+			(xy 158.75 27.94) (xy 158.75 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa30f0a2-78fc-475c-a9bc-434a7f630039")
+	)
+	(wire
+		(pts
 			(xy 128.27 76.2) (xy 128.27 81.28)
 		)
 		(stroke
@@ -1647,7 +1684,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "118405f2-bb3a-4c4a-a81f-aeb716e36620")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR01"
 			(at 181.61 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -1707,7 +1744,7 @@
 		(instances
 			(project "KB-01"
 				(path "/e6144e29-1dc4-45a8-93e7-988a20131b94"
-					(reference "#PWR054")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -1724,7 +1761,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "39d37240-00c6-45ab-a696-8dcde5b2433d")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR04"
 			(at 148.59 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -1784,7 +1821,7 @@
 		(instances
 			(project "KB-01"
 				(path "/e6144e29-1dc4-45a8-93e7-988a20131b94"
-					(reference "#PWR049")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -1802,7 +1839,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a73fb9f3-31d4-4550-b53d-1313585c887c")
-		(property "Reference" "R23"
+		(property "Reference" "R2"
 			(at 91.44 91.4399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1824,7 +1861,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 87.122 92.71 90)
 			(hide yes)
 			(show_name no)
@@ -1868,6 +1905,17 @@
 				)
 			)
 		)
+		(property "mouser" "667-ERJ-3GEYJ472V"
+			(at 88.9 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "acf82430-a697-4b2f-a8e9-e2b3eebb39fc")
 		)
@@ -1877,7 +1925,7 @@
 		(instances
 			(project "KB-01"
 				(path "/e6144e29-1dc4-45a8-93e7-988a20131b94"
-					(reference "R23")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -1895,7 +1943,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a87b36db-d327-4d8a-a5a8-235e9a067393")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR06"
 			(at 83.82 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -1955,7 +2003,7 @@
 		(instances
 			(project "KB-01"
 				(path "/e6144e29-1dc4-45a8-93e7-988a20131b94"
-					(reference "#PWR028")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -1972,7 +2020,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "abcea68a-03ad-4ed7-8d03-4e4284391683")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR02"
 			(at 217.17 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -2032,7 +2080,7 @@
 		(instances
 			(project "KB-01"
 				(path "/e6144e29-1dc4-45a8-93e7-988a20131b94"
-					(reference "#PWR052")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -2050,7 +2098,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bfee86d3-d827-4f77-8a97-bc2c0080ca38")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR03"
 			(at 59.69 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -2110,7 +2158,7 @@
 		(instances
 			(project "KB-01"
 				(path "/e6144e29-1dc4-45a8-93e7-988a20131b94"
-					(reference "#PWR05")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -2128,7 +2176,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c3d81eb5-fdaf-4397-a2e0-51496f010554")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR07"
 			(at 46.99 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -2188,7 +2236,7 @@
 		(instances
 			(project "KB-01"
 				(path "/e6144e29-1dc4-45a8-93e7-988a20131b94"
-					(reference "#PWR032")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -2206,7 +2254,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d706aa89-9cda-481a-ae67-118e0632c354")
-		(property "Reference" "R22"
+		(property "Reference" "R1"
 			(at 81.28 91.4399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2228,7 +2276,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 76.962 92.71 90)
 			(hide yes)
 			(show_name no)
@@ -2272,6 +2320,17 @@
 				)
 			)
 		)
+		(property "mouser" "667-ERJ-3GEYJ472V"
+			(at 78.74 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "18a6abfb-39b9-4c66-898e-e1c729f3e3c9")
 		)
@@ -2281,7 +2340,7 @@
 		(instances
 			(project "KB-01"
 				(path "/e6144e29-1dc4-45a8-93e7-988a20131b94"
-					(reference "R22")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -2298,7 +2357,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e76fc263-1b08-4ec5-b4ce-3257c62a1707")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR05"
 			(at 151.13 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -2358,7 +2417,7 @@
 		(instances
 			(project "KB-01"
 				(path "/e6144e29-1dc4-45a8-93e7-988a20131b94"
-					(reference "#PWR043")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -2376,7 +2435,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f3630b03-0bc5-46cd-9338-a0d9d388d4c9")
-		(property "Reference" "#PWR076"
+		(property "Reference" "#PWR09"
 			(at 219.71 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -2436,7 +2495,7 @@
 		(instances
 			(project "KB-01"
 				(path "/e6144e29-1dc4-45a8-93e7-988a20131b94"
-					(reference "#PWR076")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -2453,7 +2512,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fbade4df-275f-4f82-94c3-4f1110944713")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR08"
 			(at 220.98 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -2513,7 +2572,7 @@
 		(instances
 			(project "KB-01"
 				(path "/e6144e29-1dc4-45a8-93e7-988a20131b94"
-					(reference "#PWR055")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -2915,16 +2974,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-		(pin "BAT+" input
-			(at 124.46 24.13 90)
-			(uuid "728970b9-831c-4299-a9cc-9c023f3cc293")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 		(instances
@@ -3448,16 +3497,6 @@
 				(justify right)
 			)
 		)
-		(pin "GPIO_VREF" output
-			(at 153.67 83.82 90)
-			(uuid "e638ee8c-8b87-4771-b5e9-94914f2d64d7")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "ID_SC" output
 			(at 102.87 119.38 180)
 			(uuid "aafd6d8f-ef7f-44b1-86dc-3b29f66186ee")
@@ -3801,6 +3840,16 @@
 		(pin "GPIO18" input
 			(at 196.85 139.7 0)
 			(uuid "7a942c7b-f8dd-4477-bd19-f76d9e0a2eef")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USBOTG" output
+			(at 158.75 83.82 90)
+			(uuid "c8fb5997-6238-4ab2-847b-973bc5274f83")
 			(effects
 				(font
 					(size 1.27 1.27)

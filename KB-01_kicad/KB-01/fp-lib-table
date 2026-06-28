@@ -10,4 +10,6 @@
 	(lib (name "BMI270") (type "KiCad") (uri "${KIPRJMOD}/Library/LIB_BMI270/BMI270/KiCad") (options "") (descr ""))
 	(lib (name "TESEO-LIV4FTR") (type "KiCad") (uri "${KIPRJMOD}/Library/LIB_TESEO-LIV4FTR/TESEO-LIV4FTR/KiCad") (options "") (descr ""))
 	(lib (name "CMT-0502-03SMTTR") (type "KiCad") (uri "${KIPRJMOD}/Library/LIB_CMT-0502-03-SMT-TR/CMT-0502-03-SMT-TR/KiCad") (options "") (descr ""))
+	(lib (name "MAX17048G+T10") (type "KiCad") (uri "${KIPRJMOD}/Library/LIB_MAX17048G+T10/MAX17048G+T10/KiCad") (options "") (descr ""))
+	(lib (name "TLV70430DBVR") (type "KiCad") (uri "${KIPRJMOD}/Library/ul_TLV70430DBVR/KiCADv6/footprints.pretty") (options "") (descr ""))
 )
