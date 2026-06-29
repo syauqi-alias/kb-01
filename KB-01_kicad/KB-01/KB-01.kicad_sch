@@ -535,17 +535,6 @@
 		)
 		(uuid "4ad4eac9-0a13-4596-9be0-5321899c3dc0")
 	)
-	(text "No camera support\nfor this version"
-		(exclude_from_sim no)
-		(at 177.038 80.264 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "4e5e1c73-de14-48f2-9b8b-96b8765db040")
-	)
 	(text "pull-up res"
 		(exclude_from_sim no)
 		(at 80.518 88.392 0)
@@ -808,36 +797,16 @@
 		(uuid "fc9ddf27-82ae-4b95-9cba-e3f1ad11b0f0")
 	)
 	(no_connect
-		(at 180.34 76.2)
-		(uuid "07107a7b-60a5-482c-918a-582535d13ab3")
-	)
-	(no_connect
 		(at 205.74 113.03)
 		(uuid "08a3c610-331e-4699-92aa-4a26825871e9")
-	)
-	(no_connect
-		(at 177.8 76.2)
-		(uuid "271639fd-9888-4838-bb2a-2df7433927ca")
 	)
 	(no_connect
 		(at 205.74 115.57)
 		(uuid "3610d293-9db7-4a7f-9c41-2f1273e580ec")
 	)
 	(no_connect
-		(at 177.8 83.82)
-		(uuid "98e00431-7628-46bf-8794-036c8db77860")
-	)
-	(no_connect
-		(at 102.87 119.38)
-		(uuid "b53b505b-c547-46cf-846c-172a309f0868")
-	)
-	(no_connect
 		(at 102.87 154.94)
 		(uuid "be74f75a-0f5e-4169-b157-bc370ffbe844")
-	)
-	(no_connect
-		(at 102.87 121.92)
-		(uuid "df1d877e-a621-4441-9699-0cd08c310ece")
 	)
 	(no_connect
 		(at 102.87 152.4)
@@ -945,6 +914,16 @@
 	)
 	(wire
 		(pts
+			(xy 177.8 76.2) (xy 177.8 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1315b2a7-061e-444c-a823-aa4066afd911")
+	)
+	(wire
+		(pts
 			(xy 196.85 147.32) (xy 205.74 147.32)
 		)
 		(stroke
@@ -952,6 +931,16 @@
 			(type default)
 		)
 		(uuid "19913993-f60b-4359-aa88-a6841b9bc341")
+	)
+	(wire
+		(pts
+			(xy 182.88 76.2) (xy 182.88 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c50e28c-8bca-45d0-8f31-3ef6016a82bd")
 	)
 	(wire
 		(pts
@@ -1115,6 +1104,16 @@
 	)
 	(wire
 		(pts
+			(xy 185.42 76.2) (xy 185.42 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4abec047-7c69-4d1e-ab8c-fb4dad7de8c4")
+	)
+	(wire
+		(pts
 			(xy 196.85 48.26) (xy 201.93 48.26)
 		)
 		(stroke
@@ -1162,16 +1161,6 @@
 			(type default)
 		)
 		(uuid "5c6b494f-724d-46ad-b6e7-9b84d959dd0e")
-	)
-	(wire
-		(pts
-			(xy 177.8 76.2) (xy 180.34 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5fae326e-6286-4351-a9ce-85f5a859e26a")
 	)
 	(wire
 		(pts
@@ -3268,16 +3257,6 @@
 				(justify left)
 			)
 		)
-		(pin "CAM_GPIO1" input
-			(at 180.34 76.2 270)
-			(uuid "0eeff79f-4006-4bac-aede-ab22fb9235a7")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "PCIE_CLK_N" output
 			(at 196.85 48.26 0)
 			(uuid "c45c56fd-d76a-418a-a806-5a5606142d6d")
@@ -3428,6 +3407,26 @@
 				(justify left)
 			)
 		)
+		(pin "ID_SC" input
+			(at 182.88 76.2 270)
+			(uuid "b7428145-f0f3-411d-8e88-0214040922a8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ID_SD" input
+			(at 185.42 76.2 270)
+			(uuid "9a98b5a5-b4a1-4d6d-af47-b135ef79daf3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "KB-01"
 				(path "/e6144e29-1dc4-45a8-93e7-988a20131b94"
@@ -3498,23 +3497,23 @@
 			)
 		)
 		(pin "ID_SC" output
-			(at 102.87 119.38 180)
+			(at 182.88 83.82 90)
 			(uuid "aafd6d8f-ef7f-44b1-86dc-3b29f66186ee")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "ID_SD" output
-			(at 102.87 121.92 180)
+			(at 185.42 83.82 90)
 			(uuid "17ad542a-1d20-4535-aeb3-2a4021703662")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "SCL0" output

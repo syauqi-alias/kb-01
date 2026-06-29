@@ -4925,7 +4925,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2k 1%"
+		(property "Value" "2.2K 1%"
 			(at 132.08 182.8799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6300,7 +6300,7 @@
 				)
 			)
 		)
-		(property "mouser" "708-RMCF0603FT10K0"
+		(property "mouser" "667-ERJ-3EKF1002V"
 			(at 129.54 170.18 0)
 			(hide yes)
 			(show_name no)

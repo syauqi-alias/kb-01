@@ -4272,7 +4272,7 @@
 	)
 	(text "+Pos\n"
 		(exclude_from_sim no)
-		(at 243.84 105.41 0)
+		(at 244.094 105.41 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8097,7 +8097,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DBV0005A_N"
+		(property "Footprint" "TLV70430DBVR:DBV0005A_M"
 			(at 223.52 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -13094,7 +13094,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal"
 			(at 264.16 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -13117,6 +13117,17 @@
 			)
 		)
 		(property "Description" "Generic connectable mounting pin connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 264.16 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser" "306-S2BPHSM4TBLFSN  "
 			(at 264.16 77.47 0)
 			(hide yes)
 			(show_name no)
