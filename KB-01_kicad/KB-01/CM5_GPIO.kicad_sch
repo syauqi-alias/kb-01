@@ -6637,7 +6637,7 @@
 		)
 		(uuid "49b3613d-1f09-4ccf-a0d9-1481cbbf6471")
 	)
-	(text "R2 : Add R13 to support CM4Lite"
+	(text "R2 : Add R36 to support CM4Lite"
 		(exclude_from_sim no)
 		(at 259.334 121.412 0)
 		(effects
@@ -10416,7 +10416,7 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
-		(on_board yes)
+		(on_board no)
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "00000000-0000-0000-0000-00005e5bd558")
@@ -11041,7 +11041,7 @@
 		(body_style 1)
 		(exclude_from_sim yes)
 		(in_bom no)
-		(on_board yes)
+		(on_board no)
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "1545b926-f6f4-49c3-822e-8f8ba66db3f6")
@@ -13246,7 +13246,7 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
-		(on_board yes)
+		(on_board no)
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "a747e8fd-28f4-402b-969b-2c8e62ca6408")
