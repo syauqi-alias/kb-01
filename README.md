@@ -103,6 +103,28 @@ GPIO7 → 100Ω → gate ──┬── 2N7002 drain ──── Buzzer (−)
 * **Mounting:** Designed to accommodate standard 3.5" display mounting points.
 * **GPIO0:** Left as spare — HAT EEPROM pin (I2C0/ID_SD), available for future expansion.
 
+### Layer Stackup (6-layer, 1.6 mm, AISLER)
+
+Stackup source: [AISLER 6-layer 1.6 mm 35 µm](https://community.aisler.net/t/6-layers-1-6mm-35-m-stackup/5458). Copper is 35 µm on all layers. Impedance-controlled nets stay on the outer layers only, referenced to the adjacent solid GND plane (same approach as the Raspberry Pi CM5 IO board).
+
+```
+Layer    Role                     Reference   Dielectric below
+F.Cu     Signal — low-speed       In1 GND     2 × 2116 prepreg, 230 µm, Er 4.25
+In1.Cu   GND plane — never split  —           FR4 core,          300 µm, Er 4.5
+In2.Cu   Signal — GPIO / SD / I2C In1 GND     3 × 2116 prepreg, 345 µm, Er 4.25
+In3.Cu   Power — split pours      —           FR4 core,          300 µm, Er 4.5
+In4.Cu   GND plane — never split  —           2 × 2116 prepreg, 230 µm, Er 4.25
+B.Cu     Signal — high-speed      In4 GND     —
+```
+
+* **B.Cu (high-speed side):** CM5 module, M.2 NVMe, DSI connector, Teseo GNSS and SMA are all on B.Cu, so PCIe, DSI0 and the GNSS RF trace route bottom-to-bottom with no layer changes. Net classes: `DP_90_Outer` (PCIe, USB 2.0), `DP_100_Outer` (DSI0), `SE_50_Outer` (GNSS RF).
+* **F.Cu:** USB-C, charger, fuel gauge, sensors, UI. USB 2.0 D+/D− (J3 → TS3USB30E → BQ25895) stays on F.Cu.
+* **In2.Cu:** route predominantly one axis (along the 120 mm dimension) — it faces In3 with no plane between them.
+* **In3.Cu:** pours only, no traces: `+5V`, `Vsys`, `+3V3`, `VBUS`, `+1.8v`, `3.3V_GNSS`, `M.2_3v3`.
+* **Stitching:** via fence between In1 and In4 along the RF trace and around the CM5 high-speed region. Fill unused In2 area with GND to balance copper against In3.
+
+See [ROUTING.md](ROUTING.md) for the routing order and per-net constraints.
+
 ## ⚙️ config.txt
 
 ```ini
